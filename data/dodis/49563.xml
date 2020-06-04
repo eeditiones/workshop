@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="volume">When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990 (Quaderni di Dodis 12)</title>
+                <title n="16">RDA: Conférence de presse</title>
+                <author>Marc Dierikx, Sacha Zala</author>
+            </titleStmt>
+            <extent>
+                <measure unit="pages" quantity="4"/>
+            </extent>
+            <publicationStmt>
+                <publisher>Diplomatische Dokumente der Schweiz</publisher>
+                <date>2019</date>
+                <pubPlace>Bern</pubPlace>
+                <idno type="URI">http://dodis.ch/q12</idno>
+                <idno type="DOI">10.5907/Q12</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>49563</idno>
+                    </msIdentifier>
+                    <head>RDA: Conférence de presse</head>
+                    <msContents>
+                        <summary>Informations, imprégnées par l'analyse de la situation avec une perspective suisse, en vue d'une conférence de presse de René Felber sur les événements survenus à Berlin.</summary>
+                    </msContents>
+                    <history>
+                        <origin when="1989-11-14">14.11.1989</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#type">
+                    <term>Memo</term>
+                </keywords>
+                <keywords scheme="#related">
+                    <term>International perceptions of the German reunification 1989–1990</term>
+                </keywords>
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName ref="#R26545">EDA/Politische Direktion/Zentrale Dienste/Politisches Sekretariat</orgName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#P24533">Felber, René (1933–)</persName>
+                    <orgName ref="#R27">Federal Department for Foreign Affairs</orgName>
+                </correspAction>
+            </correspDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="P47406">
+                        <persName>
+                            <forename>George Herbert Walker</forename>
+                            <surname>Bush</surname>
+                        </persName>
+                        <persName type="full">Bush, George Herbert Walker (1924–2018)</persName>
+                        <persName>Bush, George Herbert Walker</persName>
+                        <persName>Bush, George H. W.</persName>
+                        <birth when="1924-06-23"/>
+                        <death when="2018-11-30">
+                            <placeName>Houston</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P47406</idno>
+                        <note>Président des États-Unis 20.1.1989–20.1.1993</note>
+                    </person>
+                    <person xml:id="P15378">
+                        <persName>
+                            <forename>Guy</forename>
+                            <surname>Ducrey</surname>
+                        </persName>
+                        <persName type="full">Ducrey, Guy (1936–)</persName>
+                        <persName>DY</persName>
+                        <persName>Ducrey, Guy</persName>
+                        <birth when="1936-02-07"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P15378</idno>
+                    </person>
+                    <person xml:id="P24533">
+                        <persName>
+                            <forename>René</forename>
+                            <surname>Felber</surname>
+                        </persName>
+                        <persName type="full">Felber, René (1933–)</persName>
+                        <persName>Felber, René</persName>
+                        <birth when="1933-03-14">
+                            <placeName>Biel/Bienne</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P24533</idno>
+                    </person>
+                    <person xml:id="P15414">
+                        <persName>
+                            <forename>Hans-Dietrich</forename>
+                            <surname>Genscher</surname>
+                        </persName>
+                        <persName type="full">Genscher, Hans-Dietrich (1927–2016)</persName>
+                        <persName>Genscher, Hans-Dietrich</persName>
+                        <birth when="1927-03-21"/>
+                        <death when="2016-03-31"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P15414</idno>
+                        <note>Vice-chancelier et Ministre des Affaires étrangères de la RFA 1.10.1982–17.5.1992</note>
+                    </person>
+                    <person xml:id="P31707">
+                        <persName>
+                            <forename>Mikhail Sergeyevich</forename>
+                            <surname>Gorbachev</surname>
+                        </persName>
+                        <persName type="full">Gorbachev, Mikhail Sergeyevich (1931–)</persName>
+                        <persName>Gorbatschow, Michail Sergejewitsch</persName>
+                        <persName>Gorbatchev, Mikhaïl Sergueïevitch</persName>
+                        <persName>Gorbatschow, Michail</persName>
+                        <persName>Gorbačëv, Michail Sergeevič</persName>
+                        <persName>Gorbatchev, Mikhaïl</persName>
+                        <persName>Gorbačëv, Michail</persName>
+                        <persName>Gorbaciov, Mikhail</persName>
+                        <persName>Gorbachev, Mikhail</persName>
+                        <persName>Gorbachev, Mikhail</persName>
+                        <persName>Gorbachev, Mikhail Sergeyevich</persName>
+                        <persName>Gorbatschow, Michael</persName>
+                        <persName>Горбачёв, Михаи́л</persName>
+                        <persName>Горбачёв, Михаи́л Серге́евич</persName>
+                        <birth when="1931-03-02">
+                            <placeName>Priwolnoje </placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P31707</idno>
+                        <note>Secrétaire général du Parti communiste de l’Union soviétique 11.3.1985–24.8.1991,
+                            Président du Soviet suprême de l’Union soviétique 25.5.1989–15.3.1990 et
+                            Président de l’Union soviétique 15.3.1990–25.12.1991.</note>
+                    </person>
+                    <person xml:id="P31852">
+                        <persName>
+                            <forename>Helmut</forename>
+                            <surname>Kohl</surname>
+                        </persName>
+                        <persName type="full">Kohl, Helmut (1930–2017)</persName>
+                        <persName>Kohl, Helmut</persName>
+                        <birth when="1930-04-03">
+                            <placeName>Ludwigshafen am Rhein</placeName>
+                        </birth>
+                        <death when="2017-06-16"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P31852</idno>
+                        <note>Chancelier de la RFA 1.10.1982–27.10.1988</note>
+                    </person>
+                    <person xml:id="P15343">
+                        <persName>
+                            <forename>Todor Hristov</forename>
+                            <surname>Zhivkov</surname>
+                        </persName>
+                        <persName type="full">Zhivkov, Todor Hristov (1911–1998)</persName>
+                        <persName>Jivkov, Todor Khristov</persName>
+                        <persName>Zhivkov, Todor Khristov</persName>
+                        <persName>Zivkov, Todor Christov</persName>
+                        <persName>Zhivkov, Todor Hristov</persName>
+                        <persName>Schiwkow, Todor</persName>
+                        <persName>Zhivkov, Todor</persName>
+                        <persName>Živkov, Todor</persName>
+                        <persName>Živkov, Todor Hristov</persName>
+                        <persName>Живков, Тодор</persName>
+                        <persName>Schiwkow, Todor Christow</persName>
+                        <persName>Живков, Тодор Христов</persName>
+                        <persName>Тошо, Бай</persName>
+                        <birth when="1911-09-07">
+                            <placeName>Prawez </placeName>
+                        </birth>
+                        <death when="1998-08-05">
+                            <placeName>Sofia</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P15343</idno>
+                        <note>Secrétaire général du Parti communiste bulgare 1954–1989</note>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="R2443">
+                        <orgName>Bulgarien/Kommunistische Partei</orgName>
+                        <idno type="URI">https://dodis.ch/R2443</idno>
+                    </org>
+                    <org xml:id="R26545">
+                        <orgName>EDA/Politische Direktion/Zentrale Dienste/Politisches Sekretariat</orgName>
+                        <idno type="URI">https://dodis.ch/R26545</idno>
+                    </org>
+                    <org xml:id="R18628">
+                        <orgName>European Economic Area</orgName>
+                        <idno type="URI">https://dodis.ch/R18628</idno>
+                    </org>
+                    <org xml:id="R9899">
+                        <orgName>European Union</orgName>
+                        <idno type="URI">https://dodis.ch/R9899</idno>
+                        <placeName ref="#G137">Brussels</placeName>
+                    </org>
+                    <org xml:id="R27">
+                        <orgName>Federal Department for Foreign Affairs</orgName>
+                        <idno type="URI">https://dodis.ch/R27</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R20591">
+                        <orgName>Organization for Security and Co-operation in Europe</orgName>
+                        <idno type="URI">https://dodis.ch/R20591</idno>
+                    </org>
+                    <org xml:id="R3942">
+                        <orgName>SED</orgName>
+                        <idno type="URI">https://dodis.ch/R3942</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R6">
+                        <orgName>Swiss Federal Council</orgName>
+                        <idno type="URI">https://dodis.ch/R6</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R967">
+                        <orgName>Switzerland/Armed Forces</orgName>
+                        <idno type="URI">https://dodis.ch/R967</idno>
+                    </org>
+                </listOrg>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="G806">
+                        <placeName> Federal Republic of Germany (1949-1990)</placeName>
+                        <location>
+                            <geo>50.6 8.06</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G806</idno>
+                    </place>
+                    <place xml:id="G25">
+                        <placeName>Berlin</placeName>
+                        <location>
+                            <geo>52.520008 13.404954</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G25</idno>
+                    </place>
+                    <place xml:id="G284">
+                        <placeName>Bulgaria</placeName>
+                        <location>
+                            <geo>42.733883 25.48583</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G284</idno>
+                    </place>
+                    <place xml:id="G283">
+                        <placeName>German Democratic Republic (1949-1990)</placeName>
+                        <location>
+                            <geo>52.052 12.389</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G283</idno>
+                    </place>
+                    <place xml:id="G20">
+                        <placeName>Hungary</placeName>
+                        <location>
+                            <geo>47.162495 19.503304</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G20</idno>
+                    </place>
+                    <place xml:id="G68">
+                        <placeName>Poland</placeName>
+                        <location>
+                            <geo>51.919437 19.145136</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G68</idno>
+                    </place>
+                    <place xml:id="G30">
+                        <placeName>Russia</placeName>
+                        <location>
+                            <geo>63.7225 83.577778</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G30</idno>
+                    </place>
+                    <place xml:id="G11">
+                        <placeName>United States of America (1776-)</placeName>
+                        <location>
+                            <geo>37.09024 -95.71289</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G11</idno>
+                    </place>
+                    <place xml:id="G347">
+                        <placeName>Western Europe</placeName>
+                        <location>
+                            <geo>45.628424 0.612311</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G347</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="49563-0.png"/>
+        <graphic url="49563-1.png"/>
+        <graphic url="49563-2.png"/>
+        <graphic url="49563-3.png"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="doc">
+                <head>
+                    <ref target="http://dodis.ch/49563">dodis.ch/49563</ref>
+                    <title type="main"> Notice<note xml:id="e743">Notice: <idno type="CH-BAR">CH-BAR#E2010-01A#1996/396#52* (B.58.2).</idno> Transmise à René
+                        Felber par <persName ref="#P15378">Guy Ducrey</persName>: <orig>Ayant appris hier soir que vous
+                                donnerez tout à l’haure une conférence de presse au sujet des
+                                derniers développements en RDA, j’ai pris la liberté de vous
+                                remettre ci-joint quelques informations et appréciations qui
+                                pourraient vous être utiles.</orig>
+                        </note> pour le Chef du
+                        Département fédéral des affaires étrangères, René Felber
+                    </title>
+                    <title type="sub">RDA: Conférence de presse</title>
+                </head>
+                <opener>
+                    <dateline>
+                        <placeName>Berne, </placeName>
+                        <date when="1989-11-14">14 novembre 1989</date>
+                    </dateline>
+                </opener>
+                <p n="1">1. Question: Le gouvernement a-t-il prévu les événements?</p>
+                <p>– Ceux-ci se sont précipités au point de prendre tout le monde au dépourvu. Le
+                    Chancelier <persName ref="#P31852">Kohl</persName> lui-même a été surpris par les événements
+                    de Berlin, alors qu’il était en visite officielle en Pologne.</p>
+                <p/>
+                <p n="1">2. Question: Premières impressions et analyses?</p>
+                <p>– Berlin nous a donné des images impressionnantes, émouvantes: les habitants de
+                    la RDA ont démontré que la notion de liberté était chez l’homme une valeur si
+                    fondamentale qu’elle a résisté intacte à plus de 40 ans de dictature implacable
+                    (échec de «l’homme nouveau», prévu par les théoriciens du marxisme-léninisme).
+                    Et c’est, parmi les droits de l’homme, cette valeur de libre circulation des
+                    personnes que la Suisse a défendue sans cesse, notamment depuis les débuts de la
+                    CSCE.</p>
+                <p/>
+                <p n="1">3. Question: Comment jugez-vous l’avenir?</p>
+                <p>– Il y a encore un long chemin à parcourir, moins spectaculaire peut-être que ces
+                    images historiques de Berlin et qui vont demander de la persévérance:</p>
+                <p>a) Un chemin sur le plan politique: le peuple est-allemand attend toujours la
+                    révision de l’article premier de la constitution de la RDA, qui réserve au parti
+                    communiste un rôle dominant. (Réunion du congrès du parti à la mi-décembre).</p>
+                <p>b) Un long chemin vers les réformes économiques aussi.</p>
+                <p/>
+                <p n="1">4. Question: Assistance suisse? (Nos actions en faveur de la Hongrie et la
+                    Pologne).</p>
+                <p>– Désormais, il faudra aussi penser à la RDA. L’Allemagne fédérale jouera sans
+                    doute à ce niveau un rôle prépondérant. Mais ne l’oublions pas, économiquement,
+                    la RDA est dans une situation nettement moins difficile que la Hongrie et
+                    surtout la Pologne. En revanche, elle a encore du chemin à faire pour rattraper
+                    ces deux pays sur le plan des libertés démocratiques.</p>
+                <p/>
+                <p n="1">5. Question: La réunification?</p>
+                <p>– Ce n’est pas à la Suisse de se prononcer sur ce point. Il s’agit d’une question
+                    qui touche les deux Allemagnes et qui intéresse bien entendules EU et l’URSS. À
+                    ce sujet, on peut se féliciter de la grande retenue et de la compréhension de
+                    tous les acteurs, aussi bien les manifestants du reste que les dirigeants. Le
+                    Chancelier Kohl a rappelé l’ancrage de la RFA à l’Europe de l’Ouest et M.
+                    <persName ref="#P15414">Genscher</persName> a
+                    souligné que la RFA respectera tous les accords qu’elle a signés et les
+                    engagements qu’elle a pris.</p>
+                <p/>
+                <p n="1">6. Question: RDA – CEE</p>
+                <p>– Un rapprochement est concevable, mais parler d’intégration est assurément
+                    prématuré. Les systèmes économiques sont pour l’instant inconciliables. Voyez
+                    déjà les problèmes que pose l’Espace économique européen, pourtant entre pays
+                    qui partagent une même économie de marché.</p>
+                <p/>
+                <p n="1">7. Question: Ordre de Yalta remis en question? Sécurité de la Suisse
+                    (Abschaffung der Armee)?</p>
+                <p>– La remise en question du monopole du P<add type="edition">[arti] </add> C<add type="edition">[ommuniste]</add>, l’élimination des dictatures vont
+                    peut-être – et nous l’espérons – finir d’effacer les frontières idéologiques.
+                    Mais les frontières militaires, les dispositifs militaires sont toujours là,
+                    face à face. Ce que nous souhaitons, c’est que la situation facilite et accélère
+                    désormais les grandes négociations en cours sur la maîtrise des armements
+                    (START, CFE). Pour la Suisse, ce n’est pas le moment de mettre la charrue avant
+                    les bœufs en désarmant unilatéralement.</p>
+                <p/>
+                <p n="1">8. Question: La Bulgarie?</p>
+                <p>– <persName ref="#P15343">Jivkov</persName>, Secrétaire général du
+                    du P<add type="edition">[arti]</add> C<add type="edition">[ommuniste]</add> bulgare a quitté la scène après avoir été 37 ans au pouvoir.
+                    Pour l’instant, ce n’est que le changement de l’acteur principal; il s’agit
+                    peut-être d’une action préventive, annonciatrice de réformes à venir.</p>
+                <p/>
+                <p n="1">9. Question: Le Sommet <persName ref="#P47406">Bush</persName>-<persName ref="#P31707">Gorbatchev</persName>?</p>
+                <p>– Les deux présidents vont devoir constater l’évolution et ce qu’on appelle déjà
+                    la fin de l’Ordre de Yalta. Propositions soviétiques possibles en faveur d’un
+                    dégagement militaire.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-28"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_010</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://query.staatsarchiv.sz.ch/detail.aspx?id=369445">StASZ
+                     HA.II.190</idno>
+                  <altIdentifier>
+                     <idno>StASZ Urk. 190</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Friedensschluss der Grafen Albrecht I., Albrecht II. und Hugo IV. von
+                  Werdenberg-Heiligenberg mit Schwyz</head>
+               <msContents>
+                  <summary>
+                     <p>Die Grafen Albrecht I., Albrecht II. und Hugo IV. von
+                        Werdenberg-Heiligenberg schliessen mit Schwyz Frieden wegen aller
+                        Streitsachen, insbesondere wegen Thüring und seinen Erben wegen Gefängnis,
+                        Gülten (Grundpfanddarlehen) oder anderen Forderungen.</p>Die Aussteller
+                     siegeln.</summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Pergament</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="16.0"/>
+                              <width unit="cm" quantity="23.0"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="4.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                        nontei:material="wax" nontei:condition="chamfered" nontei:shape="round"
+                        nontei:attachment="sealed on a parchment tag"/>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="2"
+                        nontei:material="wax" nontei:condition="well-preserved" nontei:shape="round"
+                        nontei:attachment="sealed on a parchment tag"/>
+                     <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="3"
+                        nontei:material="wax" nontei:condition="chamfered" nontei:shape="round"
+                        nontei:attachment="sealed on a parchment tag"/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1366-06-29">sant Peters tag</origDate>
+                     <origPlace>Rheineck</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>URL</head>
+                     <bibl type="url"><ref
+                           target="https://query.staatsarchiv.sz.ch/detail.aspx?id=369445"
+                           >https://query.staatsarchiv.sz.ch/detail.aspx?id=369445</ref>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003246">Friede</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div org="uniform" sample="complete">
+                  <pb facs="StASZHAII190_r"/>
+                  <p>
+                     <seg>
+                        <lb/>Wir, graf <persName ref="per000269a">Albrecht von Werdenberg</persName>
+                        der alt, graf <persName ref="per004996a">Albrecht der jung</persName> und
+                           <unclear>des sun</unclear>, <lb/>graf <persName ref="per000418a"
+                           >Hug</persName>, ku̍nden und vergechen offenlich mit urku̍nd dis briefs,
+                        fu̍r <lb/>uns und u̍nser erben, daz wir fru̍ntlichen und lieplichen verricht
+                        sin umb alle die <lb/>stoͤss und missehellung, ds si mit briefen oder mit
+                        anderen dingen, so wir untz uf di<lb break="no"/>sen hütigen tag gehept
+                        hant, mit den von <orgName ref="org001191">Switz</orgName> und irem land
+                        gemeinlich und sunder<lb break="no"/>lich mit <persName ref="per008562a"
+                           >Thiring</persName> und sinen erben, es si von <term ref="lem001256"
+                           >vanunst</term> wegen oder von <term ref="lem000340">gu̍lt</term> wegen
+                        und <lb/>von aller der <term ref="lem002027">ansprach</term> wegen, so si
+                        zuͦ u̍ns und wir zuͦ inen hatten ann alle geverde.</seg>
+                     <seg>Und <lb/>darumb, daz disu̍ <term ref="lem005912">richtung</term> steif und
+                        war und unverkert belibe, so henken wir, die <lb/>vorgeschriben herren
+                           <orgName ref="org000019">von Werdenberg</orgName>, alle drüe u̍nser aygen
+                        yngesigel an disen <lb/>offennen gegenwirtigen brief, u̍ns und u̍nsern
+                        erbenn ze einer vergicht der <lb/>sache. Der gebenn ist ze <origPlace
+                           ref="loc000650">Rinegg</origPlace>, an <origDate when="1366-06-29">sant
+                              <persName ref="per000438">Peter</persName>s tag nach <persName
+                              ref="per000353">Cristus</persName> gebu̍rdt dru̍ <lb/>cechenn hundert
+                           jar und darnach inn sechs und sechtzigostem jare</origDate>.</seg>
+                  </p>
+               </div>
+               <pb facs="StASZHAII190_v"/>
+               <div org="uniform" sample="complete">
+                  <ab type="dorsal" place="verso" hand="hand15c"><lb/>Ein richtung brieff zwüschent
+                     <lb/>graff <persName ref="per000269a">Albrecht von Werdenberg</persName>
+                     <lb/>und anderen herren harinne genempt <add place="below" hand="later hand"
+                        >und denen von <orgName ref="org001191">Schweytz</orgName> 1366</add></ab>
+               </div>
+               <div org="uniform" sample="complete">
+                  <ab type="archiving reference" place="below">N<hi rend="sup">o</hi> 11</ab>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Dieser <term ref="key003246">Friedensvertrag</term> zwischen <orgName ref="org001191"
+                  >Schwyz</orgName> und <persName ref="per000269a">Albrecht I.</persName>, <persName
+                  ref="per004996a">Albrecht II.</persName> und dessen Sohn <persName
+                  ref="per000418a">Hugo IV. von Werdenberg</persName> erscheint in keiner
+               Urkundensammlung, auch nicht bei Perret (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000110415">UBSSG</ref></bibl>) oder in
+               den Regesten von Krüger (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141369">Krüger,
+                  Regesten</ref></bibl>). Einzig in den Eidgenössischen Abschieden (<bibl><ref
+                     target="
+                     http://permalink.snl.ch/bib/chbsg000143941"
+                     >EA, Bd. 1</ref>, <ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/205767?query=Werdenberg">Art. 119</ref></bibl>) findet sich dazu ein Eintrag. Auf welche <term
+                  ref="key000174">Fehde</term> oder Streitigkeit sich die Richtung bezieht, ist
+               unklar. Laut Inhalt der Urkunde handelt es sich um eine Auseinandersetzung mit
+                  <orgName ref="org001191">Schwyz</orgName> und besonders mit den Erben von
+                  <persName ref="per008562a">Thüring</persName> um <term ref="key003389"
+                  >Gefangenschaft</term> und <term ref="key000058">Schulden</term>. Dass sich
+               Thüring und seine Erben auf <persName ref="per004355a">Thüring von
+                  Attinghausen</persName>, Abt von Disentis, bezieht, der <date when="1353"
+                  >1353</date> stirbt, ist unwahrscheinlich, obwohl die Werdenberger mit dem Kloster
+                  <orgName ref="org000087">Disentis</orgName> als deren <term ref="key000039"
+                  >Klostervögte</term> wiederholt in Streit liegen (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>,
+                  S. 186–190</bibl>). Die Formulierung Thüring und seine Erben kann sich nicht auf
+               den Abt beziehen, da Äbte keine Erben hinterlassen. Möglicherweise handelt es sich um
+               die Familie Thüring, die 1311 mit Werner Thüring und 1342 mit einem Thüring (ohne
+               Vornamen) in den Quellen als Schwyzer Ammänner erwähnt sind (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001202049603977">Ringholz 1888</ref>, <ref target="https://www.e-periodica.ch/cntmng?pid=gfr-001:1888:43::158">Beilagen Nr. XI und XXII</ref></bibl>, für den Hinweis danke
+               ich Heinz Gabathuler). Da <persName ref="per000269a">Albrecht I.</persName> zwischen
+                  <date when="1352">1352</date> bis <date when="1362">1362</date> in zahlreiche
+               Fehden verstrickt ist (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000150287"
+                     >Burmeister 2006</ref>, S. 123</bibl>), wird es schwierig sein, die Ursache für
+               die Richtung mit Sicherheit festzulegen. Wahrscheinlich steht der Friedensvertrag in
+               Zusammenhang mit den zahlreichen <term resp="key000058">Schulden</term> der <orgName
+                  ref="org000019">Werdenberg-Heiligenberger</orgName>, in welche die Familie nach
+               der Belmonter und der Tosterser <term resp="key000174">Fehde</term> geraten ist (vgl.
+               die Kommentare <ref>SSRQ_SG_III_4_009</ref>). Wegen ihrer Schulden werden die Grafen
+               zwar von Kaiser <persName ref="per002585">Karl IV.</persName> am <date
+                  when="1364-05-16">16. Mai 1364</date> aus der <term resp="key000516">Acht</term>
+               entlassen, jedoch mit der Ergänzung, dass alle Personen, die vor einem der <term
+                  resp="key000337">Landgerichte</term> die Acht gegen die Grafen erlangt hatten,
+               ihre Klagen am <date when="1364-07-25">25. Juli</date> vor dem kaiserlichen <term
+                  resp="key003840">Hofgericht</term> vorbringen sollten (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>,
+                  Nr. 399</bibl>). Es ist möglich, dass <orgName ref="org001191">Schwyz</orgName>
+               und <persName ref="per008562a">Thüring</persName> bzw. dessen Erben zu diesen <term
+                  ref="key004001">Gläubigern</term> gehört hatten.</p>
+         </div>
+         <div n="2" org="uniform" sample="complete">
+            <p>Vgl. dazu auch den Friedensschluss vom <date when="1339-11-11">11. November
+                  1339</date> zwischen Graf <persName ref="per000269a">Albrecht I. von
+                  Werdenberg-Heiligenberg</persName> mit den drei Waldstätten <orgName
+                  ref="org001181">Uri</orgName>, <orgName ref="org001191">Schwyz</orgName> und
+                  <orgName ref="org001192">Unterwalden</orgName>, in dem er ihnen in seinem Gericht
+               und Gebiet Frieden und Schirm zusichert (Druck: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000135621">UBSG</ref>, Bd. 2,
+                  Nr. 1402</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142708"
+                     >Mohr CD</ref>, Bd. 2, Nr. 266</bibl>; <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000071960">Tschudi, Chronicon</ref>,
+                  Bd. 4, S. 292–293</bibl>; siehe auch <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>,
+                  Nr. 281</bibl>) sowie den Friedensschluss vom <date when="1339-11-29">29. November
+                  1339</date> zwischen Uri, Schwyz und Unterwalden einerseits und <persName
+                  ref="per004355">Thüring von Attinghausen</persName>, Abt von Disentis, Graf
+                  <persName ref="per000269a">Albrecht I. von Werdenberg-Heiligenberg</persName> und
+               seinen Verbündeten andererseits (Edition: <bibl><ref
+                  target="http://permalink.snl.ch/bib/chbsg000150486">QW I, Bd. 3/1</ref>,
+                  Nr. 293</bibl>).</p>
+         </div>
+         <div n="3" org="uniform" sample="complete">
+            <p>Die Urkunde belegt, dass <persName ref="per000269a">Albrecht I. von
+      Werdenberg-Heiligenberg</persName> im <date when="1366-06">Juni 1366</date> noch am Leben ist. Bisher galt
+     die Urkunde von <date when="1364">1364</date> als Letzterwähnung (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>,
+     Nr. 399</bibl>). Er muss jedoch bald nach diesem Friedensschluss gestorben sein, mit
+     Sicherheit vor dem <date when="1367-10-01">1. Oktober 1367</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000141369">Krüger, Regesten</ref>,
+      Nr. 403</bibl>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>

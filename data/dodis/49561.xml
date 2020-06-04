@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="volume">When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990 (Quaderni di Dodis 12)</title>
+                <title n="62">Nr. 16. Adieu, DDR!</title>
+                <author>Marc Dierikx, Sacha Zala</author>
+            </titleStmt>
+            <extent>
+                <measure unit="pages" quantity="7"/>
+            </extent>
+            <publicationStmt>
+                <publisher>Diplomatische Dokumente der Schweiz</publisher>
+                <date>2019</date>
+                <pubPlace>Bern</pubPlace>
+                <idno type="URI">http://dodis.ch/q12</idno>
+                <idno type="DOI">10.5907/Q12</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>49561</idno>
+                    </msIdentifier>
+                    <head>Nr. 16. Adieu, DDR!</head>
+                    <msContents>
+                        <summary>Einschätzungen zur Auflösung der DDR und deren Anschluss an die Bundesrepublik Deutschland, wobei insbesondere die Beschleunigung des Wiedervereinigungsprozesses seit den Ereignissen an der Berliner Mauer und deren negativen Konsequenzen für die DDR betont werden.</summary>
+                    </msContents>
+                    <history>
+                        <origin when="1990-10-02">2.10.1990</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de">German</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#type">
+                    <term>Political report</term>
+                </keywords>
+                <keywords scheme="#related">
+                    <term>International perceptions of the German reunification 1989–1990</term>
+                </keywords>
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#P16179">Birrer, Franz (1932–)</persName>
+                    <orgName ref="#R19314">Swiss Embassy in East Berlin</orgName>
+                </correspAction>
+                <correspAction type="signatory">
+                    <persName ref="#P16179">Birrer, Franz (1932–)</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="#R27">Federal Department for Foreign Affairs</orgName>
+                </correspAction>
+                <correspAction type="received-copy">
+                    <persName ref="#P24523">Arioli, Silvio (1938–)</persName>
+                    <persName ref="#P22246">Blankart, Franz (1936–)</persName>
+                    <persName ref="#P19511">Jacobi, Klaus (1929–2004)</persName>
+                    <orgName ref="#R1509">Consulate general of Switzerland in Berlin</orgName>
+                    <orgName ref="#R88">EVD/Handelsabteilung</orgName>
+                    <orgName ref="#R1208">Swiss Embassy in Bonn (1977-)</orgName>
+                </correspAction>
+            </correspDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="P24523">
+                        <persName>
+                            <forename>Silvio</forename>
+                            <surname>Arioli</surname>
+                        </persName>
+                        <persName type="full">Arioli, Silvio (1938–)</persName>
+                        <persName>As</persName>
+                        <persName>A</persName>
+                        <persName>AR</persName>
+                        <persName>Arioli, Silvio</persName>
+                        <birth when="1938-01-01"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P24523</idno>
+                    </person>
+                    <person xml:id="P16179">
+                        <persName>
+                            <forename>Franz</forename>
+                            <surname>Birrer</surname>
+                        </persName>
+                        <persName type="full">Birrer, Franz (1932–)</persName>
+                        <persName>BRF</persName>
+                        <persName>Birrer, Franz</persName>
+                        <persName>B</persName>
+                        <persName>BI</persName>
+                        <birth when="1932-08-14">
+                            <placeName>Entlebuch</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P16179</idno>
+                        <note>Schweizerischer Botschafter in Ost-Berlin 1.10.1987–18.12.1990</note>
+                    </person>
+                    <person xml:id="P22246">
+                        <persName>
+                            <forename>Franz</forename>
+                            <surname>Blankart</surname>
+                        </persName>
+                        <persName type="full">Blankart, Franz (1936–)</persName>
+                        <persName>Blankart, Franz</persName>
+                        <persName>BK</persName>
+                        <persName>Blankart, Franz André</persName>
+                        <persName>B</persName>
+                        <birth when="1936-11-27">
+                            <placeName>Luzern</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P22246</idno>
+                    </person>
+                    <person xml:id="P54831">
+                        <persName>
+                            <forename>Heiner</forename>
+                            <surname>Carow</surname>
+                        </persName>
+                        <persName type="full">Carow, Heiner (1929–1997)</persName>
+                        <persName>Carow, Heiner</persName>
+                        <persName>Carow, Heinrich</persName>
+                        <birth when="1929-09-19">
+                            <placeName>Rostock </placeName>
+                        </birth>
+                        <death when="1997-01-31">
+                            <placeName>Berlin</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54831</idno>
+                        <note>Filmregisseur in der DDR</note>
+                    </person>
+                    <person xml:id="P22386">
+                        <persName>
+                            <forename>Jörg</forename>
+                            <surname>Fisch</surname>
+                        </persName>
+                        <persName type="full">Fisch, Jörg (1947–)</persName>
+                        <persName>Fisch, Jörg</persName>
+                        <birth when="1947-04-28">
+                            <placeName>St. Gallen</placeName>
+                        </birth>
+                        <sex>unspecified</sex>
+                        <idno type="URI">https://dodis.ch/P22386</idno>
+                        <note>Schweizer Historiker</note>
+                    </person>
+                    <person xml:id="P31707">
+                        <persName>
+                            <forename>Mikhail Sergeyevich</forename>
+                            <surname>Gorbachev</surname>
+                        </persName>
+                        <persName type="full">Gorbachev, Mikhail Sergeyevich (1931–)</persName>
+                        <persName>Gorbatschow, Michail Sergejewitsch</persName>
+                        <persName>Gorbatchev, Mikhaïl Sergueïevitch</persName>
+                        <persName>Gorbatschow, Michail</persName>
+                        <persName>Gorbačëv, Michail Sergeevič</persName>
+                        <persName>Gorbatchev, Mikhaïl</persName>
+                        <persName>Gorbačëv, Michail</persName>
+                        <persName>Gorbaciov, Mikhail</persName>
+                        <persName>Gorbachev, Mikhail</persName>
+                        <persName>Gorbachev, Mikhail</persName>
+                        <persName>Gorbachev, Mikhail Sergeyevich</persName>
+                        <persName>Gorbatschow, Michael</persName>
+                        <persName>Горбачёв, Михаи́л</persName>
+                        <persName>Горбачёв, Михаи́л Серге́евич</persName>
+                        <birth when="1931-03-02">
+                            <placeName>Priwolnoje </placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P31707</idno>
+                        <note>Generalsekretär der kommunistischen Partei der Sowjetunion
+                            11.3.1985–24.8.1991, Vorsitzender des obersten Sowjets der Sovjetunion
+                            25.5.1989–15.3.1990 und Staatspräsident der Sowjetunion
+                            15.3.1990–25.12.1991</note>
+                    </person>
+                    <person xml:id="P54811">
+                        <persName>
+                            <forename>Gregor</forename>
+                            <surname>Gysi</surname>
+                        </persName>
+                        <persName type="full">Gysi, Gregor (1948–)</persName>
+                        <persName>Gysi, Gregor</persName>
+                        <persName>Gysi, Gregor Florian</persName>
+                        <birth when="1948-01-16">
+                            <placeName>Berlin</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54811</idno>
+                        <note>Jurist in der DDR und Vorsitzender der PDS 1989–1993</note>
+                    </person>
+                    <person xml:id="P46563">
+                        <persName>
+                            <forename>Erich</forename>
+                            <surname>Honecker</surname>
+                        </persName>
+                        <persName type="full">Honecker, Erich (1912–1994)</persName>
+                        <persName>Honecker, Erich</persName>
+                        <birth when="1912-08-25">
+                            <placeName>Neunkirchen</placeName>
+                        </birth>
+                        <death when="1994-05-29">
+                            <placeName>Santiago de Chile</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P46563</idno>
+                        <note>Generalsekretär der SED und Vorsitzender des Staatsrats der DDR 29.10.1976–18.10.1989</note>
+                    </person>
+                    <person xml:id="P19511">
+                        <persName>
+                            <forename>Klaus</forename>
+                            <surname>Jacobi</surname>
+                        </persName>
+                        <persName type="full">Jacobi, Klaus (1929–2004)</persName>
+                        <persName>Jacobi, Klaus Christoph</persName>
+                        <persName>Jacobi, Klaus</persName>
+                        <persName>JB</persName>
+                        <persName>Ja</persName>
+                        <persName>JK</persName>
+                        <persName>KJ</persName>
+                        <birth when="1929-11-12">
+                            <placeName>Biel/Bienne</placeName>
+                        </birth>
+                        <death when="2004-07-13">
+                            <placeName>Bern</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P19511</idno>
+                    </person>
+                    <person xml:id="P31852">
+                        <persName>
+                            <forename>Helmut</forename>
+                            <surname>Kohl</surname>
+                        </persName>
+                        <persName type="full">Kohl, Helmut (1930–2017)</persName>
+                        <persName>Kohl, Helmut</persName>
+                        <birth when="1930-04-03">
+                            <placeName>Ludwigshafen am Rhein</placeName>
+                        </birth>
+                        <death when="2017-06-16"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P31852</idno>
+                        <note>Bundeskanzler der BRD 1.10.1982–27.10.1998</note>
+                    </person>
+                    <person xml:id="P54809">
+                        <persName>
+                            <forename>Lothar de</forename>
+                            <surname>Maizière</surname>
+                        </persName>
+                        <persName type="full">Maizière, Lothar de (1940–)</persName>
+                        <persName>Maizière, Lothar de</persName>
+                        <birth when="1940-03-02">
+                            <placeName>Nordhausen </placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54809</idno>
+                        <note>Premierminister der DDR 12.4.–2.10.1990</note>
+                    </person>
+                    <person xml:id="P54832">
+                        <persName>
+                            <forename>Walter</forename>
+                            <surname>Romberg</surname>
+                        </persName>
+                        <persName type="full">Romberg, Walter (1928–2014)</persName>
+                        <persName>Romberg, Walter</persName>
+                        <birth when="1928-12-27">
+                            <placeName>Schwerin</placeName>
+                        </birth>
+                        <death when="2014-05-23">
+                            <placeName>Teltow</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54832</idno>
+                    </person>
+                    <person xml:id="P54833">
+                        <persName>
+                            <forename>Hans-Peter</forename>
+                            <surname>Schneider</surname>
+                        </persName>
+                        <persName type="full">Schneider, Hans-Peter (1937–)</persName>
+                        <persName>Schneider, Hans-Peter</persName>
+                        <birth when="1937-11-26"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54833</idno>
+                        <note>Verfassungsrechtler in der BRD</note>
+                    </person>
+                    <person xml:id="P15220">
+                        <persName>
+                            <forename>Willi</forename>
+                            <surname>Stoph</surname>
+                        </persName>
+                        <persName type="full">Stoph, Willi (1914–1999)</persName>
+                        <persName>Stoph, Willi</persName>
+                        <birth when="1914-07-09">
+                            <placeName>Schöneberg</placeName>
+                        </birth>
+                        <death when="1999-04-13">
+                            <placeName>Berlin</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P15220</idno>
+                        <note>Vorsitzender des Ministerrats der DDR 21.9.1964–3.10.1973 und 29.10.1976–13.11.1989</note>
+                    </person>
+                    <person xml:id="P5944">
+                        <persName>
+                            <forename>Richard von</forename>
+                            <surname>Weizsäcker</surname>
+                        </persName>
+                        <persName type="full">Weizsäcker, Richard von (1920–2015)</persName>
+                        <persName>Weizsäcker, Richard von</persName>
+                        <birth when="1920-04-15"/>
+                        <death when="2015-01-31"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P5944</idno>
+                        <note>Bundespräsident der BRD 1.7.1984–30.6.1994</note>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="R1509">
+                        <orgName>Consulate general of Switzerland in Berlin</orgName>
+                        <idno type="URI">https://dodis.ch/R1509</idno>
+                        <placeName ref="#G25">Berlin</placeName>
+                    </org>
+                    <org xml:id="R2345">
+                        <orgName>Deutschland/BRD/Christlich Demokratische Union Deutschlands</orgName>
+                        <idno type="URI">https://dodis.ch/R2345</idno>
+                    </org>
+                    <org xml:id="R11611">
+                        <orgName>Deutschland/BRD/Christlich-Soziale Union</orgName>
+                        <idno type="URI">https://dodis.ch/R11611</idno>
+                    </org>
+                    <org xml:id="R11617">
+                        <orgName>Deutschland/DDR/Kirche</orgName>
+                        <idno type="URI">https://dodis.ch/R11617</idno>
+                    </org>
+                    <org xml:id="R32026">
+                        <orgName>Deutschland/DDR/Nationale Front</orgName>
+                        <idno type="URI">https://dodis.ch/R32026</idno>
+                    </org>
+                    <org xml:id="R32024">
+                        <orgName>Deutschland/DDR/Sozialistische Einheitspartei Deutschlands/Generalsekretariat</orgName>
+                        <idno type="URI">https://dodis.ch/R32024</idno>
+                    </org>
+                    <org xml:id="R32025">
+                        <orgName>Deutschland/DDR/Sozialistische Einheitspartei Deutschlands/Politbüro des ZK der SED</orgName>
+                        <idno type="URI">https://dodis.ch/R32025</idno>
+                    </org>
+                    <org xml:id="R88">
+                        <orgName>EVD/Handelsabteilung</orgName>
+                        <idno type="URI">https://dodis.ch/R88</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R9899">
+                        <orgName>European Union</orgName>
+                        <idno type="URI">https://dodis.ch/R9899</idno>
+                        <placeName ref="#G137">Brussels</placeName>
+                    </org>
+                    <org xml:id="R27">
+                        <orgName>Federal Department for Foreign Affairs</orgName>
+                        <idno type="URI">https://dodis.ch/R27</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R1962">
+                        <orgName>Frankfurter Allgemeine Zeitung</orgName>
+                        <idno type="URI">https://dodis.ch/R1962</idno>
+                        <placeName ref="#G386">Frankfurt</placeName>
+                    </org>
+                    <org xml:id="R31919">
+                        <orgName>Germany/FRG/Embassy in Prague</orgName>
+                        <idno type="URI">https://dodis.ch/R31919</idno>
+                        <placeName ref="#G71">Prague</placeName>
+                    </org>
+                    <org xml:id="R22209">
+                        <orgName>Germany/FRG/Embassy in Warsaw</orgName>
+                        <idno type="URI">https://dodis.ch/R22209</idno>
+                        <placeName ref="#G144">Varsovie</placeName>
+                    </org>
+                    <org xml:id="R32124">
+                        <orgName>Germany/FRG/Permanent Representation in East Berlin</orgName>
+                        <idno type="URI">https://dodis.ch/R32124</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R9496">
+                        <orgName>Germany/FRG/State</orgName>
+                        <idno type="URI">https://dodis.ch/R9496</idno>
+                    </org>
+                    <org xml:id="R4181">
+                        <orgName>Germany/GDR/Government</orgName>
+                        <idno type="URI">https://dodis.ch/R4181</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R10937">
+                        <orgName>Germany/GDR/State</orgName>
+                        <idno type="URI">https://dodis.ch/R10937</idno>
+                    </org>
+                    <org xml:id="R25455">
+                        <orgName>Germany/GDR/Volkskammer</orgName>
+                        <idno type="URI">https://dodis.ch/R25455</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R8">
+                        <orgName>Hungary/Government</orgName>
+                        <idno type="URI">https://dodis.ch/R8</idno>
+                        <placeName ref="#G8">Budapest</placeName>
+                    </org>
+                    <org xml:id="R2837">
+                        <orgName>North Atlantic Treaty Organisation (NATO)</orgName>
+                        <idno type="URI">https://dodis.ch/R2837</idno>
+                        <placeName ref="#G137">Brussels</placeName>
+                    </org>
+                    <org xml:id="R600">
+                        <orgName>OECD</orgName>
+                        <idno type="URI">https://dodis.ch/R600</idno>
+                    </org>
+                    <org xml:id="R3942">
+                        <orgName>SED</orgName>
+                        <idno type="URI">https://dodis.ch/R3942</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R32027">
+                        <orgName>Sputnik</orgName>
+                        <idno type="URI">https://dodis.ch/R32027</idno>
+                    </org>
+                    <org xml:id="R1208">
+                        <orgName>Swiss Embassy in Bonn (1977-)</orgName>
+                        <idno type="URI">https://dodis.ch/R1208</idno>
+                    </org>
+                    <org xml:id="R19314">
+                        <orgName>Swiss Embassy in East Berlin</orgName>
+                        <idno type="URI">https://dodis.ch/R19314</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R131">
+                        <orgName>USSR/Government</orgName>
+                        <idno type="URI">https://dodis.ch/R131</idno>
+                        <placeName ref="#G21">Moscow</placeName>
+                    </org>
+                    <org xml:id="R376">
+                        <orgName>USSR/Red Army</orgName>
+                        <idno type="URI">https://dodis.ch/R376</idno>
+                    </org>
+                    <org xml:id="R3010">
+                        <orgName>Weltwoche</orgName>
+                        <idno type="URI">https://dodis.ch/R3010</idno>
+                        <placeName ref="#G27">Zürich</placeName>
+                    </org>
+                </listOrg>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="G806">
+                        <placeName> Federal Republic of Germany (1949-1990)</placeName>
+                        <location>
+                            <geo>50.6 8.06</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G806</idno>
+                    </place>
+                    <place xml:id="G31">
+                        <placeName>Austria</placeName>
+                        <location>
+                            <geo>47.51623 14.550072</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G31</idno>
+                    </place>
+                    <place xml:id="G553">
+                        <placeName>Bavaria</placeName>
+                        <location>
+                            <geo>48.790447 11.49789</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G553</idno>
+                    </place>
+                    <place xml:id="G25">
+                        <placeName>Berlin</placeName>
+                        <location>
+                            <geo>52.520008 13.404954</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G25</idno>
+                    </place>
+                    <place xml:id="G2101">
+                        <placeName>Bonn</placeName>
+                        <location>
+                            <geo>50.73743 7.098207</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G2101</idno>
+                    </place>
+                    <place xml:id="G4454">
+                        <placeName>Brandenburg</placeName>
+                        <location>
+                            <geo>52.41253 12.531645</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G4454</idno>
+                    </place>
+                    <place xml:id="G3061">
+                        <placeName>East Berlin</placeName>
+                        <location>
+                            <geo>52.578387 13.405563</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G3061</idno>
+                    </place>
+                    <place xml:id="G936">
+                        <placeName>Eastern Bloc states</placeName>
+                        <idno type="URI">https://dodis.ch/G936</idno>
+                    </place>
+                    <place xml:id="G12">
+                        <placeName>Europe</placeName>
+                        <location>
+                            <geo>54.525963 15.255118</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G12</idno>
+                    </place>
+                    <place xml:id="G283">
+                        <placeName>German Democratic Republic (1949-1990)</placeName>
+                        <location>
+                            <geo>52.052 12.389</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G283</idno>
+                    </place>
+                    <place xml:id="G5">
+                        <placeName>German Reich</placeName>
+                        <location>
+                            <geo>51.16569 10.451526</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G5</idno>
+                    </place>
+                    <place xml:id="G719">
+                        <placeName>Germany/American Zone of Occupation (1945-1946)</placeName>
+                        <idno type="URI">https://dodis.ch/G719</idno>
+                    </place>
+                    <place xml:id="G753">
+                        <placeName>Germany/British Zone of Occupation (1945-1946)</placeName>
+                        <location>
+                            <geo>52.182484 7.527744</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G753</idno>
+                    </place>
+                    <place xml:id="G720">
+                        <placeName>Germany/French Zone of Occupation (1945-1948)</placeName>
+                        <location>
+                            <geo>48.398089 8.503325</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G720</idno>
+                    </place>
+                    <place xml:id="G20">
+                        <placeName>Hungary</placeName>
+                        <location>
+                            <geo>47.162495 19.503304</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G20</idno>
+                    </place>
+                    <place xml:id="G810">
+                        <placeName>Lower Saxony</placeName>
+                        <location>
+                            <geo>52.636703 9.845077</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G810</idno>
+                    </place>
+                    <place xml:id="G4455">
+                        <placeName>Mecklenburg-Vorpommern</placeName>
+                        <location>
+                            <geo>53.612062 12.700195</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G4455</idno>
+                    </place>
+                    <place xml:id="G21">
+                        <placeName>Moscow</placeName>
+                        <location>
+                            <geo>55.75 37.616667</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G21</idno>
+                    </place>
+                    <place xml:id="G4482">
+                        <placeName>North Rhine-Westphalia</placeName>
+                        <location>
+                            <geo>51.433235 7.661594</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G4482</idno>
+                    </place>
+                    <place xml:id="G68">
+                        <placeName>Poland</placeName>
+                        <location>
+                            <geo>51.919437 19.145136</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G68</idno>
+                    </place>
+                    <place xml:id="G71">
+                        <placeName>Prague</placeName>
+                        <location>
+                            <geo>50.07554 14.4378</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G71</idno>
+                    </place>
+                    <place xml:id="G30">
+                        <placeName>Russia</placeName>
+                        <location>
+                            <geo>63.7225 83.577778</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G30</idno>
+                    </place>
+                    <place xml:id="G1349">
+                        <placeName>Sachsen</placeName>
+                        <location>
+                            <geo>51.10454 13.201738</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G1349</idno>
+                    </place>
+                    <place xml:id="G4453">
+                        <placeName>Sachsen-Anhalt</placeName>
+                        <location>
+                            <geo>51.950264 11.692273</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G4453</idno>
+                    </place>
+                    <place xml:id="G1858">
+                        <placeName>The West</placeName>
+                        <location>
+                            <geo>39.69116 -85.4783</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G1858</idno>
+                    </place>
+                    <place xml:id="G1074">
+                        <placeName>Thuringia</placeName>
+                        <location>
+                            <geo>50.9167 11</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G1074</idno>
+                    </place>
+                    <place xml:id="G144">
+                        <placeName>Warsaw</placeName>
+                        <location>
+                            <geo>52.229675 21.012228</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G144</idno>
+                    </place>
+                    <place xml:id="G3581">
+                        <placeName>West Berlin</placeName>
+                        <location>
+                            <geo>52.484946 13.343708</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G3581</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="49561-0.png"/>
+        <graphic url="49561-1.png"/>
+        <graphic url="49561-2.png"/>
+        <graphic url="49561-3.png"/>
+        <graphic url="49561-4.png"/>
+        <graphic url="49561-5.png"/>
+        <graphic url="49561-6.png"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="doc">
+                <head>
+                    <ref target="http://dodis.ch/49561">dodis.ch/49561</ref>
+                    <title type="main">Politischer Bericht<note xml:id="e864">Politscher Bericht:
+                                <idno type="CH-BAR"> CH-BAR#E2010-02A#1996/400#16* (A.21.31).
+                                </idno>Kopie für <persName ref="#P19511">Klaus Jacobi</persName>, <persName ref="#P22246">Franz Blankart</persName>, und <persName ref="#P24523">Silvio Arioli</persName>.
+                            Kopie direkt an die schweizerische Botschaft in Bonn und das
+                            schweizerische Generalkonsulat in West-Berlin; ebenfalls publiziert in:
+                                <orig>Die DDR aus Sicht schweizerischer Diplomaten. Politische
+                                Berichte aus Ost-Berlin 1982–1990, hrsg. von Bernd Haunfelder,
+                                Münster 2017, Dok. 93.</orig>
+                        </note> des schweizerischen
+                        Botschafters in Ost-Berlin, <persName ref="#P16179">Franz Birrer</persName>
+                    </title>
+                    <title type="sub">Nr. 16. Adieu, DDR!</title>
+                </head>
+                <opener>
+                    <add>Vertraulich</add>
+                    <dateline>
+                        <placeName>Berlin/DDR, </placeName>
+                        <date when="1990-10-02">2. Oktober 1990</date>
+                    </dateline>
+                </opener>
+                <p>Heute geht die Geschichte des Staates DDR zu Ende. Die DDR wird der
+                    Bundesrepublik Deutschland «beitreten» und damit von der politischen Landkarte
+                    verschwinden.</p>
+                <p>Als ich vor drei Jahren nach Berlin kam, liess nichts darauf schliessen, dass
+                    dieser «erste Arbeiter- und Bauernstaat auf deutschem Boden» so rasch und so
+                    vollständig untergehen würde. <persName ref="#P46563">Honecker</persName>
+                    war gerade von einem grossen Staatsbesuch in
+                    Bonn zurückgekehrt. Ende der achtziger Jahre besuchte er auch fast alle andern
+                    westlichen Kapitalen und empfing von dort Staats- und Regierungsgäste am
+                    laufenden Band. Wirtschaftlich und sozial gab es für die DDR-Bevölkerung keine
+                    Not. Selbst die äusserst kritischeFAZ stellte noch im Juni 1989 fest, dass die
+                    DDR, gemessen an den wirtschaftlichen Niederungen der sozialistischen
+                    Bruderländer einschliesslich der Sowjetunion, «geradezu ein ökonomisches
+                    Hochplateau» sei. Sie litt nicht an Arbeitslosigkeit, sondern eher an einem
+                    Arbeitskräftemangel, weshalb Zehntausende aus sozialistischen Bruderländern im
+                    Arbeitsprozess eingesetzt wurden. Und nota bene, unsere Exporte in die DDR
+                    verzeichneten jährliche Zuwachsraten von rund 40%.</p>
+                <p>Innenpolitisch gab sich das Regime <emph>entspannter</emph>, als ein
+                    Neuankömmling aus dem Westen erwartet hätte. DDR-Bürger, die man in Gaststätten
+                    oder anderswo zufällig traf, sprachen meist sehr freimütig und hielten auch mit
+                    kritischen Bemerkungen über die Zustände im Land nicht zurück. Die Kirchen
+                    hatten einen sehr viel grösseren Freiraum, als in den andern sozialistischen
+                    Ländern (Polen ausgenommen). Eine gewisse Glasnost war vor allem in der
+                    Literatur, in Theater und Cabaret sowie beim Film festzustellen; einzelne Filme,
+                    die vor zwanzig und mehr Jahren verboten worden waren – wie z.B. «Die Russen
+                    kommen» von <persName ref="#P54831">Carow</persName> – konnten nun aufgeführt werden. Reisebewilligungen in den
+                    Westen stiegen sprunghaft an und erreichten 1988 über 3 Mio Reisen in die BRD,
+                    wovon 1,3 Mio Personen unterhalb des Rentenalters. Auch die legalen
+                    Übersiedlungen in die BRD erreichten 1988/89 einen Jahresrythmus von rund
+                    100'000 Personen. Und um auch hier die Schweiz zu erwähnen: Die für Reisen in
+                    unser Land erteilten Visa vermehrten sich jährlich um 20% (1988: 11'900).</p>
+                <p>Dennoch, <emph>stalinistische</emph> Strukturen und Verhaltungsweisen bildeten
+                    noch immer das Grundmuster der DDR. Kernstück des Stalinismus war und blieb der
+                    Vorrang der SED bzw. der Parteiführung, personifiziert durch den
+                        <persName ref="#P46563">Generalsekretär</persName> und einzelne, für
+                    Staatssicherheit, Wirtschaft und Massenmedien zuständige Mitglieder des
+                    Politbüros. Die in der Nationalen Front zusammengefassten und gleichgeschalteten
+                    andern Parteien sowie die Massenorganisationen hatten hauptsächlich
+                    Alibi-Funktion. In der Wirtschaft galt das Prinzip der zentralen Planung, auch
+                    wenn die DDR-Führung behauptete, sie habe sich mit dem Genossenschaftswesen in
+                    der Landwirtschaft, den autonomen Kombinaten in der Industrie und den privaten
+                    Betrieben in Handwerk und Handel etwas Besonderes einfallen lassen. Die privaten
+                    Betriebe beispielsweise waren durch die Limitierung auf 10 Mitarbeiter und die
+                    gewerbefeindliche Steuergesetzgebung sehr stark eingeschränkt. Vieles deutete
+                    darauf hin, dass die Wirtschaft kaum mehr Zuwachsraten verzeichnen konnte,
+                    sondern bestenfalls stagnierte. Der Umweltschutz blieb unter diesen Umständen in
+                    katastrophaler Weise auf der Strecke.</p>
+                <p>Die Altkommunisten der SED waren ursprünglich mit dem Anspruch angetreten, allen
+                        <emph>Wohnung</emph>, <emph>Nahrungsmittel</emph> und Dinge des täglichen
+                    Bedarfs sowie öffentliche Transporte in ausreichendem Umfang und zu billigen
+                    Preisen zu verschaffen. Durch ein gewaltiges Subventionssystem sowie durch
+                    Forcierung des industriellen Wohnungsbaus hatten sie dies auch weitgehend
+                    erreicht. Sie waren aber nicht fähig und willens, diese Politik den gewandelten
+                    Bedürfnissen anzupassen und schwerwiegende Nachteile zu beheben. Das Einfrieren
+                    der Mietzinsen auf dem Nachkriegsniveau hatte zur Folge, dass nicht nur der
+                    private Wohnungsbau, sondern auch der Unterhalt der bestehenden Häuser und
+                    Wohnungen verunmöglicht wurden. Der desolate Zustand vieler städtischer und
+                    dörflicher Zentren ist ein deutlicher Hinweis auf die Fehler dieser Politik.</p>
+                <p>Stalinistisch waren sodann ein sozusagen flächendeckendes Spitzel- und
+                    Informationssystem der sogenannten
+                        <emph>«</emph>
+                    <emph>Staatssicherheit</emph>
+                    <emph>
+                        <emph/>»</emph> und die
+                    Gängelung und Gleichschaltung der <emph>Massenmedien.</emph> Eine Art Glasnost
+                    gab es höchstens in der Fachpresse und in kirchlichen Presseerzeugnissen.
+                    Tagespresse, Radio und Fernsehen blieben dagegen unter strenger Kontrolle. Im
+                    November 1988 wurde sogar die Verbreitung der sowjetischen Zeitschrift «Sputnik»
+                    verboten, da dem SED-Regime einige Beiträge missfielen. Dies alles wirkte
+                    reichlich absurd angesichts der Tatsache, dass sich die Bevölkerung über
+                    Vorgänge im In- und Ausland ohne weiteres via Westradio und -fernsehen
+                    informieren konnte.</p>
+                <p>Man kann die DDR jedoch nicht nur unter dem Aspekt der SED beurteilen. Von allem
+                    Anfang an spielte hier die <emph>Sowjetunion</emph> eine entscheidende Rolle.
+                    Die DDR war ja gewissermassen ein Zufallsprodukt des Zweiten Weltkriegs und des
+                    Kalten Krieges. Als die Westmächte 1948/49 in den drei Westzonen sowie in den
+                    Westsektoren Berlins eine Währungsreform durchführten und die Bundesrepublik
+                    Deutschland gründeten, schuf die Sowjetunion ihrerseits die DDR und hielt sie
+                    lange Zeit an der kurzen Leine. Dies war vorerst auch noch unter
+                    <emph><persName ref="#P31707">Michail Gorbatschow</persName></emph>
+                    der Fall. Als Honecker am 5. Mai 1985 zum
+                    ersten Mal mit dem neuen Kreml-Chef zusammentraf, musste er ein gemeinsames
+                    Communiqué unterzeichnen, das den militärischen Sieg der Sowjetunion über das
+                    Deutsche Reich und die Entstehung der DDR in einen direkten Zusammenhang
+                    brachte, indem erklärt wurde: «In diesem grossen Sieg hat der erste Staat der
+                    Arbeiter und Bauern auf deutschem Boden seine Wurzeln ...» Es war ein (für die
+                    SED-Führung) sehr demütigendes Eingeständnis der Fremdbestimmung der DDR.
+                    Gorbatschow blieb aber auch in seinem im Herbst 1987 erschienenen Buch
+                    «Perestroijka» noch auf der alten Linie. Deutschland widmete er ein spezielles
+                    Kapitel unter dem Titel «Zwei deutsche Staaten» und erklärte, was hier
+                    historisch geformt worden sei, müsse der Geschichte überlassen bleiben. Es gebe
+                    jetzt zwei deutsche Staaten mit unterschiedlichen gesellschaftlichen und
+                    politischen Ordnungen; westliche Erklärungen, die deutsche Frage sei offen und
+                    die «Deutsche Einheit» müsse wieder hergestellt werden, seien alles andere als
+                    «Realpolitik». Gorbatschow kann somit nicht als Vater der Vereinigung der beiden
+                    deutschen Staaten gelten. Sie wurde ihm vielmehr abgetrotzt. Er konnte ihr nicht
+                    mehr widerstehen, da die Sowjetunion zu schwach geworden war.</p>
+                <p>Für die grosse Masse der DDR-Bürger war der «grosse Bruder», die Sowjetunion, nie
+                    Vorbild, Massstab oder Fixpunkt des Handelns und Strebens. Eine Verbrüderung
+                    fand nie statt. Die <emph>sowjetischen Truppen</emph> in der DDR und die
+                    Bevölkerung wurden streng getrennt gehalten. Die über 400'000 Mann starken
+                    Truppen blieben Besatzungsmacht und gleichzeitig sichtbarer Garant dafür, dass
+                    die DDR fest in der engeren ��sozialistischen Gemeinschaft» eingebunden
+                    blieb.</p>
+                <p>Die <emph>älteren Generationen</emph> der DDR-Bürger schickten sich mit der Zeit
+                    ins scheinbar Unvermeidliche und suchten sich anzupassen. Gelegentlich war man
+                    auch stolz, es wirtschaftlich weiter als die Sowjetunion gebracht zu haben.
+                    Solches kam sogar bei Äusserungen der DDR-Führung zu den sowjetischen
+                    Wirtschaftsreformbestrebungen zum Ausdruck, indem Moskau hiezu viel Glück und
+                    Erfolg gewünscht und zu verstehen gegeben wurde, dass die DDR derartige Reformen
+                    schon längst durchgeführt habe. Dies wiederum erschreckte die <emph>jüngere und
+                        immer ungeduldiger werdende Generation</emph>, die daraus schloss, dass sich
+                    unter der alten SED-Führung nichts mehr bewegen werde.</p>
+                <p>So kam es schliesslich zur grossen Flucht- oder Ausreisebewegung über die
+                    westdeutschen diplomatischen Vertretungen in Ostberlin, Prag und Warschau, sowie
+                    über die österreichisch-ungarische Grenze, nachdem diese von der ungarischen
+                    Regierung im September 1989 geöffnet worden war. Dabei spielte die
+                        <emph>Übersiedler-Politik der BRD</emph> eine ausschlaggebende Rolle. Jeder
+                    Übersiedler aus der DDR wurde seit jeher automatisch als Bundesbürger anerkannt.
+                    Er genoss nicht nur eine Vorzugsbehandlung auf dem Wohnungs- und Arbeitsmarkt,
+                    sondern erhielt nebst dem Begrüssungsgeld auch verschiedene finanzielle
+                    Zuschüsse oder zinslose Kredite und hatte gegebenenfalls Anspruch auf
+                    Arbeitslosenunterstützung, Krankengeld und Rente, wie wenn er zeitlebens in der
+                    BRD Beiträge gezahlt hätte.</p>
+                <p>Es war wohl diese Massenbewegung, die Gorbatschow dazu bewog, am Rande der
+                    40-Jahr-Feierlichkeiten in Ostberlin zu bemerken, dass er für weitergehende
+                    Reformen in der DDR sei und dass die sowjetischen Truppen Gewehr bei Fuss
+                    bleiben würden. Massendemonstrationen unter den Slogans «Wir sind das Volk» und
+                    «Wir bleiben hier» brachten hierauf die SED-Führung binnen weniger Wochen zu
+                    Fall.</p>
+                <p>Wie es am 9. November zur <emph>Öffnung der Berliner Mauer</emph> und der
+                    innerdeutschen Grenze gekommen ist, ist heute noch nicht geklärt. Die bereits
+                    zurückgetretene Regierung <persName ref="#P15220">Stoph</persName> hatte einen liberalen Reisegesetzentwurf zur
+                    Diskussion gestellt, der aber als noch allzu restriktiv kritisiert wurde
+                    (namentlich von Rechtsanwälten, wie <persName ref="#P54811">Gregor Gysi</persName>); statt aber den
+                    Entwurf zu überarbeiten, liess sie die Schleusen kurzerhand öffnen. Was immer
+                    auch hinter diesem Entscheid gestanden hat, die Öffnung war der Anfang vom Ende
+                    der DDR.</p>
+                <p>Seither hat sich die Entwicklung mehrfach beschleunigt, wobei die Beschleunigung
+                    meist dem Druck des Volkes bzw. dem Druck der Strasse zugeschrieben wurde.
+                    Entscheidend aber war in diesem Prozess doch wohl das Agieren von
+                    <emph>Bundeskanzler <persName ref="#P31852">Kohl</persName></emph>, der die wichtigsten
+                    Pflöcke im Alleingang setzte und, wie seine Kritiker spitz formulierten, die
+                    Deutsche Einheit als seine Privatsache betrachtete. Erinnert sei an Kohls</p>
+                <p>– Weigerung, die Privilegierung der <emph>Übersiedler</emph> nach Öffnung der
+                    Grenze abzuschaffen (das offizielle «Notaufnahmverfahren» und die finanziellen
+                    Anreize wurden erst am 1. Juli abgeschafft);</p>
+                <p>– <emph>Wiedervereinigungsrede</emph> vom 28. November mit einem 10-Punkte
+                    Programm, das mit niemandem abgesprochen worden war;</p>
+                <p>– Vorschlag (entgegen dem Rat aller Sachverständigen und Wirtschaftspolitiker)
+                    einer <emph>Währungsunion</emph>, d.h. der Einführung der DM in der DDR mit
+                    «sozialer Abfederung» bei den zu erwartenden negativen Folgen (im Wahlkampf zu
+                    den DDR-Volkskammerwahlen vom 18. März operierte die West-CDU hauptsächlich mit
+                    dem Versprechen, dass die DDR-Bürger noch vor den Sommerferien die DM erhalten
+                    würden; die von der BRD aus dirigierten «ersten freien und geheimen Wahlen in
+                    der DDR» sind wohl nicht sosehr als demokratisch, sondern vielmehr als
+                        <emph>DM-kratisch</emph> zu bezeichnen);</p>
+                <p>– Forderung, Art. 23 des Bonner Grundgesetzes als «Königsweg» zur deutschen
+                    Einheit zu betrachten, d.h. «<emph>Beitritt</emph>» der DDR zur Bundesrepublik
+                    Deutschland, nicht Vereinigung oder Fusion der beiden deutschen Staaten nach
+                    Art. 146;</p>
+                <p>– Vorschlag am Abend des 13. Mai, als die CDU und die CSU in Nordrhein-Westfalen,
+                    Niedersachsen und Bayern Wahlschlappen erlitten hatten, gesamtdeutsche Wahlen
+                    noch in diesem Jahr durchzuführen (Kohl wollte offensichtlich die Gunst der
+                    Stunde nutzen und die Wahlen hinter sich bringen, bevor das volle Ausmass der
+                    negativen Folgen der Währungsunion sicht- und spürbar werden konnte).</p>
+                <p>Bundeskanzler Kohl war somit nicht Promotor, sondern eigentlicher Motor der
+                    deutschen Einheit. Er glaubte die DDR-Bevölkerung, die in erster Linie nach der
+                    DM und nach westlichem Wohlstand strebte, mit seinen Vorschlägen hinter sich zu
+                    wissen. Bundespräsident <persName ref="#P5944">von Weizsäcker</persName> etwa gab zu bedenken, dass die beiden Teile
+                    Deutschlands nicht zusammenwuchern dürften, sondern zusammenwachsen müssten. Und
+                    auch Ministerpräsident <persName ref="#P54809">de Maizière</persName>
+                    plädierte noch im Juni
+                    dieses Jahres für angemessene Zeiträume und erklärte, der weitere Verlauf des
+                    deutschen Einigungsprozesses dürfe nicht von einem Bonner Eilzugstempo bestimmt
+                    werden. Kohl jedoch liess solche und ähnliche Einwände unbeachtet, und auf eine
+                    Argumentation mit der Opposition liess er sich schon gar nicht ein. Von einem
+                    reinen Management-Standpunkt aus kann man Kohls Vorgehensweise und Erfolge
+                    sicherlich bewundern, aus politischer Sicht erscheinen sie jedoch als sehr
+                    problematisch.</p>
+                <p>Oberflächliche Beobachter priesen Kohls Vorschlag einer raschen
+                        <emph>Währungsunion</emph> als genialen Streich und wiesen darauf hin, dass
+                    die Währungsreform von 1948 sehr bald einen ungeahnten Aufschwung gebracht habe.
+                    Sie übersehen jedoch, dass Währungsunion und Währungsreform nur wenig gemeinsam
+                    haben und in einem völlig andern Umfeld stattfanden bzw. stattfinden. Der
+                    persönliche Beauftragte des Bundeskanzlers für die Währungsunion bezeichnete
+                    diese als ein «historisch einmaliges Experiment», nähmlich «eine
+                    Uno-actu-Transformierung einer über 45 Jahre sozialistisch und vorher 12 Jahre
+                    nationalsozialistisch geführten Zentralverwaltungswirtschaft in eine
+                    Marktwirtschaft». Konkret heisst dies:</p>
+                <p>– die zentrale Planung wurde über Nacht abgeschafft, wodurch vor allem in der
+                    Industrie ein grosses Chaos entstand und viele Betriebe, die unter andern
+                    Bedingungen noch sanierungsfähig gewesen wären, zum Tode verurteilt wurden
+                    (bundesdeutsche und andere Investoren warten daher offenbar zu, bis sie die
+                    DDR-Betriebe zum Nulltarif erhalten können);</p>
+                <p>– die Preise wurden mit einem Schlag freigegeben (Ausnahmen bis Ende dieses
+                    Jahres: Mietzinsen, einzelne öffentliche Transporttarife und Energiepreise);</p>
+                <p>– die innerdeutschen Grenzen wurden nicht nur geöffnet, sondern abgeschafft,
+                    womit die DDR-Wirtschaft über die BRD und die EG der vollen internationalen
+                    Konkurrenz ausgeliefert wurde;</p>
+                <p>– die Agrarsubventionen bzw. die in der DDR extrem hohen Subventionen zur
+                    Verbilligung der einheimischen Nahrungsmittel (1988: 31,9 Mia M bzw. DM) wurden
+                    über Nacht gestrichen, wodurch die Landwirtschaft zusätzlich, d.h. nebst dem
+                    Wegfall des Schutzes an der Grenze, in enorme Bedrängnis geriet;</p>
+                <p>– mit dem Überbordwerfen der zentralen Planung gingen der öffentlichen Hand die
+                    Haupteinnahmequellen, nämlich die Abgaben der Wirtschaft, zum grossen Teil
+                    verloren, ein Steuersystem nach BRD-Muster ist erst im Aufbau begriffen, und da
+                    zudem die Finanz- und Währungshoheit mit der Währungsunion auf Bonn übergegangen
+                    ist und die Bundesregierung auf Einsparungen drängt, fehlen die gerade jetzt so
+                    dringend benötigten öffentlichen Mittel im Wohnungs- und Strassenbau, bei der
+                    Sanierung des Gesundheitswesens, in der Kultur etc. (hinzu kommt, dass die 15
+                    Bezirke der DDR abgeschafft, die sie ablösenden fünf Länder aber erst ab 14.
+                    Oktober allmählich aufgebaut werden).</p>
+                <p>Die Wirtschaft der bisherigen DDR läuft somit Gefahr, sowohl den internen Markt,
+                    als auch den für sie bisher sehr wichtigen Markt der osteuropäischen Länder (70%
+                    des Aussenhandelsvolumens) zu verlieren. Dass sie auf westlichen Märkten im
+                    Moment nur wenig Erfolgschancen hat, steht wohl ausser Frage. Mit andern Worten,
+                    dem Gebiet der ex-DDR droht der Verlust der Produktion und der
+                    Wertschöpfung.</p>
+                <p>War der Staatsvertrag zu Schaffung einer Wirtschafts-, Währungs- und Sozialunion
+                    noch ausschliesslich in Bonn entworfen und diktiert worden – seine
+                    Unterzeichnung durch den damaligen DDR-Finanzminister erschien Aussenstehenden
+                    wie die Unterzeichnung einer Kapitulation –, so konnte die DDR im zweiten
+                    Vertrag, auch <emph>Einigungsvertrag</emph> genannt, offenbar einzelne
+                    spezifische Interessen der fünf neuen Bundesländer wahren und verteidigen. Dies
+                    trifft namentlich auf die Vermögensfrage (die Bodenreform vor der Gründung der
+                    DDR wird nicht rückgängig gemacht), auf Übergangsregelungen in der
+                    Abtreibungsfrage etc. sowie auf die <emph>Wirtschaftsförderung</emph> zu.
+                    Aufgrund von Artikel 28 wird das gesamte Gebiet der DDR ähnlich wie das
+                    bisherige Zonenrandgebiet Förderungsgebiet der Gemeinschafts-Aufgabe
+                    «Verbesserung der regionalen Wirtschaftsstruktur». Es gelangt dadurch in den
+                    Genuss mannigfacher Investitionssubventionen und zinsgünstiger Kredite. Man kann
+                    dies als eine Art Marshall-Plan für die bisherige DDR betrachten.</p>
+                <p>Wenn man indessen Artikel 7 des Vertrags genau liest, gewinnt man einen anderen
+                    Eindruck. Dieser sieht vor, dass die Finanzverfassung der BRD im Prinzip auf die
+                    beigetretenen Länder erstreckt wird. Die bisherigen Bundesländer haben sich
+                    jedoch strikte <emph>geweigert</emph>, die neuen Länder am
+                        <emph>Länder-Finanzausgleich</emph> und an der gleichmässigen Teilung des
+                    Länderanteils der <emph>Umsatzsteuer</emph> beteiligen zu lassen. Über den
+                    Länder-Finanzausgleich wollen sie erst 1994 mit sich reden lassen, und am Anteil
+                    an der Umsatzsteuer sollen die DDR-Länder vorerst nur zu 55% des
+                    durchschnittlichen Umsatzsteueranteils der andern Länder pro Einwohner
+                    teilhaben. Die Folge ist, dass der Fonds «Deutsche Einheit», der ursprünglich
+                    als Investitionsförderung gedacht war, nun zur Stopfung der Finanzlöcher der
+                    neuen Bundesländer herhalten muss und von diesen indirekt mitfinanziert wird.
+                    Der Hannoveraner Verfassungsrechtler <persName ref="#P54833">Schneider</persName> bemerkt
+                    hiezu: «Die DDR-Länder werden auf Jahre hinaus im Einheitsfonds gefesselt sein,
+                    vom Bund nicht nur finanziell, sondern auch politisch abhängig und
+                    bevormundet.</p>
+                <p>Von einem allgemeinen und europäischen Standpunkt aus ist die <emph>deutsche
+                        Einheit</emph> ohne Zweifel zu begrüssen.</p>
+                <p>Die Teilung Europas, Deutschlands und Berlins ist stets eine künstliche, ja
+                    absurde Teilung und Keim von gegenwärtigen und zukünftigen Konflikten
+                    gewesen.</p>
+                <p>An unserer Grenze haben wir nun ein Land, dass binnen kurzem zur Grossmacht und
+                    vielleicht sogar zur Weltmacht aufsteigen wird. Dieses Land ist aber im
+                    Unterschied zu früher föderalistisch strukturiert, demokratisch gefestigt, dem
+                    Militaristischen abhold und überdies in die EG und die NATO eingebunden.</p>
+                <p>Bedenken jedoch erweckt die überstürzte Einheit Deutschlands. Sie ist nicht eine
+                    Vereinigung, sondern eine Einvernahme der DDR durch die BRD, was u.a. daran zu
+                    erkennen ist, dass ab morgen westdeutsche Beamte, Richter, Wirtschaftsführer
+                    etc. in dieses Land «einmarschieren» und die DDR-Leute verdrängen werden. «Der
+                    Preis der Einheit ist eine neue Fremdherrschaft» betitelte der Historiker <persName ref="#P22386">Jörg
+                        Fisch</persName> zurecht seinen sehr lesenswerten Artikel in der Weltwoche
+                    vom 20. September 1990.</p>
+                <p>Wird der neue Staat Heimat, ja ein Zuhause für alle Deutschen werden können?
+                    Werden sich die Ostdeutschen mit ihm identifizieren können, oder werden sie sich
+                    wieder nur arrangieren, wie so viele es so lange mit der «sozialistischen Heimat
+                    DDR» getan haben? Wird eine <emph>Mezzogiornalisierung</emph> Ostdeutschlands
+                    und eine daraus beinahe naturnotwendig folgende <emph>Radikalisierung</emph>
+                    vermieden werden können? Dies sind alles Fragen, die erst in den kommenden
+                    Jahren beantwortet werden können.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

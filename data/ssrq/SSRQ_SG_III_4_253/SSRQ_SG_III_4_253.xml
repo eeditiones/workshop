@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-10-04"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_253</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StANW C 1025/8:87</idno>
+                  <altIdentifier>
+                     <idno>STANW Sch.nr. 60a, Dok.nr. 53</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Gedruckter Steckbrief der Kanzlei Bern an die eidgenössischen Stände über die Verbannung von Johannes Moser aus Gams (Beutelschneiderei)</head>
+               <msContents>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Druck (Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.0"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1787-06-09"/>
+                     <origPlace>Kanzlei Bern</origPlace>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001017">Steckbrief</term>
+               <term ref="key000213">Bekleidung</term>
+               <term ref="key004534">Person</term>
+               <term ref="key003014">Körperteil</term>
+               <term ref="key003291">Verbrecher</term>
+               <term ref="key000603">Dieb</term>
+               <term ref="key000598">Verbannung</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="StANW_C_1025_8_87"/>
+               <div>
+                  <head><lb/><term ref="lem016380.01">Signalement</term></head>
+                  <p>
+                     <lb/><persName ref="per010723a">Johannes Moser</persName>, von <placeName ref="loc000211"
+                        >Gams</placeName> aus dem <lb/><placeName ref="loc007494.03"
+                           ><sic>Würtembergischen</sic></placeName><note>Im Begleitbrief zum Steckbrief heisst es
+                              Johannes Moser von Gams aus Werdenberg, weshalb es sich hier um einen Verschrieb handelt.
+                              Zudem verortet Bern Gams fälschlicherweise in der Landvogtei Werdenberg anstatt in der
+                              Herrschaft <placeName ref="loc006040">Hohensax-Gams</placeName>
+                              (<bibl><ref>StANW C&#160;1025/8:87</ref></bibl>, siehe auch Kommentar 1).</note>,
+                     bey <measure type="age" quantity="26" unit="year">26 <term ref="lem000732"
+                        >Jahr</term></measure> alt, bey <lb/><measureGrp><measure quantity="5" type="length"
+                           unit="Schuh">5 Schuh</measure>
+                           <measure unit="Zoll" type="length" quantity="2.5">2½ Zoll</measure></measureGrp> hoch,
+                     <placeName ref="loc000281">französisches</placeName>
+                     <term ref="lem000196">Mäs</term>, <lb/>etwas blassen <term ref="lem004441">magern</term>
+                     <term ref="lem004416">Angesichts</term>, hat <lb/>braune <term ref="lem003827">Augen</term>,
+                     an dem einten <term ref="lem016382.01">Backen</term>
+                     <lb/>eine <term ref="lem016383.01">Narbe</term>, schöne weiße <term ref="lem016384.02"
+                        >Zähne</term>, <term ref="lem000979">schwarze</term>
+                     <lb/><term ref="lem004664">Haare</term>, <term ref="lem016381.02">Augsbraunen</term> und
+                     <term ref="lem005660">Bart</term>; trug <lb/>ein braunes <term ref="lem003502">Kleid</term>
+                     und Weste mit stähler<lb break="no"/>nen <term ref="lem016385.02">Knöpfen</term>, <term
+                        ref="lem000388">Hosen</term> von <term ref="lem000979">schwarzem</term>
+                     <lb/><term ref="lem016386.01">Manchester</term> und <term ref="lem016387.01">Stiefel</term>;
+                     redet <term ref="lem002050">Teutsch</term>
+                     <lb/>und <term ref="lem004992">Französisch</term>.</p>
+                  <p><lb/>Geben, den <origDate when="1787-06-09">9. Brachmonats 1787</origDate>.</p> <p><lb/>Canzley
+                     <placeName ref="loc000157">Bern</placeName>.</p>
+               </div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1"><p>Der <term ref="key001017">Steckbrief</term> wurde einem allgemeinen, an die <orgName
+                  ref="org000531">Eidgenossen</orgName> adressierten Schreiben vom <date
+                  when="1787-06-09">9. Juni 1787</date> aus der Stadt <placeName ref="loc000157"
+                  >Bern</placeName> beigelegt. Dieses Exemplar ist an <orgName ref="org004001"
+                  >Landammann und Rat von Unterwalden</orgName> verschickt worden und liegt heute im
+               Staatsarchiv Nidwalden. <orgName ref="org004002">Schultheiss und Rat der Stadt
+                  Bern</orgName> ersuchen mit dem Steckbrief die eidgenössischen Orte, dem Gesuchten
+               in ihrem <term ref="key003544">Land</term> keinen Aufenthalt zu gewähren, denn sie
+               haben <persName ref="per010723a">Johannes Moser</persName> von <placeName
+                  ref="loc000211">Gams</placeName>, <orig>der herrschafft <placeName ref="loc000440"
+                     >Werdenberg</placeName>, einen <term ref="lem016388.02">beütelschneider</term>,
+                  [...] für lebenslang <term ref="lem012781">aus unseren landen</term> und aus
+                  gesamt <choice>
+                     <abbr>lobl</abbr>
+                     <expan>loblichen</expan>
+                  </choice>
+                  <placeName ref="loc000153">Eidgenoßschafft</placeName> verwiesen</orig>
+                     (<bibl><ref>StANW C&#160;1025/8:87</ref></bibl>). Fälschlicherweise verortet
+               Bern Gams in der Landvogtei Werdenberg anstatt in der Herrschaft <placeName
+                  ref="loc006040">Hohensax-Gams</placeName> (auch im Steckbrief ebenso falsch als
+            <placeName ref="loc007494"><orig>Württemberg</orig></placeName> gedruckt, siehe Fussnote 1). </p></div>
+         <div n="2"><p>Weitere Steckbriefe siehe <bibl><ref>StASG&#160;AA&#160;3&#160;B 6</ref>, 16.11.1735</bibl>;
+                     <bibl><ref>LAGL AG&#160;III.25, Bündel 111</ref>, 26.01.1741</bibl>;
+                     <bibl><ref>StANW C&#160;1025/6:47</ref></bibl>; <bibl><ref>StABE
+                     DQ&#160;1167</ref></bibl>; <bibl><ref>StALU PA&#160;211/377</ref></bibl>;
+                     <bibl><ref>PA&#160;Hilty S&#160;006/083</ref>; <ref>S&#160;006/099</ref>;
+                     <ref>S&#160;006/101</ref></bibl>.</p></div>
+      </back>
+   </text>
+</TEI>

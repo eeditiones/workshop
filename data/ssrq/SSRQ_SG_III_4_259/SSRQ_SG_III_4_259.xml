@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-09-17"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_259</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>StASZ HA.IV. 470.004, Nr. 115</idno>
+               </msIdentifier>
+               <head>Schwyz entlässt Gams in die Freiheit</head>
+               <msContents>
+                  <summary><p>Landammann und Landrat von Schwyz urkunden, dass, nachdem die Landvogtei Gaster in die Freiheit
+                        entlassen wurde, auch Gams in die Freiheit entlassen wird, jedoch mit dem
+                        Vorbehalt, dass Gams die katholische Religion beibehält, das Privat- und
+                        Staatseigentum sicher bleibt und die alljährlichen Zinsen laut Zinsbrief und
+                        Zusagen vom 21. März 1798 durch die Gamser Abgeordneten, Säckelmeister
+                        Johann Hardegger und Michael Hardegger, bis zur Auslösung entrichtet werden.
+                        Auch im Fall eines Auszugs in den Krieg soll keiner den anderen mit Kosten
+                        beladen und sich gegenseitig nicht mit neuen Zöllen und Weggeldern
+                        beschweren.</p> <p>Der Aussteller siegelt mit dem
+   Sekretsiegel.</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <author role="scribe">J A V, Landschreiber</author>
+                     <filiation type="current">Entwurf (Einzelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.0"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1798-03-24"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key001098">Unabhängigkeit</term>
+               <term ref="key004760">Volk</term>
+               <term ref="key004482">Regierung</term>
+               <term ref="key003217">Freiheit</term>
+               <term ref="key000619">Freiheitsbrief</term>
+               <term ref="key004027">Zinsbrief</term>
+            </keywords>
+         </textClass>
+         <particDesc default="false"/>
+         <settingDesc default="false"/>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <p><pb n="1r" facs="StASZ_HA.IV.470.004_Nr._115_1r"/>
+                     <lb/>Wir, <orgName ref="org003265">landamman und gesessner <lb/>landrath zu <placeName
+                        ref="loc000731.02">Schweiz</placeName></orgName>, urkunden für <lb/>unser ort anmit, daß
+                     wir zufolg <lb/>der lesten mayen landsgemeinde <del>er<lb break="no"/>kantnuss</del> und die
+                     unter <origDate when="1798-03-08">8<hi rend="sup">ten</hi> märz</origDate>
+                     <lb/>von einem <choice>
+                        <sic>drey drey</sic>
+                        <corr>drey</corr>
+                     </choice>fachen landrath <lb/>in krafft einer landsgemeind bereits <lb/>schon ausgefälten
+                     erkantniß, die <del>zu</del>
+                     <lb/>der landvogtey <placeName ref="loc000842">Gaster</placeName>
+                     <del>zugehö</del> anhängig <lb/>gewesene gemeind <placeName ref="loc000211"
+                        >Gambs</placeName>
+                     <del>so</del> von nun an <lb/>je und zu allenzeiten als <term ref="lem014460">frey</term>
+                     und ohn<lb break="no"/>abhängig erklären und <del>erklären</del> erkennen, <lb/>jedoch mit
+                     dem deütlichen vorbehalt, <lb/>daß in gemelter gemeind ihre alte <choice>
+                        <abbr>c</abbr>
+                        <expan>catholische</expan>
+                     </choice>
+                     <term ref="lem010186">relligion</term>
+                     <lb/>beybehalten, daß <term ref="lem016789.02">privat</term> und <term ref="lem016790.02"
+                        >staats <lb/>eigenthum</term> gesichert und, laut <del><gap reason="illegible" quantity="2"
+                           unit="word"/><lb/>von</del> der zusagen von denen unterm <lb/><origDate when="1798-03-21"
+                              >21.ten</origDate> diß mit vollmacht abgeordneten <lb/>hh <term ref="lem001645"
+                                 >sekelmeister</term>
+                     <persName ref="per010783a">Johann Hardegger</persName> und <lb/><persName ref="per010784"
+                        >Michel Hardegger</persName>, von dem <term ref="lem002384">zinßbrief</term> biß zu deßen
+                     <term ref="lem014312">auslosung</term>
+                     <lb/>der <date dur="R/P1Y">alljährliche</date>
+                     <term ref="lem000237">zinß</term> wie bishero ent<lb break="no"/>richtet und bezalt, auch im
+                     fall eines <lb/><term ref="lem007247">auszugs</term> kein theil dem andren mit <lb/>kösten
+                     beladen und inskünftig wir <lb/>wechselseittig einander <del>mit</del> weder <lb/>mit neuen
+                     <term ref="lem000349">zollen</term> noch <term ref="lem001110">weggeldern</term>
+                     <lb/>beschwehren und so auch ermelter gemeind <pb n="1v" facs="StASZ_HA.IV.470.004_Nr._115_1v"/>
+                     <lb/>die aus <unclear>ih<gap unit="character" quantity="7"/>tende</unclear>
+                     <term ref="lem002384">zinsbriefen</term>
+                     <lb/>zu lasen gestatten seyn solle.</p><p>
+                        <lb/>In urkund, wessen wir disere <lb/><term ref="lem003204">befreyung</term> mit unser
+                        stands <lb/>sekret insigill verwahret haben <lb/>ausfertigen laßen, <lb/>geben, den
+                        <origDate when="1798-03-24">24. märz 1798</origDate>.</p><p>
+                           <lb/><figure type="locus sigilli"/>
+                           <lb/><persName><abbr>JAV</abbr></persName>, landschreiber, <choice>
+                              <abbr>mpr</abbr>
+                              <expan>manu propria</expan>
+                           </choice></p>
+               </div>
+               
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1">
+            <p>Die vorliegende Erklärung von <orgName ref="org003265">Schwyz</orgName> zur Unabhängigkeit
+               von <placeName ref="loc006040">Hohensax-Gams</placeName> ist flüchtig geschrieben, schwer
+               lesbar und enthält viele Streichungen, weshalb es sich um einen Entwurf handeln muss. Eine
+               gesiegelte Originalurkunde ist nicht auffindbar.
+               <!--Glarus, auch nichts, Ratsprotokolle???XXX SZ Ratsprot auch nichts, nur, dass 10.3.1798 beschlossen wird an ausserordentlicher Landsgemeinde, dass alle übrige unsere Angehörigen, die noch nicht ausdrücklich entlassen, von heute an für frei erklärt sind (HA.III.285, p 500 ed bei Wiget 1997 Bd 89 MHVS online --></p></div>
+         <div n="2">
+            <p>Über die geschichtlichen Ereignisse in der Herrschaft <placeName ref="loc006040"
+                  >Hohensax-Gams</placeName> während des Übergangs zur Helvetischen Republik ist
+               wenig bekannt. Die Darstellungen in der Literatur (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000081018">Kessler 1985</ref>,
+                  S.&#160;56–59</bibl>; <bibl><ref
+                     target="
+                  http://permalink.snl.ch/bib/chbsg000141030">Reich
+                     1998</ref>, S.&#160;46–47</bibl>) beruhen weitgehend auf den Ausführungen von
+                     <bibl><ref target="http://permalink.snl.ch/bib/chbsg000113555">Senn,
+                     Chronik</ref>, S.&#160;331</bibl>, die ohne Quellenangaben und grösstenteils
+               von zeitgenössischen Erzählungen stammen. <orgName ref="org001881">Gams</orgName> hat
+               sich jedoch den Freiheitsbewegungen in der unmittelbaren Nachbarschaft nicht
+               angeschlossen: Am <date when="1798-03-07">7. März 1798</date> versichert Gams in
+               einem Schreiben dem Stand <orgName ref="org001191">Schwyz</orgName>, dass sie keinen
+               Freiheitsbaum aufgerichtet hätten, dass es <orig>weit entfernet seye von unß, dies
+                  unordentliche beyspille nachzuahmen, die wir ihrer stifftung und ursprungs wegen
+                  für verabscheuchungswürdig ansehen und einem getreüen <term ref="lem000900"
+                     >volck</term>, daß seiner rechtmäßigen <term ref="lem000720">obrigkeit</term>
+                  ganz ergeben</orig>, vollkommen widerspreche. Vielmehr hätten sie sich den
+               Aufforderungen ihrer Nachbarn, solche Bäume aufzurichten, widersetzt und hätten sogar
+                  <term ref="key000580">Wachen</term> aufgestellt, damit ihnen niemand
+               Freiheitsbäume aufzwingen könne. An der heutigen <term ref="key004360"
+                  >Landsgemeinde</term> hätten sie zudem beschlossen, ihren <term ref="key000817"
+                  >Vertrag</term> von <date when="1497">1497</date> (<ref>SSRQ_SG_III_4_094</ref>;
+               im Schreiben versehentlich 1479) mit den beiden Orten <orgName ref="org001191"
+                  >Schwyz</orgName> und <orgName ref="org001197">Glarus</orgName> erhalten und
+               schützen zu wollen (<bibl><ref>StASZ HA.IV.470.003,&#160;Nr.&#160;64</ref></bibl>.
+               Auch der Landvogt von Sax-Forstegg, der am <date when="1798-02-06">6. Februar</date>
+               über Unruhen in den Nachbargebieten berichtet, erwähnt nur <placeName ref="loc000440"
+                  >Werdenberg</placeName>, das <placeName ref="loc001075">Rheintal</placeName> und
+               das <placeName ref="loc000782">Toggenburg</placeName>, nicht aber <placeName
+                  ref="loc000211">Hohensax-Gams</placeName> [<bibl><ref>StAZH A 93.3</ref>, Nr.
+                  158</bibl>]).</p>
+            <p>Am <date when="1798-03-10">10. März 1798</date> wird an einer ausserordentlichen
+               Landsgemeinde in Schwyz beschlossen, dass alle Angehörigen der Landschaften, die noch nicht
+               ausdrücklich in die Freiheit entlassen worden seien, von heute an für frei erklärt sein sollen
+               (<bibl><ref target="https://query.staatsarchiv.sz.ch/detail.aspx?ID=371412">StASZ
+                  HA.III.285</ref>, S.&#160;500 [Pdf, S.&#160;176]</bibl>; Druck: <bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000091380">Wiget 1997</ref>, S.&#160;46</bibl>).
+               Doch erst als laut Inhalt des vorliegenden Entwurfs am <date when="1798-03-21">21. März
+                  1798</date> die beiden Gamser Abgeordneten Säckelmeister <persName ref="per010783">Johann
+                     Hardegger</persName> und <persName ref="per010784">Michael Hardegger</persName> versichern,
+               dass die jährlichen <term ref="key000154">Zinsen</term> bis zur <term ref="key000685"
+                  >Ablösung</term> bezahlt würden, entlässt Schwyz auch die <orgName ref="org001881"
+                     >Gamser</orgName> in die Freiheit. Glarus hatte Gams bereits am <date calendar="Gregorian"
+                        when="1798-03-11">11. März 1798</date> für frei und unabhängig erklärt mit der Bedingung, dass
+               sie Schwyz und Glarus die <orig>gült brief wie bis anhin verzinset oder das capital bezalt
+                  hat</orig> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/22acebab9be045be9a31e1564d611365"
+                     >LAGL&#160;AAA&#160;1/87 S.&#160;429</ref></bibl>).</p>
+            <p>Am <date when="1798-05-12">12. Mai 1798</date> erscheinen <persName ref="per010785"
+                  >Anton Lenherr</persName> und <persName ref="per010784">Michael
+                  Hardegger</persName> als Abgeordnete der Gemeinde <orgName ref="org001881"
+                  >Gams</orgName> vor General <persName ref="per010790a">von Schauenburg</persName>
+               und zeigen an, dass sie die Helvetische Konstitution einstimmig angenommen haben.
+               Dieser rät ihnen, die Annahme dem Direktor der <placeName ref="loc008548.01"
+                  >Helvetischen Republik</placeName> in <placeName ref="loc000121">Aarau</placeName>
+               anzuzeigen (<bibl><ref>OGA&#160;Gams&#160;Nr.&#160;212</ref></bibl>). Nach Senn
+               verlangen <date when="1804">1804</date> Schwyz und Glarus den <date when="1497"
+                  >1497</date> vorgeschossenen Kaufbetrag von 4920 Gulden (laut Zinsbrief von 1497
+               sind es allerdings 4000 Gulden, siehe <ref>SSRQ SG III/4 93</ref>, Kommentar 2), für
+               den Gams jährlich über Jahrhunderte 200 Gulden Zins bezahlt hat, zurück. Während
+               Schwyz ihr Kapital von 1750 Gulden der Pfarrkirche <placeName ref="loc006041"
+                  >Gams</placeName> übergibt, behält Glarus seine gesamte Einlage (<bibl><ref
+                     target="http://permalink.snl.ch/bib/chbsg000113555">Senn, Chronik</ref>,
+                  S.&#160;103</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000081018"
+                     >Kessler 1985</ref>, S.&#160;39–42</bibl>).</p>
+            <p>Die Gamser erhalten zwar im Vergleich zu ihren Nachbarn erst spät ihre Unabhängigkeit; der
+               Übergang erfolgt jedoch ohne grössere Unruhen. Naheliegend ist dabei die Vermutung von Kessler,
+               die Zurückhaltung der Gamser in Sachen Unabhängigkeit mit der Tatsache in Verbindung zu
+               bringen, dass die Gamser seit dem <date from="1401" to="1500">15.&#160;Jh.</date> mehr
+               Freiheiten besassen als die umliegenden <term ref="key000649">Herrschaftsgebiete</term>
+               (<ref>SSRQ_SG_III_4_059</ref>; <ref>SSRQ_SG_III_4_094</ref>; <bibl><ref
+                  target="http://permalink.snl.ch/bib/chbsg000081018">Kessler 1985</ref>,
+                  S.&#160;56–59</bibl>). </p>
+         </div>
+         <div n="3"><p>Die gemeine Landvogtei <placeName ref="loc000842">Gaster</placeName>, der Hohensax-Gams
+               verwaltungstechnisch angegliedert ist, wird bereits am <date when="1798-03-06">6.
+                  März 1798</date> durch <orgName ref="org001191">Schwyz</orgName> aus dem
+               Untertanenverhältnis entlassen (Druck: <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_1/index.html#p_241"
+                     >SSRQ&#160;SG III/1,&#160;Nr.&#160;146a</ref></bibl>; <bibl><ref
+                        target="
+                        http://permalink.snl.ch/bib/chbsg000143823">EA,
+                        Bd.&#160;8</ref>, <ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/1387096">S.&#160;674</ref></bibl>), gefolgt von <orgName ref="org001197"
+                  >Glarus</orgName> am <date when="1798-03-11">11. März 1798</date> (Druck:
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/GL_1.1/index.html#p_519"
+                     >SSRQ&#160;GL/1.1, Nr.&#160;192F</ref></bibl>; <bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_1/index.html#p_242"
+                     >SSRQ&#160;SG III/1, Nr.&#160;146b</ref></bibl>). Hohensax-Gams wird darin
+               nicht erwähnt. </p></div>
+      </back>
+   </text>
+   
+</TEI>

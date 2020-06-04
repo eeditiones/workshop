@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="volume">When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990 (Quaderni di Dodis 12)</title>
+                <title n="46">DDR - Neue Regierung und Politik</title>
+                <author>Marc Dierikx, Sacha Zala</author>
+            </titleStmt>
+            <extent>
+                <measure unit="pages" quantity="3"/>
+            </extent>
+            <publicationStmt>
+                <publisher>Diplomatische Dokumente der Schweiz</publisher>
+                <date>2019</date>
+                <pubPlace>Bern</pubPlace>
+                <idno type="URI">http://dodis.ch/q12</idno>
+                <idno type="DOI">10.5907/Q12</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>49550</idno>
+                    </msIdentifier>
+                    <head>DDR - Neue Regierung und Politik</head>
+                    <msContents>
+                        <summary>Der Botschafter der DDR in der Schweiz, E. Bikow, sucht das eidgenössische Departement für auswärtige Angelegenheiten auf, um eine Erklärung der Volkskammer zu übergeben und über die bilateralen Beziehungen, insbesondere über Visafragen, zu sprechen.
+
+Darin: Gemeinsame Erklärung aller Fraktionen der Volkskammer vom 12.4.1990</summary>
+                    </msContents>
+                    <history>
+                        <origin when="1990-04-18">18.4.1990</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de">German</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#type">
+                    <term>Memo</term>
+                </keywords>
+                <keywords scheme="#related">
+                    <term>International perceptions of the German reunification 1989–1990</term>
+                    <term>Germany – FRG (Politics)</term>
+                    <term>Germany – GDR (Politics)</term>
+                </keywords>
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#P27996">Woker, Daniel (1948–)</persName>
+                    <orgName ref="#R28815">EDA/Politische Direktion/Politische Abteilung I</orgName>
+                </correspAction>
+                <correspAction type="signatory">
+                    <persName ref="#P57668">Ifrid, Heidi (1967–)</persName>
+                </correspAction>
+                <correspAction type="received-copy">
+                    <persName ref="#P19511">Jacobi, Klaus (1929–2004)</persName>
+                    <persName ref="#P27988">Pasche, René (1942–)</persName>
+                    <persName ref="#P20812">Staehelin, Jenö (1940–)</persName>
+                    <persName ref="#P27996">Woker, Daniel (1948–)</persName>
+                    <orgName ref="#R26545">EDA/Politische Direktion/Zentrale Dienste/Politisches Sekretariat</orgName>
+                    <orgName ref="#R442">EDA/Direktion für Verwaltungsangelegenheiten und Aussendienst</orgName>
+                    <orgName ref="#R8875">EDA/Direktion für Völkerrecht</orgName>
+                    <orgName ref="#R759">EJPD/Eidgenössische Fremdenpolizei</orgName>
+                    <orgName ref="#R88">EVD/Handelsabteilung</orgName>
+                    <orgName ref="#R19314">Swiss Embassy in East Berlin</orgName>
+                </correspAction>
+            </correspDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="P54792">
+                        <persName>
+                            <forename>Eckhard</forename>
+                            <surname>Bibow</surname>
+                        </persName>
+                        <persName type="full">Bibow, Eckhard (1930–)</persName>
+                        <persName>Bibow, Eckhard</persName>
+                        <note>Botschafter der DDR in der Schweiz 1986–1990</note>
+                        <birth when="1930-05-02">
+                            <placeName>Lübtheen</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54792</idno>
+                        <note>Botschafter der DDR in der Schweiz 1986–1990</note>
+                    </person>
+                    <person xml:id="P54817">
+                        <persName>
+                            <forename>Werner</forename>
+                            <surname>Fleck</surname>
+                        </persName>
+                        <persName type="full">Fleck, Werner (1931–)</persName>
+                        <persName>Fleck, Werner</persName>
+                        <birth when="1931-06-03">
+                            <placeName>Rosslau</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54817</idno>
+                    </person>
+                    <person xml:id="P57668">
+                        <persName>
+                            <forename>Heidi</forename>
+                            <surname>Ifrid</surname>
+                        </persName>
+                        <persName type="full">Ifrid, Heidi (1967–)</persName>
+                        <persName>Ifrid, Heidi</persName>
+                        <birth when="1967-01-01"/>
+                        <sex>female</sex>
+                        <idno type="URI">https://dodis.ch/P57668</idno>
+                    </person>
+                    <person xml:id="P19511">
+                        <persName>
+                            <forename>Klaus</forename>
+                            <surname>Jacobi</surname>
+                        </persName>
+                        <persName type="full">Jacobi, Klaus (1929–2004)</persName>
+                        <persName>Jacobi, Klaus Christoph</persName>
+                        <persName>Jacobi, Klaus</persName>
+                        <persName>JB</persName>
+                        <persName>Ja</persName>
+                        <persName>JK</persName>
+                        <persName>KJ</persName>
+                        <birth when="1929-11-12">
+                            <placeName>Biel/Bienne</placeName>
+                        </birth>
+                        <death when="2004-07-13">
+                            <placeName>Bern</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P19511</idno>
+                        <note>Staatssekretär des Departements für auswärtige Angelegenheiten 1989–1992</note>
+                    </person>
+                    <person xml:id="P54793">
+                        <persName>
+                            <forename>Markus</forename>
+                            <surname>Meckel</surname>
+                        </persName>
+                        <persName type="full">Meckel, Markus (1952–)</persName>
+                        <persName>Meckel, Markus</persName>
+                        <birth when="1952-08-18">
+                            <placeName>Müncheberg</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54793</idno>
+                        <note>Aussenminister der DDR 12.4.–20.8.1990</note>
+                    </person>
+                    <person xml:id="P51057">
+                        <persName>
+                            <forename>Kurt</forename>
+                            <surname>Nier</surname>
+                        </persName>
+                        <persName type="full">Nier, Kurt (1927–)</persName>
+                        <persName>Nier, Kurt</persName>
+                        <birth when="1927-07-23"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P51057</idno>
+                        <note>Stellvertretender Aussenminister der DDR 1973–1989</note>
+                    </person>
+                    <person xml:id="P27988">
+                        <persName>
+                            <forename>René</forename>
+                            <surname>Pasche</surname>
+                        </persName>
+                        <persName type="full">Pasche, René (1942–)</persName>
+                        <persName>Pasche, René</persName>
+                        <persName>PH</persName>
+                        <persName>Pasche, René Henri</persName>
+                        <persName>PR</persName>
+                        <birth when="1942-04-06">
+                            <placeName>Zürich</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P27988</idno>
+                    </person>
+                    <person xml:id="P20812">
+                        <persName>
+                            <forename>Jenö</forename>
+                            <surname>Staehelin</surname>
+                        </persName>
+                        <persName type="full">Staehelin, Jenö (1940–)</persName>
+                        <persName>Staehelin, J.C.A.</persName>
+                        <persName>Staehelin, Jenö</persName>
+                        <persName>Staehelin (-Schindler), Jenö Carl Albert</persName>
+                        <persName>SIN</persName>
+                        <birth when="1940-01-14">
+                            <placeName>Bâle</placeName>
+                        </birth>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P20812</idno>
+                    </person>
+                    <person xml:id="P27996">
+                        <persName>
+                            <forename>Daniel</forename>
+                            <surname>Woker</surname>
+                        </persName>
+                        <persName type="full">Woker, Daniel (1948–)</persName>
+                        <persName>Wo</persName>
+                        <persName>Woker, Daniel</persName>
+                        <persName>WOK</persName>
+                        <birth when="1948-10-10"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P27996</idno>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="R11611">
+                        <orgName>Deutschland/BRD/Christlich-Soziale Union</orgName>
+                        <idno type="URI">https://dodis.ch/R11611</idno>
+                    </org>
+                    <org xml:id="R442">
+                        <orgName>EDA/Direktion für Verwaltungsangelegenheiten und Aussendienst</orgName>
+                        <idno type="URI">https://dodis.ch/R442</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R8875">
+                        <orgName>EDA/Direktion für Völkerrecht</orgName>
+                        <idno type="URI">https://dodis.ch/R8875</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R28815">
+                        <orgName>EDA/Politische Direktion/Politische Abteilung I</orgName>
+                        <idno type="URI">https://dodis.ch/R28815</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R26545">
+                        <orgName>EDA/Politische Direktion/Zentrale Dienste/Politisches Sekretariat</orgName>
+                        <idno type="URI">https://dodis.ch/R26545</idno>
+                    </org>
+                    <org xml:id="R759">
+                        <orgName>EJPD/Eidgenössische Fremdenpolizei</orgName>
+                        <idno type="URI">https://dodis.ch/R759</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R88">
+                        <orgName>EVD/Handelsabteilung</orgName>
+                        <idno type="URI">https://dodis.ch/R88</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R8864">
+                        <orgName>Germany/FRG/Parliament</orgName>
+                        <idno type="URI">https://dodis.ch/R8864</idno>
+                        <placeName ref="#G2101">Bonn</placeName>
+                    </org>
+                    <org xml:id="R28813">
+                        <orgName>Germany/GDR/Embassy in Bern</orgName>
+                        <idno type="URI">https://dodis.ch/R28813</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R31996">
+                        <orgName>Germany/GDR/German Social Union</orgName>
+                        <idno type="URI">https://dodis.ch/R31996</idno>
+                    </org>
+                    <org xml:id="R4181">
+                        <orgName>Germany/GDR/Government</orgName>
+                        <idno type="URI">https://dodis.ch/R4181</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R9365">
+                        <orgName>Germany/GDR/Ministry of Foreign Affairs</orgName>
+                        <idno type="URI">https://dodis.ch/R9365</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                    <org xml:id="R10937">
+                        <orgName>Germany/GDR/State</orgName>
+                        <idno type="URI">https://dodis.ch/R10937</idno>
+                    </org>
+                    <org xml:id="R19314">
+                        <orgName>Swiss Embassy in East Berlin</orgName>
+                        <idno type="URI">https://dodis.ch/R19314</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                </listOrg>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="G31">
+                        <placeName>Austria</placeName>
+                        <location>
+                            <geo>47.51623 14.550072</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G31</idno>
+                    </place>
+                    <place xml:id="G25">
+                        <placeName>Berlin</placeName>
+                        <location>
+                            <geo>52.520008 13.404954</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G25</idno>
+                    </place>
+                    <place xml:id="G73">
+                        <placeName>Czechoslovakia</placeName>
+                        <location>
+                            <geo>50.083333 14.416667</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G73</idno>
+                    </place>
+                    <place xml:id="G283">
+                        <placeName>German Democratic Republic (1949-1990)</placeName>
+                        <location>
+                            <geo>52.052 12.389</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G283</idno>
+                    </place>
+                    <place xml:id="G1761">
+                        <placeName>Israel</placeName>
+                        <location>
+                            <geo>31.046051 34.851612</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G1761</idno>
+                    </place>
+                    <place xml:id="G4452">
+                        <placeName>Oder–Neisse line</placeName>
+                        <location>
+                            <geo>51.69654 14.715844</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G4452</idno>
+                    </place>
+                    <place xml:id="G71">
+                        <placeName>Prague</placeName>
+                        <location>
+                            <geo>50.07554 14.4378</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G71</idno>
+                    </place>
+                    <place xml:id="G30">
+                        <placeName>Russia</placeName>
+                        <location>
+                            <geo>63.7225 83.577778</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G30</idno>
+                    </place>
+                    <place xml:id="G3581">
+                        <placeName>West Berlin</placeName>
+                        <location>
+                            <geo>52.484946 13.343708</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G3581</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="49550-0.png"/>
+        <graphic url="49550-1.png"/>
+        <graphic url="49550-2.png"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="doc">
+                <head>
+                    <ref target="http://dodis.ch/49550">dodis.ch/49550</ref>
+                    <title type="main">Interne Notiz<note xml:id="e642">Notiz: <idno type="CH-BAR">CH-BAR#E2010A#1999/250#7145*(B.73.0).</idno> Verfasst von <persName ref="#57668">D. Woker</persName>,
+                        unterzeichnet in Wokers Abwesenheit von <persName ref="#P57668">Heidi Ilfrid</persName>. Kopie an Klaus
+                            Jacobi, Jenno Staehelin, Daniel Woker, René Pascge, die Sektion Mittel-
+                            und Osteuropäische Länder, die Direktion für Verwaltungsangelegenheiten
+                            und Aussendienst, die Völkerrechtsdirektion sowie das Politisches
+                            Sekretariat des Politischen Departements, die schweizerische Botschaft
+                            in Berlin sowie an das Bundesamt für Ausländerfragen des Justiz- und
+                            Polizeidepartements <orig>(Für Para 3, mit Hinweis auf Ihre Vorlage vom
+                                16.3. «Visumspolitische Standortbestimmung», </orig>
+                            <ref target="http://dodis.ch/53405">dodis.ch/53405</ref>, <orig>unsere
+                                Stellungnahme dazu vom 27.03.</orig>, <ref target="http://dodis.ch/53407">dodis.ch/53407</ref> und <ref target="http://dodis.ch/53410">dodis.ch/53410</ref>, <orig>und das
+                                Schreiben unserer Botschaft in Berlin vom 07.02. «Visumpflicht
+                                DDR-Schweiz»</orig>, <ref target="http://dodis.ch/53402">dodis.ch/53402</ref>
+                            <orig>, sowie der freundlichen Bitte um
+                                Hinweis, wie Sie nun weiter vorgehen wollen.) </orig>
+                        </note> des
+                        Eidgenösssichen Departements für auswärtige Angelegenheiten</title>
+                    <title type="sub">DDR — Neue Regierung und Politik</title>
+                </head>
+                <opener>
+                    <dateline>
+                        <placeName>Bern, </placeName>
+                        <date when="1990-04-18">18. April 1990</date>
+                    </dateline>
+                </opener>
+                <p n="1">Heute Mittwoch, 18.4. sucht mich der Botschafter der DDR (<persName ref="#P54792">B<add type="edition">[ibow]</add></persName>) auf mit folgendem Anliegen:</p>
+                <p>1. Er übergibt die <emph n="1">«Gemeinsame Erklärung aller Fraktionen der
+                        Volkskammer»</emph> vom 12.4.1990 (Beilage<note xml:id="e874">Gemeinsame
+                        Erklärung aller Fraktion des Volkskammer vom 12. April 1990, <ref target="http://dodis.ch/52353">dodis.ch/52353</ref>.</note>). Bei der
+                    aus den Medien in den Hauptpunkten ja bekannten Erklärung handelt es sich, in
+                    den Worten von B <add type="edition">[ibow] </add> , um eine Generalabrechnung
+                    mit der bisher von der DDR verleugneten unseligen Vergangenheit der Deutschen,
+                    sowie späterer unrühmlicher DDR-Aktionen. Offizielle Entschuldigungen werden das
+                    jüdische Volk und Israel, an die Sowjetunion, an die CFSR (wegen der
+                    Niederschlagung des Prager Frühlings) gerichtet und die Unverletzlichkeit der
+                    gegenwärtigen polnischen Westgrenze festgestellt.</p>
+                <p n="1">2. B<add type="edition">[ibow] </add> unterstreicht weiter das Interesse
+                    der neuen Regierung an <emph> bilateralen Beziehungen</emph> mit der Schweiz. Er
+                    erkundigt sich nach einem möglichen Termin des grundsätzlich bereits
+                    festgelegten Besuches von Staatssekretär <persName ref="#P19511">Klaus Jacobi</persName> in Berlin. Der Unterzeichnete bestätigt dieses Interesse
+                    und schlägt Juli 1990 vor<note xml:id="e888">Der Besuch fand am 11. Oktober 1990
+                        statt.</note>.</p>
+                <p>Der Ball liegt nun auf Seiten der DDR, welche mit einem konkreten Datumsvorschlag
+                    aufwarten will, sobald die Person des Gastgebers, des künftigen Nr. 2 im A<add type="edition">[ussenministerium]</add> bekannt ist. Laut B<add type="edition">[ibow] </add> wird der derzeitige interimistische Inhaber,
+                    Fleck, sehr wahrscheinlich abgelöst (<persName ref="#P51057">Kurt Nier</persName>                        
+                    wurde bereits vor
+                    einiger Zeit in Pension geschickt) und durch einen Politiker der DSU (CSU der
+                    DDR) ersetzt. Der sozialdemokratische neue AM <persName ref="#P54793">Meckel</persName>
+                    habe sich bereits dahingehend
+                    geäussert, dass er mit einem DSU-Mann leben könne.</p>
+                <p n="1">3. Schliesslich kommt B<add type="edition">[ibow] </add> auf die
+                        <emph>Visafrage</emph> zu sprechen. Die praktischen Schwierigkeiten zur
+                    Bewältigung schweizerischer Visagesuche würden an seiner Botschaft immer
+                    grösser. (Ein schweizerisches Visagesuch muss via ein Reiseunternehmen
+                    eingereicht werden und gelangt nach 4–8 Wochen und Bewilligungsverfahren
+                    interner DDR-Behörden (laut B<add type="edition">[ibow] </add> u. a. zur
+                    Sicherung der Unterkunft) an die hiesige Botschaft zur Ausstellung)
+                    Direktvisaausstellung könne er, B<add type="edition">[ibow]</add>, nur in
+                    Ausnahmefällen gestatten. Ich weise B<add type="edition">[ibow]</add> auf die
+                    Diskrepanz hin im Fristenzug (DDR 4–8 Wochen, schweizerische Visa für DDR-Bürger
+                    höchstens 24 Stunden); B<add type="edition">[ibow]</add> habe dieses Problem
+                    bereits mit Berlin aufgenommen und werde dies nun wieder tun, um von seinen
+                    Behörden erweiterten Spielraum für Direktvisaausstellung zu erhalten.</p>
+                <p>Grundsätzlich, darin sind sich B<add type="edition">[ibow]</add> und der
+                    Unterzeichnete einig, kann das Problem aber nur durch Abschaffung des Visazwangs
+                    gelöst werden. B<add type="edition">[ibow]</add> erklärt die Bereitschaft der
+                    DDR-Regierung, durch eine formlose, mündliche und gegenseitige Erklärung den
+                    Visazwang probeweise mit unmittelbarer Wirkung aufzuheben. Nach Ablauf der
+                    Probefrist könne die Aufhebung vertraglich abgesichert werden. Die DDR sei z.B.
+                    mit Österreich so vorgegangen.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

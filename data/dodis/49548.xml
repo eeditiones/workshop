@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="volume">When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents 1989–1990 (Quaderni di Dodis 12)</title>
+                <title n="14">DDR: Nicht nur die Mauer zittert</title>
+                <author>Marc Dierikx, Sacha Zala</author>
+            </titleStmt>
+            <extent>
+                <measure unit="pages" quantity="2"/>
+            </extent>
+            <publicationStmt>
+                <publisher>Diplomatische Dokumente der Schweiz</publisher>
+                <date>2019</date>
+                <pubPlace>Bern</pubPlace>
+                <idno type="URI">http://dodis.ch/q12</idno>
+                <idno type="DOI">10.5907/Q12</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>49548</idno>
+                    </msIdentifier>
+                    <head>DDR: Nicht nur die Mauer zittert</head>
+                    <msContents>
+                        <summary>Aufgrund der Bekanntgabe der neuen Reiseregelungen für DDR-Bürger wird mit DDR-Vertreter Tschierlich unter anderem über die künftige Visapraxis der Schweiz gegenüber der DDR diskutiert.</summary>
+                    </msContents>
+                    <history>
+                        <origin when="1989-11-13">13.11.1989</origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de">German</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#type">
+                    <term>Memo</term>
+                </keywords>
+                <keywords scheme="#related">
+                    <term>International perceptions of the German reunification 1989–1990</term>
+                    <term>Germany – FRG (Politics)</term>
+                    <term>Germany – GDR (Politics)</term>
+                </keywords>
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#P27996">Woker, Daniel (1948–)</persName>
+                    <orgName ref="#R28815">EDA/Politische Direktion/Politische Abteilung I</orgName>
+                </correspAction>
+                <correspAction type="signatory">
+                    <persName ref="#P27996">Woker, Daniel (1948–)</persName>
+                </correspAction>
+                <correspAction type="received-copy">
+                    <persName ref="#P24523">Arioli, Silvio (1938–)</persName>
+                    <persName ref="#P19511">Jacobi, Klaus (1929–2004)</persName>
+                    <orgName ref="#R26545">EDA/Politische Direktion/Zentrale Dienste/Politisches Sekretariat</orgName>
+                    <orgName ref="#R442">EDA/Direktion für Verwaltungsangelegenheiten und Aussendienst</orgName>
+                    <orgName ref="#R354">EDA/Politische Direktion/Zentrale Dienste/Information und Presse</orgName>
+                    <orgName ref="#R759">EJPD/Eidgenössische Fremdenpolizei</orgName>
+                    <orgName ref="#R10195">EJPD/Generalsekretariat</orgName>
+                    <orgName ref="#R32063">EVD/Handelsabteilung/Wirtschaftliche Zusammenarbeit Ost-West (ECE/UNO)</orgName>
+                    <orgName ref="#R1208">Swiss Embassy in Bonn (1977-)</orgName>
+                    <orgName ref="#R19314">Swiss Embassy in East Berlin</orgName>
+                </correspAction>
+            </correspDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="P24523">
+                        <persName>
+                            <forename>Silvio</forename>
+                            <surname>Arioli</surname>
+                        </persName>
+                        <persName type="full">Arioli, Silvio (1938–)</persName>
+                        <persName>As</persName>
+                        <persName>A</persName>
+                        <persName>AR</persName>
+                        <persName>Arioli, Silvio</persName>
+                        <birth when="1938-01-01"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P24523</idno>
+                    </person>
+                    <person xml:id="P19511">
+                        <persName>
+                            <forename>Klaus</forename>
+                            <surname>Jacobi</surname>
+                        </persName>
+                        <persName type="full">Jacobi, Klaus (1929–2004)</persName>
+                        <persName>Jacobi, Klaus Christoph</persName>
+                        <persName>Jacobi, Klaus</persName>
+                        <persName>JB</persName>
+                        <persName>Ja</persName>
+                        <persName>JK</persName>
+                        <persName>KJ</persName>
+                        <birth when="1929-11-12">
+                            <placeName>Biel/Bienne</placeName>
+                        </birth>
+                        <death when="2004-07-13">
+                            <placeName>Bern</placeName>
+                        </death>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P19511</idno>
+                    </person>
+                    <person xml:id="P54816">
+                        <persName>
+                            <forename>Arnold</forename>
+                            <surname>Tschirlich</surname>
+                        </persName>
+                        <persName type="full">Tschirlich, Arnold</persName>
+                        <persName>Tschirlich, Arnold</persName>
+                        <persName>Tschierlich, Arnold</persName>
+                        <note>Botschaftsrat an der Botschaft der DDR in Bern 27.6.1986–1990</note>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P54816</idno>
+                    </person>
+                    <person xml:id="P27996">
+                        <persName>
+                            <forename>Daniel</forename>
+                            <surname>Woker</surname>
+                        </persName>
+                        <persName type="full">Woker, Daniel (1948–)</persName>
+                        <persName>Wo</persName>
+                        <persName>Woker, Daniel</persName>
+                        <persName>WOK</persName>
+                        <birth when="1948-10-10"/>
+                        <sex>male</sex>
+                        <idno type="URI">https://dodis.ch/P27996</idno>
+                    </person>
+                </listPerson>
+                <listOrg>
+                    <org xml:id="R442">
+                        <orgName>EDA/Direktion für Verwaltungsangelegenheiten und Aussendienst</orgName>
+                        <idno type="URI">https://dodis.ch/R442</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R28815">
+                        <orgName>EDA/Politische Direktion/Politische Abteilung I</orgName>
+                        <idno type="URI">https://dodis.ch/R28815</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R354">
+                        <orgName>EDA/Politische Direktion/Zentrale Dienste/Information und Presse</orgName>
+                        <idno type="URI">https://dodis.ch/R354</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R26545">
+                        <orgName>EDA/Politische Direktion/Zentrale Dienste/Politisches Sekretariat</orgName>
+                        <idno type="URI">https://dodis.ch/R26545</idno>
+                    </org>
+                    <org xml:id="R759">
+                        <orgName>EJPD/Eidgenössische Fremdenpolizei</orgName>
+                        <idno type="URI">https://dodis.ch/R759</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R10195">
+                        <orgName>EJPD/Generalsekretariat</orgName>
+                        <idno type="URI">https://dodis.ch/R10195</idno>
+                    </org>
+                    <org xml:id="R32063">
+                        <orgName>EVD/Handelsabteilung/Wirtschaftliche Zusammenarbeit Ost-West (ECE/UNO)</orgName>
+                        <idno type="URI">https://dodis.ch/R32063</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R28813">
+                        <orgName>Germany/GDR/Embassy in Bern</orgName>
+                        <idno type="URI">https://dodis.ch/R28813</idno>
+                        <placeName ref="#G43">Bern</placeName>
+                    </org>
+                    <org xml:id="R10937">
+                        <orgName>Germany/GDR/State</orgName>
+                        <idno type="URI">https://dodis.ch/R10937</idno>
+                    </org>
+                    <org xml:id="R1208">
+                        <orgName>Swiss Embassy in Bonn (1977-)</orgName>
+                        <idno type="URI">https://dodis.ch/R1208</idno>
+                    </org>
+                    <org xml:id="R19314">
+                        <orgName>Swiss Embassy in East Berlin</orgName>
+                        <idno type="URI">https://dodis.ch/R19314</idno>
+                        <placeName ref="#G3061">East Berlin</placeName>
+                    </org>
+                </listOrg>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="G283">
+                        <placeName>German Democratic Republic (1949-1990)</placeName>
+                        <location>
+                            <geo>52.052 12.389</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G283</idno>
+                    </place>
+                    <place xml:id="G3581">
+                        <placeName>West Berlin</placeName>
+                        <location>
+                            <geo>52.484946 13.343708</geo>
+                        </location>
+                        <idno type="URI">https://dodis.ch/G3581</idno>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="49548-0.png"/>
+        <graphic url="49548-1.png"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="doc">
+                <head>
+                    <ref target="http://dodis.ch/49548">dodis.ch/49548</ref>
+                    <title type="main">Interne Notiz<note xml:id="e735">Notiz: <idno type="CH-BAR">
+                                CH-BAR#E2010A#1999/250#7145*(B.73.0).</idno> Verfasst und
+                        unterzeichnet von <persName ref="#P27996">Daniel Woker</persName>. Kopie an: <persName ref="#P24523">Silvio Arioli</persName>, <persName ref="#P19511">Klaus Jacobi</persName>, die
+                            Sektion Mittel- und Osteuropäische Länder, das Sekratariat des
+                            Departementschefs, das Politisches Sekretariat, die Direktion für
+                            Verwaltungsangelegenheiten und Aussendienst sowie der Presse- und
+                            Informationsdienst des Politischen Departements, das Bundesamt für
+                            Ausländerfragen des Justiz- und Polizeidepartements sowie die
+                            schweizerischen Botschaften in Berlin und Bonn.</note> des
+                        Eidgenössischen Departements für auswärtige Angelegenheiten</title>
+                    <title type="sub">DDR: Nicht nur die Mauer zittert</title>
+                </head>
+                <opener>
+                    <dateline>
+                        <placeName>Bern, </placeName>
+                        <date when="1989-11-13">13. November 1989</date>
+                    </dateline>
+                </opener>
+                <p>Am Freitag, 10.11.1989, empfängt der Unterzeichnete den DDR-Botschaftsrat
+                    <persName ref="#P54816">Tschirlich</persName>, auf dessen dringendes
+                    Ersuchen und, in T<add type="edition">[schierlich]</add>’s Worten, als
+                    offizielle Vorstellung der DDR gegenüber den schweizerischen Behörden mit Blick
+                    auf das heutige historische Ereignis.</p>
+                <p>T<add type="edition">[schierlich]</add> erscheint ausgesprochen «dépassé par les
+                    évènements». Er übergibt zunächst die beiliegende Informationsnotiz<note xml:id="e624">Notiz der Botschaft der DDR in Bern vom 10. November 1989,
+                            <ref target="http://dodis.ch/52350">dodis.ch/52350</ref>.</note>. Sowohl
+                    die darin enthaltene Regelung wie auch T<add type="edition">[schierlich]</add>’s
+                    Anmerkung, die Mauer bestehe unveränderlich weiter und habe weiterhin ihre
+                    Funktion als Grenze sind zum Zeitpunkt seiner Intervention (später Freitag
+                    Nachmittag) teilweise bereits überholt. Zwei Aspekte in T<add type="edition">[schierlich]</add>’s teilweise etwas wirren Ausführungen verdienen indes
+                    Aufmerksamkeit:</p>
+                <p>– In seiner Botschaft hatten sich heute eine grosse Anzahl Schweizer nach
+                    formlosen Ausreisemöglichkeiten DDR – Schweiz (für Verwandte etc.) rsp.
+                    ebensolche Reisemöglichkeiten in die DDR erkundigt. Die DDR-Behörden gingen
+                    davon aus, dass die geltenden Visa-Vorschriften zwischen der DDR und der Schweiz
+                    weiterhin gelten.</p>
+                <p>– T<add type="edition">[schierlich]</add> scheint sich, allerdings sehr
+                    verklausuliert, zu erkundigen, ob die Schweiz einer «nun reformierten» DDR
+                    Unterstützung gewähren würde, «da durch die neue Reiseregelung sehr viel
+                    Substanz verloren gehe».</p>
+                <p>Ich antwortete T<add type="edition">[schierlich]</add> im Sinne der heute von
+                    Presse- und Informationsdienst aufgelegten Mitteilung, dass wir die Öffnung der
+                    DDR-Grenze als Schritt Richtung Freiheit und Demokratie sehr begrüssten.</p>
+                <p>
+                    <emph>Abzuklären:</emph> Soll und muss die schweizerische Visapraxis mit der DDR
+                    im Lichte der jüngsten Ereignisse überprüft werden? Dies auch im Lichte der eben
+                    eingetroffenen Mitteilung unserer Botschaft in Berlin (Tlx 72 vom 10.11. in
+                        Beilage<note xml:id="e629">Telex Nr. 72 der schweizerischen Botschaft in
+                        Berlin vom 10. November 1989, <ref target="http://dodis.ch/52351">dodis.ch/52351</ref>.</note>) die ebenfalls mit Anfragen überschwemmt
+                    wird.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

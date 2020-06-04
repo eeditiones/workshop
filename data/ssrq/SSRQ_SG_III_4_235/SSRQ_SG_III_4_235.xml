@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Textkritik_Version_tei-ssrq.css"?>
+<?xml-stylesheet type="text/css" href="https://www.ssrq-sds-fds.ch/tei/Inhalt_Version_tei-ssrq.css"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     n="1234"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print"/>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ_SG_III_4_235</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno source="https://archivverzeichnis.gl.ch/home/#/content/102f0cb6a31d4083bdf9758d653918e1">LAGL AG III.2406:007</idno>
+                  <altIdentifier>
+                     <idno>LAGL III. U1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Verzeichnis der hiesigen Geldsorten mit ihrem realen Gegenwert</head>
+               <msContents>
+                  <summary><p>Umrechnungskurs der Reichs-, Gold- und Silbermünzen</p></summary>
+                  <msItem>
+                     <textLang>Deutsch</textLang>
+                     <filiation type="current">Aufzeichnung (Doppelblatt, 1 Seite beschrieben)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.0"/>
+                              <width unit="cm" quantity="22.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1755-10-31">Undatiert, datiert nach dem beiliegenden Schreiben [LAGL AG III.2406:006]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc><encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000872">Geldsorten</term>
+               <term ref="key003018">Münzen</term>
+               <term ref="key000443">Währung</term>
+               <term ref="key004531">Wechselkurs</term>
+            </keywords>
+         </textClass>
+         <particDesc/>
+         <settingDesc/>
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <group>
+         <text>
+            <body>
+               <div>
+                  <pb facs="LAGL_AG_III.2406_007"/>
+                  <head>Tabelle <lb/>der alhie zusezenden <term ref="lem013733"
+                     >geltsorten</term></head>
+                  <p><lb/><term ref="lem004635">Reichs müntzen</term></p>
+                  <p><lb/><measure quantity="1" type="currency" unit="xr">1 xr</measure> stuk
+                     auf <measure quantity="0.75" type="currency" unit="xr">¾ xr</measure>
+                     oder <measure quantity="6" type="currency" unit="h">6 hlr</measure></p>
+                  <p><lb/><measure quantity="2" type="currency" unit="xr">2 xr</measure> stuk
+                     auf <measure quantity="1.5" type="currency" unit="xr">1½
+                        xr</measure></p>
+                  <p><lb/><measure quantity="3" type="currency" unit="xr">3 xr</measure> stuk
+                     auf <measure quantity="2.25" type="currency" unit="xr">2¼
+                        xr</measure></p>
+                  <p><lb/><measure quantity="4" type="currency" unit="xr">4 xr</measure> stuk
+                     auf <measure quantity="3.25" type="currency" unit="xr">3¼
+                        xr</measure></p>
+                  <p><lb/><measure quantity="6" type="currency" unit="xr">6 xr</measure> stuk
+                     auf <measure quantity="5" type="currency" unit="xr">5 xr</measure></p>
+                  <p><lb/><measure quantity="12" type="currency" unit="xr">12 xr</measure>
+                     stuk auf <measure quantity="10" type="currency" unit="xr">10
+                        xr</measure></p>
+                  <p><lb/><measure quantity="15" type="currency" unit="xr">15 xr</measure>
+                     stuk auf <measure quantity="13.5" type="currency" unit="xr">13½
+                        xr</measure></p>
+                  <p><lb/><measure quantity="1" type="currency" unit="xr">30 xr</measure> stuk
+                     auf <measure quantity="27" type="currency" unit="xr">27 xr</measure></p>
+                  <p><lb/><measure quantity="30" type="currency" unit="xr" origin="Montfort"
+                     >30 Monforter</measure>
+                     <measure quantity="21.5" type="currency" unit="xr">xr 21½</measure></p>
+                  <p><lb/>Die <term ref="lem001168">gold</term> und <term ref="lem001715"
+                     >silber sorten</term> betreffende könnten sel<lb break="no"/>bige
+                     auf folgende art valutiert werden:</p>
+                  <p><lb/><measure quantity="1" type="currency" unit="Louistaler">1
+                     Louisblanc</measure>
+                     <measureGrp><measure quantity="2" type="currency" unit="fl">
+                        2</measure>
+                        <measure quantity="8" type="currency" unit="xr">8
+                           xr</measure></measureGrp></p>
+                  <p><lb/><measure quantity="1" type="currency" unit="Dukat">1
+                     ducaten</measure>
+                     <measure quantity="4.25" type="currency" unit="fl"> 4¼</measure>
+                  </p>
+                  <p><lb/><measure quantity="1" type="currency" unit="Mirliton">1
+                     Mirliton</measure>
+                     <measure quantity="7.5" type="currency" unit="fl"> 7½</measure></p>
+                  <p><lb/><measure quantity="1" type="currency" unit="Doubloon">1
+                     dublon</measure>
+                     <measure quantity="7.75" type="currency" unit="fl"> 7¾</measure>
+                  </p>
+                  <p><lb/><measure quantity="1" type="currency" unit="Sonnendublone">1 sonnen
+                     dublon</measure>
+                     <measure quantity="9.5" type="currency" unit="fl"> 9½</measure></p>
+                  <p><lb/><measure quantity="1" type="currency" unit="Louis dor">1 neüen Louis
+                     Dor</measure>
+                     <measure quantity="9.75" type="currency" unit="fl"> 9¾</measure></p>
+                  <p><lb/>Ein <measure quantity="10" type="currency" unit="fl">10 </measure>
+                     stuk (die <term ref="lem016813.02">Monforter</term> ausgenohmen als
+                     <lb/>welche gänzlich verbotten seyn sollen) à <measureGrp><measure
+                        quantity="9" type="currency" unit="fl"> 9</measure>
+                        <measure quantity="54" type="currency" unit="xr">54
+                           xr</measure></measureGrp>. </p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div n="1" org="uniform" sample="complete">
+            <p>Die Tabelle ist nicht datiert. Sie ist zusammen mit einer weiteren Tabelle mit
+               Gattungen und <term ref="key000764">Preisen</term> der <term ref="key003018"
+                  >Münzen</term> (<bibl><ref
+                     target="https://archivverzeichnis.gl.ch/home/#/content/0d3e5bef19054808b4f9ecec4219506f"
+                     >LAGL AG&#160;III.2406:008</ref></bibl>) als Beilage einer Kopie von
+               einem Schreiben der <orgName ref="org002906">Drei Bünde</orgName> beigelegt, das
+               am <date when="1755-10-31">31. Oktober 1755</date> an die <orgName
+                  ref="org001189">acht eidgenössischen Orte</orgName> geschickt worden ist.
+               Die drei Bünde beschweren sich, dass ihre Landsleute in den gemeinen
+               Herrschaften <placeName ref="loc001075">Rheintal</placeName> und <placeName
+                  ref="loc000777">Thurgau</placeName>, aber auch in <placeName ref="loc000440"
+                     >Werdenberg</placeName>, <placeName ref="loc000278">Sax-Forstegg</placeName>
+               u.&#160;a. <term ref="key004489">Geld</term> ausgeliehen haben, das ihnen nun
+               mit anderen <term ref="key000872">Geldsorten</term> zu einem weit schlechteren
+               Kurs zurückbezahlt werde (<bibl><ref
+                  target="https://archivverzeichnis.gl.ch/home/#/content/e6033619e02846db817e2d60624741b7"
+                  >LAGL AG&#160;III.2406:006</ref></bibl>).</p></div>
+         <div n="2" org="uniform" sample="complete"><p>Vgl. auch die Vorschläge der Eidgenössischen Kommission der Tagsatzung von <date
+               when="1749">1749</date> über eine gemeinsame Taxation der Silber- und
+               Goldsorten, die den vorliegenden <term ref="key004531">Wechselkursen</term> sehr
+               ähnlich ist (<bibl><ref
+                  target="
+                  http://permalink.snl.ch/bib/chbsg000143824"
+                  >EA, Bd.&#160;7/2</ref>, <ref target="http://digital.ub.uni-duesseldorf.de/periodical/pageview/1310151">Art.&#160;62, S.&#160;75</ref></bibl>, siehe auch das
+               Münzmandat der acht Orte für das <placeName ref="loc000925"
+                  >Sarganserland</placeName> von 1756 [<bibl><ref
+                     target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1117"
+                     >SSRQ SG III/2, Nr.&#160;334</ref></bibl>]). Die Taxationen stehen im
+               Zusammenhang mit dem Versuch der regierenden acht Orte, wegen der ständigen
+               <term ref="key000781">Teuerung</term> ab Mitte des 18.&#160;Jh. einheitliche
+               Umrechnungskurse in den gemeinen Herrschaften und den umliegenden Orten
+               festzusetzen. Es werden wiederholt Münzmandate ausgegeben, die jedoch aufgrund
+               der Uneinigkeit der einzelnen Orte zu keinem Ergebnis führen (vgl. <bibl><ref
+                  target="https://www.ssrq-sds-fds.ch/online/SG_III_2/index.html#p_1117"
+                  >SSRQ SG&#160;III/2, Nr.&#160;334, Nachbem.&#160;1</ref></bibl>). </p>
+         </div>
+      </back>
+   </text>
+</TEI>
