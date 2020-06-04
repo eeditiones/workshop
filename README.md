@@ -19,6 +19,8 @@ A server will be provided for everyone to work on the exercises. Due to the larg
 * install TEI Publisher on your local machine. The steps are described in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation). For the first week it doesn't matter if you install TEI Publisher 5 or the (maybe already released) TEI Publisher 6. The core features are the same in both versions
 * use our docker image as described in the [docs](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=docker)
 
+You may also want to clone this repository or download its contents as a zip. This way you can look at the example documents on your own machine. To clone or download, click the green *Clone or Download* button on the top right of the [start screen](https://github.com/eeditiones/workshop) of this repository.
+
 ## Assignments
 
 [Week 1](assignments/A1.md)
