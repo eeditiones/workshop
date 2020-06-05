@@ -1,8 +1,12 @@
 # TEI Publisher From Scratch
 
-This repository contains data and assignments for our online workshop «Stay Home Learn TEI Publisher From Scratch». It is a 3-part online course taking place on the 8th, 15th and 22nd of June, always at 4-5 pm (CEST).
+This repository contains data and assignments for our online workshop «Stay Home Learn TEI Publisher From Scratch». It is a 3-part online course taking place on the 8th, 15th, and 22nd of June, always at 4-5 pm (CEST). 
+(Find your local time via these links: 
+[Session 1](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Stay+Home+Learn+TEI+Publisher+From+Scratch+Session+1&iso=20200608T16&p1=37&ah=1), 
+[Session 2](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Stay+Home+Learn+TEI+Publisher+From+Scratch+Session+1&iso=20200615T16&p1=37&ah=1), and 
+[Session 3](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Stay+Home+Learn+TEI+Publisher+From+Scratch+Session+1&iso=20200622T16&p1=37&ah=1).)
 
-The online session will be more lecture-like with room for questions. Afterwards attendants are encouraged to work through a  list of weekly assignments. Usually the first assignment for each topic will be covered in the online session, but we would recommend that participants redo it on their own.
+The online session will be lecture-like with room for questions. Afterwards attendants are encouraged to work through a list of weekly assignments. Usually the first assignment for each topic will be covered in the online session, but we recommend that participants carry out the assignment on their own too.
 
 ## Preliminaries
 
@@ -12,15 +16,15 @@ https://meet.jit.si/e-editiones-events
 
 Should anything go wrong during the event, we will inform you via [twitter](https://twitter.com/eeditiones) and the slack channel mentioned below.
 
-Participants are strongly encouraged to join the  dedicated **#workshop** room on the [e-editiones slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg) for asking questions, but also to help others with the assignments. We hope to have a lively discussion there and would love to see participants **support each other**. Due to the large number of participants, we won't have enough tutors to answer every question.
+Participants are strongly encouraged to join the dedicated **#workshop** channel on the [e-editiones slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg) for asking questions, but also to help others with the assignments. We hope to have a lively discussion there and would love to see participants **support each other**. Due to the large number of participants, we won't have enough tutors to answer every question.
 
-You may also want to clone this repository or download its contents as a zip. This way you can look at the example documents on your own machine. To clone or download, click the green *Clone or Download* button on the top right of the [start screen](https://github.com/eeditiones/workshop) of this repository.
+You may also want to clone this repository or download its contents as a zip file. This way you can look at the example documents on your own machine. To clone or download, click the green *Clone or Download* button on the top right of the [landing page](https://github.com/eeditiones/workshop) of this repository.
 
 ### Software
 
-A server will be **provided** for everyone to work on the exercises, so all you need is a decent web browser (chrome, firefox or safari are ok, newer Edge on Windows works despite being slow, IE definitely doesn't).
+A server will be **provided** for everyone to work on the exercises, so all you need is a decent web browser (Chrome, Firefox, and Safari work; the latest Edge on Windows works despite being slow; and IE definitely doesn't).
 
-Due to the large number of attendants the server might become a bottleneck though if everyone is hacking around. We thus **encourage the more experienced users** to either:
+Due to the large number of attendees the common server might become overloaded. We thus **encourage more experienced users** to either:
 
 ####  1. Install TEI Publisher on your local machine. 
 
@@ -69,5 +73,5 @@ Working with TEI Publisher requires some knowledge of TEI, basic XPath and a lit
 
 ### TEI Processing Model
 
-* [Section of the TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDPMPM): the official specification of the processing model
+* [Section 22.5.4.1 of the TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDPMPM): the official specification of the TEI Processing Model
 * [TEI Publisher Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=odd-customization)
