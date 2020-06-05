@@ -4,7 +4,7 @@ This repository contains data and assignments for our online workshop «Stay Hom
 
 The online session will be more lecture-like with room for questions. Afterwards attendants are encouraged to work through a  list of weekly assignments. Usually the first assignment for each topic will be covered in the online session, but we would recommend that participants redo it on their own.
 
-## Prerequisites
+## Preliminaries
 
 The online session will be hosted on jitsi. Please use the following URL to connect:
 
@@ -12,14 +12,29 @@ https://meet.jit.si/e-editiones-events
 
 Should anything go wrong during the event, we will inform you via [twitter](https://twitter.com/eeditiones) and the slack channel mentioned below.
 
-Participants are strongly encouraged to join the  dedicated **#workshop** room on the [e-editiones slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg) for asking questions, but also to help others with the assignments. We hope to have a lively discussion there and would love to see participants support each other.
-
-A server will be provided for everyone to work on the exercises. Due to the large number of attendants this might become a bottleneck. We thus encourage the more experienced users to either:
-
-* install TEI Publisher on your local machine. The steps are described in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation). For the first week it doesn't matter if you install TEI Publisher 5 or the (maybe already released) TEI Publisher 6. The core features are the same in both versions
-* use our docker image as described in the [docs](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=docker)
+Participants are strongly encouraged to join the  dedicated **#workshop** room on the [e-editiones slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg) for asking questions, but also to help others with the assignments. We hope to have a lively discussion there and would love to see participants **support each other**. Due to the large number of participants, we won't have enough tutors to answer every question.
 
 You may also want to clone this repository or download its contents as a zip. This way you can look at the example documents on your own machine. To clone or download, click the green *Clone or Download* button on the top right of the [start screen](https://github.com/eeditiones/workshop) of this repository.
+
+### Software
+
+A server will be **provided** for everyone to work on the exercises. Due to the large number of attendants this might become a bottleneck though. We thus **encourage the more experienced users** to either:
+
+####  1. Install TEI Publisher on your local machine. 
+
+The basic steps are described in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation). However, we would recommend to install the release candidate for TEI Publisher 6.
+
+The release candidate is not available on eXist's public package  repository yet, so you would need to download it manually: 
+
+1. Download the `.xar` from the [github release page](https://github.com/eeditiones/tei-publisher-app/releases/tag/6.0.0-RC1)
+2. If you installed an older version of TEI Publisher before, check if you are offered updates for `tei-publisher-lib`. You need version 2.8.7 of this package.
+3. Go to the eXist Dashboard/Package Manager, click on the *Upload* button, and select the downloaded `tei-publisher-6.0.0-RC1.xar`
+
+#### 2. Use a docker image
+
+Using docker is a good alternative for the workshop, though it comes with a small performance penalty. The installation process is described in the [docs](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=docker). 
+
+Again we recommend to use the release candidate for TEI Publisher 6, so in the docker commands, replace `existdb/teipublisher:latest` with `existdb/teipublisher:6.0.0-RC1`.
 
 ## Assignments
 
