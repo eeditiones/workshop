@@ -18,7 +18,9 @@ You may also want to clone this repository or download its contents as a zip. Th
 
 ### Software
 
-A server will be **provided** for everyone to work on the exercises. Due to the large number of attendants this might become a bottleneck though. We thus **encourage the more experienced users** to either:
+A server will be **provided** for everyone to work on the exercises, so all you need is a decent web browser (chrome, firefox or safari are ok, newer Edge on Windows works despite being slow, IE definitely doesn't).
+
+Due to the large number of attendants the server might become a bottleneck though if everyone is hacking around. We thus **encourage the more experienced users** to either:
 
 ####  1. Install TEI Publisher on your local machine. 
 
