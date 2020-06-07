@@ -70,6 +70,7 @@ Working with TEI Publisher requires some knowledge of TEI, basic XPath and a lit
 
 * https://teibyexample.org/
 * [TEI Guidelines](https://tei-c.org/guidelines/):  the ultimate reference
+* [What is the Text Encoding Initiative?](https://books.openedition.org/oep/426), a [French](https://books.openedition.org/oep/1237) translation is also available
 
 ### TEI Processing Model
 
