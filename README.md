@@ -44,6 +44,10 @@ Using docker is a good alternative for the workshop, though it comes with a smal
 
 Again we recommend to use the release candidate for TEI Publisher 6, so in the docker commands, replace `existdb/teipublisher:latest` with `existdb/teipublisher:6.0.0-RC1`.
 
+## Slides
+
+[Part 1](e-editiones-workshop-20200608.pdf)
+
 ## Assignments
 
 [Week 1](assignments/A1.md)
