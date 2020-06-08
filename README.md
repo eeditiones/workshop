@@ -22,7 +22,9 @@ You may also want to clone this repository or download its contents as a zip fil
 
 ### Software
 
-A server will be **provided** for everyone to work on the exercises, so all you need is a decent web browser (Chrome, Firefox, and Safari work; the latest Edge on Windows works despite being slow; and IE definitely doesn't).
+A server will be **provided** for everyone to work on the exercises, so all you need is a decent web browser (Chrome, Firefox, and Safari work; the latest Edge on Windows works despite being slow; and IE definitely doesn't). The address of the server  is: 
+
+http://apps5test.existsolutions.com/
 
 Due to the large number of attendees the common server might become overloaded. We thus **encourage more experienced users** to either:
 
