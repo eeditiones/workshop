@@ -51,6 +51,7 @@ Again we recommend to use the release candidate for TEI Publisher 6, so in the d
 ## Assignments
 
 [Week 1](assignments/A1.md)
+[Week 2](assignments/A2.md)
 
 ## Helpful Literature and Websites
 
