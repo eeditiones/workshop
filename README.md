@@ -46,12 +46,13 @@ Again we recommend to use the release candidate for TEI Publisher 6, so in the d
 
 ## Slides
 
-[Part 1](e-editiones-workshop-20200608.pdf)
+* [Part 1](e-editiones-workshop-20200608.pdf)
+* [Part 2](e-editiones-workshop-20200614.pdf)
 
 ## Assignments
 
-[Week 1](assignments/A1.md)
-[Week 2](assignments/A2.md)
+* [Week 1](assignments/A1.md)
+* [Week 2](assignments/A2.md)
 
 ## Helpful Literature and Websites
 
