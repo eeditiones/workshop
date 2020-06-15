@@ -54,6 +54,16 @@ Again we recommend to use the release candidate for TEI Publisher 6, so in the d
 * [Week 1](assignments/A1.md)
 * [Week 2](assignments/A2.md)
 
+## Video
+
+### Week 1: Recording of the Online Session
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QuWrfAS2SWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Week 1: Implementing the Assignments
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WhcDzCaVzYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Helpful Literature and Websites
 
 Working with TEI Publisher requires some knowledge of TEI, basic XPath and a little CSS. If you don't know any XPath yet, we recommend to read the short [introduction](https://newtfire.org/courses/dh/explainXPath.html) linked below.
