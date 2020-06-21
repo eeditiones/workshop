@@ -53,12 +53,14 @@ Again we recommend to use the release candidate for TEI Publisher 6, so in the d
 
 * [Week 1](assignments/A1.md)
 * [Week 2](assignments/A2.md)
+* [Week 3](assignemtns/A3.md)
 
 ## Video
 
 * Week 1: [Recording of the online session](https://youtu.be/QuWrfAS2SWM)
 * Week 1: [Implementing the Assignments](https://youtu.be/WhcDzCaVzYs)
 * Week 2: [Recording of the online session](https://www.youtube.com/watch?v=5qu94bhftpk)
+* Week 2: [Implementing the Assignments](https://www.youtube.com/watch?v=8JUAwjvDCGw)
 
 ## Helpful Literature and Websites
 
