@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?teipublisher template="view.html"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>About the project</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>About the project</head>
+            <p>A demo for <ref target="https://teipublisher.com">TEI Publisher</ref> based on data kindly provided
+               by <ref target="https://dodis.ch">Dodis</ref> under a
+               <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY-NC-SA 4.0</ref> license.
+               For the complete, original version, which we encourage you to visit, see <ref target="https://www.dodis.ch/q12">Marc Dierikx und Sacha Zala (Hg.):
+                  When the Wall Came Down. The Perception of German Reunification in International Diplomatic Documents
+                  1989–1990. Quaderni di Dodis | 12</ref>.</p>
+         </div>
+      </body>
+  </text>
+</TEI>
