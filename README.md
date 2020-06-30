@@ -62,6 +62,8 @@ Again we recommend to use the release candidate for TEI Publisher 6, so in the d
 * Week 1: [Implementing the Assignments](https://youtu.be/WhcDzCaVzYs)
 * Week 2: [Recording of the online session](https://www.youtube.com/watch?v=5qu94bhftpk)
 * Week 2: [Implementing the Assignments](https://www.youtube.com/watch?v=8JUAwjvDCGw)
+* Week 3: [Recording of the online session](https://youtu.be/FS36nYFlTbE)
+* Week 3: [Implementing the Assignments](https://youtu.be/HxCo303tgOk)
 
 ## Helpful Literature and Websites
 
