@@ -10,12 +10,6 @@ The online session will be lecture-like with room for questions. Afterwards atte
 
 ## Preliminaries
 
-The online session will be hosted on jitsi. Please use the following URL to connect:
-
-https://meet.jit.si/e-editiones-events
-
-Should anything go wrong during the event, we will inform you via [twitter](https://twitter.com/eeditiones) and the slack channel mentioned below.
-
 Participants are strongly encouraged to join the dedicated **#workshop** channel on the [e-editiones slack](https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg) for asking questions, but also to help others with the assignments. We hope to have a lively discussion there and would love to see participants **support each other**. Due to the large number of participants, we won't have enough tutors to answer every question.
 
 You may also want to clone this repository or download its contents as a zip file. This way you can look at the example documents on your own machine. To clone or download, click the green *Clone or Download* button on the top right of the [landing page](https://github.com/eeditiones/workshop) of this repository.
@@ -81,7 +75,7 @@ Working with TEI Publisher requires some knowledge of TEI, basic XPath and a lit
 
 ### XPath
 
-* [Follow the XPath!](https://newtfire.org/courses/dh/explainXPath.html): short introduction to XPath
+* [XPath for processing XML and managing projects](https://ebeshero.github.io/UpTransformation): DHSI 2019 course material by Elisa Beshero-Bondar and David Birnbaum
 * [XPath and XQuery Functions](https://www.w3.org/TR/xpath-functions-31/): the official W3C specification covering all standard XPath functions
 * [XQuery for Humanists](https://xquery.forhumanists.org/): book with companion website
 
