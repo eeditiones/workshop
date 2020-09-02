@@ -26,8 +26,6 @@ Due to the large number of attendees the common server might become overloaded. 
 
 The basic steps are described in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation). Install the TEI Publisher 6.
 
-The release candidate is not available on eXist's public package  repository yet, so you would need to download it manually: 
-
 *NB If you installed an older version of TEI Publisher before, check if you are offered updates for `tei-publisher-lib`. You need version 2.8.7 of this package.*
 
 #### 2. Use a docker image
