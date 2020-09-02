@@ -43,7 +43,11 @@ Install eXist-db and TEI Publisher 6. The basic steps are described in the
 * Workshop server
 * Slides
 * Assignments
-* TEI Publisher website
+* TEI Publisher
+  - [Website](https://teipublisher.com)
+  - [Documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd)
+  - [Webcomponents API](https://unpkg.com/@teipublisher/pb-components@latest/dist/api.html)
+* [e-editiones](https://e-editiones.org/)
 
 ## Follow-up
 
