@@ -46,7 +46,7 @@ http://apps5test.existsolutions.com/
 
 ## Links
 
-* Zoom meeting
+* Zoom [meeting](https://us02web.zoom.us/j/81929051470?pwd=MjJTY2lVRUNaMTloL1VhQ0xXeGtNdz09)
 * Workshop [server](http://apps5test.existsolutions.com/)
 * Slides
 * Assignments
