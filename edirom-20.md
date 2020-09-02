@@ -18,7 +18,7 @@
   - 2:15 – 3:45pm
   - TEI Processing model
   
-* TEI Publishing II (afternoon session 2)
+* TEI Publishing III (afternoon session 2)
   - 4:15 – 5:45pm
   - HTML templates and Web Components in TEI Publisher
   
