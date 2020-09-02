@@ -6,6 +6,8 @@
 
 ## Agenda
 
+[ESS calendar](https://calendar.google.com/calendar?cid=ZWNuZW9mbjJxYWtnYnBxYWQ5aHZuZDdpcmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+
 ### Thursday, September 3rd
 
 * TEI Publishing I (opening session) 
