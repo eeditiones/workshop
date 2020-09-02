@@ -34,13 +34,20 @@
   
 ## Preparation
 
-Install eXist-db and TEI Publisher 6. The basic steps are described in the 
-[TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation).
+Due to the large number of attendees we encourage more experienced users to install eXist-db and TEI Publisher 6 on their machines. 
+The basic steps are described in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation).
+
+If you run into difficulties we may be able to help during the opening session, please describe your issues via Slack. Nevertheless, if troubleshooting proves too time-consuming we will ask you to work on the shared server instead.
+
+As a fallback you can use the shared workshop server to work on the exercises.  All you need is a decent web browser (Chrome, Firefox, and Safari work; the latest Edge on Windows works despite being slow; and IE definitely doesn't). The address of the server is:
+
+http://apps5test.existsolutions.com/
+
 
 ## Links
 
 * Zoom meeting
-* Workshop server
+* Workshop [server](http://apps5test.existsolutions.com/)
 * Slides
 * Assignments
 * TEI Publisher
