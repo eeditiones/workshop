@@ -24,19 +24,15 @@ Due to the large number of attendees the common server might become overloaded. 
 
 ####  1. Install TEI Publisher on your local machine. 
 
-The basic steps are described in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation). However, we would recommend to install the release candidate for TEI Publisher 6.
+The basic steps are described in the [TEI Publisher documentation](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=installation). Install the TEI Publisher 6.
 
 The release candidate is not available on eXist's public package  repository yet, so you would need to download it manually: 
 
-1. Download the `.xar` from the [github release page](https://github.com/eeditiones/tei-publisher-app/releases/tag/6.0.0-RC1)
-2. If you installed an older version of TEI Publisher before, check if you are offered updates for `tei-publisher-lib`. You need version 2.8.7 of this package.
-3. Go to the eXist Dashboard/Package Manager, click on the *Upload* button, and select the downloaded `tei-publisher-6.0.0-RC1.xar`
+*NB If you installed an older version of TEI Publisher before, check if you are offered updates for `tei-publisher-lib`. You need version 2.8.7 of this package.*
 
 #### 2. Use a docker image
 
 Using docker is a good alternative for the workshop, though it comes with a small performance penalty. The installation process is described in the [docs](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=docker). 
-
-Again we recommend to use the release candidate for TEI Publisher 6, so in the docker commands, replace `existdb/teipublisher:latest` with `existdb/teipublisher:6.0.0-RC1`.
 
 ## Slides
 
