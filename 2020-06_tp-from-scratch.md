@@ -1,6 +1,6 @@
 # TEI Publisher From Scratch
 
-This repository contains data and assignments for our online workshop «Stay Home Learn TEI Publisher From Scratch». It is a 3-part online course taking place on the 8th, 15th, and 22nd of June, always at 4-5 pm (CEST). 
+In this repository you can find data and assignments for our online workshop «Stay Home Learn TEI Publisher From Scratch». It is a 3-part online course taking place on the 8th, 15th, and 22nd of June, always at 4-5 pm (CEST). 
 (Find your local time via these links: 
 [Session 1](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Stay+Home+Learn+TEI+Publisher+From+Scratch+Session+1&iso=20200608T16&p1=37&ah=1), 
 [Session 2](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Stay+Home+Learn+TEI+Publisher+From+Scratch+Session+2&iso=20200615T16&p1=37&ah=1), and 
