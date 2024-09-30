@@ -2,7 +2,7 @@
 
 This repository contains learning materials about TEI Publisher and related technologies (XPath and XQuery). Here you can find data and assignments we have prepared for different events.
 
-- Online workshop [_Stay Home Learn TEI Publisher From Scratch_](2020-06_tp-from-scratch.md). Our most comprehensive workshop, with videos and several assignments explained step by step.
+- Online workshop [Stay Home Learn TEI Publisher From Scratch](2020-06_tp-from-scratch.md). Our most comprehensive workshop, with videos and several assignments explained step by step.
 
 - [Hands-on TEI publishing](2020-09_edirom-20.md) workshop presented at the _Edirom Summer School 2020_ (September 2020).
 
