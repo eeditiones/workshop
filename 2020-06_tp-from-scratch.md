@@ -34,9 +34,9 @@ Using docker is a good alternative for the workshop, though it comes with a smal
 
 ## Slides
 
-* [Part 1](e-editiones-workshop-20200608.pdf)
-* [Part 2](e-editiones-workshop-20200614.pdf)
-* [Part 3](e-editiones-workshop-20200622.pdf)
+* [Part 1](slides/e-editiones-workshop-20200608.pdf)
+* [Part 2](slides/e-editiones-workshop-20200614.pdf)
+* [Part 3](slides/e-editiones-workshop-20200622.pdf)
 
 ## Assignments
 
