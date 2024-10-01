@@ -11,7 +11,7 @@ Instalación de eXist-DB
 *   En el paso 4 establece la contraseña del usuario `admin` (el usuario administrado de la base de datos).
 *   En los siguientes pasos, puedes aceptar las opciones por defecto.
 
-Para probar que la instalación ha funcionado, busca la aplicación entre los programas instalados y lánzala. Si el servidor funciona correctamente, en la página: [http://localhost:8080/exist/](http://localhost:8080/exist/) deberías ver el “Dashboard” de eXist (durante el proceso de instalación, has podido seleccionar la instalación de determinadas aplicaciones dentro de eXist, por lo que tu dashboard no será idéntico al que se presenta en la captura):  
+Para probar que la instalación ha funcionado, busca la aplicación entre los programas instalados y ábrela. Si el servidor funciona correctamente, en la página: [http://localhost:8080/exist/](http://localhost:8080/exist/) deberías ver el “Dashboard” de eXist (durante el proceso de instalación, has podido seleccionar la instalación de determinadas aplicaciones dentro de eXist, por lo que tu dashboard no será idéntico al que se presenta en la captura):  
 ![image](https://github.com/eeditiones/workshop/assets/8516387/dbcc7776-517d-49ec-8492-ce50e90a5143)
 
 
