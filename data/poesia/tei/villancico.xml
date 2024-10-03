@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="verse-heb.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Villancio</title>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>e-editiones</distributor>
+            <availability>
+               <licence>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Edición y análisis realizado por <name role="editor">Gimena del Rio Riande</name>,
+               quien amablemente ha cedido una versión digital del texto con fines didácticos.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="villancico">
+            <head>
+               <title>Señora, qual soy venido</title>
+               <name role="compositor">Juan Cornago</name>
+               <name role="autor">Marqués de Santillana</name>
+               <msDesc>
+                  <msIdentifier>
+                     <idno>mp4a</idno>
+                     <msName>Cancionero Musical de Palacio</msName>
+                  </msIdentifier>
+               </msDesc>
+               <idno type="Dutton">ID0315</idno>
+               <locus from="38v" to="39r"/>
+               <name role="editor">Gimena Rio Riande</name>
+            </head>
+            <lg rhyme="xyyx" met="8,4,8,4">
+               <l>Señora, qual soy ven<rhyme label="x">ido</rhyme></l>
+               <l>tal me p<rhyme label="y">arto</rhyme></l>
+               <l>de trabajos más que f<rhyme label="y">arto</rhyme>,</l>
+               <l>dolor<rhyme label="x">ido</rhyme>.</l>
+            </lg>
+            <lg rhyme="ababxddx" met="8,8,8,8,8,4,8,4">
+               <l>Quien no se farta de m<rhyme label="a">ales</rhyme></l>
+               <l>y vida desplazi<rhyme label="b">ente</rhyme></l>
+               <l>de las penas desigu<rhyme label="a">ales</rhyme></l>
+               <l>sufre callando paci<rhyme label="b">ente</rhyme>,</l>
+               <l>sino yo que sin sent<rhyme label="x">ido</rhyme></l>
+               <l>me dir<rhyme label="d">án</rhyme></l>
+               <l>los que mis males ver<rhyme label="d">án</rhyme>,</l>
+               <l>ay perd<rhyme label="x">ido</rhyme>.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
