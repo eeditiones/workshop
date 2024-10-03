@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cuarto solo</title>
+            <author>Alejandra Pizarnik</author>
+            <respStmt>
+               <resp>Transcrición y edición</resp>
+               <name>Helena Bermúdez Sabel</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+           <distributor>e-editiones</distributor>
+            <availability>
+               <licence>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="ms">
+                  <biblStruct type="book">
+                     <monogr>
+                        <idno type="ISBN">978-2-84292-402-7</idno>
+                        <title level="m">Une calligraphie des ombres : Les manuscrits d’Alejandra
+                           Pizarnik</title>
+                        <title type="short">Une calligraphie des ombres</title>
+                        <author>
+                           <forename>Mariana Di</forename>
+                           <surname>Cio</surname>
+                        </author>
+                        <imprint>
+                           <pubPlace>Saint Denis</pubPlace>
+                           <publisher>Presses Universitaires Vincennes</publisher>
+                           <date>2014</date>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="pub">
+                  <biblStruct type="book">
+                     <monogr>
+                        <idno type="ISBN">978-84-264-2825-7</idno>
+                        <title level="m">Poesía completa</title>
+                        <author>
+                           <forename>Alejandra</forename>
+                           <surname>Pizarnik</surname>
+                        </author>
+                        <edition>Edición: 001</edition>
+                        <imprint>
+                           <pubPlace>Barcelona</pubPlace>
+                           <publisher>Lumen</publisher>
+                           <date>2005</date>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <listWit>
+               <witness corresp="#ms">Borrador manuscrito</witness>
+               <witness corresp="#pub">Versión publicada</witness>
+            </listWit>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <head>Cuarto solo</head>
+            <app>
+               <rdg wit="#ms">
+                  <pb facs="resources/images/cuarto-solo.png"/>
+                  <del rend="overstrike">Si alguna vez</del>
+               </rdg>
+            </app>
+            <lg>
+               <l n="1">
+                  <app>
+                     <rdg wit="#ms">
+                        <add place="margin">Si</add>
+                     </rdg>
+                     <rdg wit="#pub">Si</rdg>
+                  </app> te atreves a <app>
+                     <rdg wit="#ms">
+                        <del rend="overstrike">
+                           <gap reason="illegible" extent="7" unit="chars"/>der</del>
+                     </rdg>
+                  </app> sorprender</l>
+               <l n="2">
+                  <app>
+                     <rdg wit="#ms">el sentido</rdg>
+                     <rdg wit="#pub">la verdad</rdg>
+                  </app> de esta vieja pared;</l>
+               <l n="3">y sus <app>
+                     <rdg wit="#ms">fisura<subst>
+                           <add place="inspace">s,</add>
+                           <del rend="overwritten">;</del>
+                        </subst>
+                        <del rend="overstrike">
+                           <gap extent="1" unit="chars" reason="illegible"/>
+                        </del>
+                     </rdg>
+                     <rdg wit="#pub">fisuras,</rdg>
+                  </app> desgarraduras<app>
+                     <rdg wit="#ms">
+                        <del rend="overstrike">
+                           <gap reason="illegible" extent="1" unit="chars"/>
+                        </del>
+                     </rdg>
+                  </app>,</l>
+               <l n="4">formando rostros, esfinges,</l>
+               <l n="5">manos, clepsidras <app>
+                     <rdg wit="#ms">
+                        <del rend="overstrike">
+                           <gap reason="illegible" extent="3" unit="chars"/>
+                        </del>
+                     </rdg>
+                  </app>, </l>
+               <l n="6">seguramente vendrá</l>
+               <l n="7">una presencia para tu sed,</l>
+               <l n="8">probablemente partirá</l>
+               <l n="9">esta ausencia que te bebe.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
