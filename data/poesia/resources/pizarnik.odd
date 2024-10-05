@@ -1,9 +1,5 @@
-<?xml-model href="teipublisher_odds.xsd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Edición genética de Alejandra Pizarnik</title>
-            </titleStmt>
+<?xml-model href="teipublisher_odds.xsd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:pb="http://teipublisher.com/1.0" xml:lang="en"><teiHeader><fileDesc>
+            <titleStmt><title>Edición genética de Alejandra Pizarnik</title></titleStmt>
             <publicationStmt>
                 <publisher>eXistSolutions GmbH</publisher>
                 <availability>
@@ -25,14 +21,31 @@
                 </p>
                 <p>born digital</p>
             </sourceDesc>
-        </fileDesc>
-        <revisionDesc>
+        </fileDesc><encodingDesc><tagsDecl/></encodingDesc><revisionDesc>
             <change when="2023-10-30Z">Initial version</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
+        </revisionDesc></teiHeader><text>
         <body>
-            <schemaSpec start="TEI teiCorpus" source="teipublisher.odd" ident="pizarnik"> </schemaSpec>
+            <schemaSpec start="TEI teiCorpus" ident="pizarnik" source="teipublisher.odd"> <elementSpec ident="listApp" mode="add"/><elementSpec ident="front" mode="change"><model behaviour="omit"/></elementSpec><elementSpec ident="head" mode="change"/><elementSpec ident="l" mode="change"><model behaviour="block" useSourceRendition="true">
+            <param name="content" value="."/>
+            <param name="key" value="@n"/>
+            <pb:template xmlns="" xml:space="preserve"><pb-highlight key="[[key]]" highlight-self="highlight-self">[[content]]</pb-highlight></pb:template>
+            <outputRendition xml:space="preserve">
+            margin-left: 1em;
+            </outputRendition>
+        </model></elementSpec><elementSpec ident="app" mode="add"><model predicate="$parameters?display='ms'" behaviour="inline">
+            <param name="content" value="rdg[@wit eq '#ms']"/>
+        </model><model predicate="$parameters?display='pub'" behaviour="inline">
+            <param name="content" value="rdg[@wit eq '#pub']"/>
+        </model></elementSpec><elementSpec ident="div" mode="change"><model predicate="@type='title_page'" behaviour="block">
+            <outputRendition xml:space="preserve">
+            border: 1px solid black; padding: 5px;
+            </outputRendition>
+        </model><model predicate="parent::body or parent::front or parent::back" behaviour="section">
+            <outputRendition xml:space="preserve">
+            margin: 0 2em 0 0;
+            </outputRendition>
+        </model><model behaviour="block"/></elementSpec><elementSpec ident="subst" mode="add"><model behaviour="inline">
+            <param name="content" value="(del, add)"/>
+        </model></elementSpec></schemaSpec>
         </body>
-    </text>
-</TEI>
+    </text></TEI>
