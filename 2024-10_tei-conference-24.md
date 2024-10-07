@@ -1,8 +1,8 @@
 # Programa
 
+* Verificación instalación local de eXist-DB y TEI Publisher
 * Introducción a TEI Publisher
 * Demostración
-* Verificación instalación local de eXist-DB y TEI Publisher
 * Tarea dirigida 1: conversión de MS Word a TEI
 * Introducción al modelo de procesamiento de TEI
 * Tarea dirigida 2: edición genética de un poema
