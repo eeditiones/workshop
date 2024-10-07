@@ -39,9 +39,6 @@
     <text>
         <body>
             <schemaSpec start="TEI teiCorpus" ident="pizarnik" source="teipublisher.odd">
-                <elementSpec ident="front" mode="change">
-                    <model behaviour="omit"/>
-                </elementSpec>
                 <elementSpec ident="l" mode="change">
                     <model behaviour="block" useSourceRendition="true">
                         <param name="content" value="."/>

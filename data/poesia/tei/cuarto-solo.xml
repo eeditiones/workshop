@@ -11,7 +11,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-           <distributor>e-editiones</distributor>
+           <authority>e-editiones</authority>
             <availability>
                <licence>
                   <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
@@ -22,6 +22,7 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="ms">
+                  <title>Borrador manuscrito</title>
                   <biblStruct type="book">
                      <monogr>
                         <idno type="ISBN">978-2-84292-402-7</idno>
@@ -41,6 +42,7 @@
                   </biblStruct>
                </witness>
                <witness xml:id="pub">
+                  <title>Versión publicada</title>
                   <biblStruct type="book">
                      <monogr>
                         <idno type="ISBN">978-84-264-2825-7</idno>
@@ -66,14 +68,6 @@
       </encodingDesc>
    </teiHeader>
    <text>
-      <front>
-         <div>
-            <listWit>
-               <witness corresp="#ms">Borrador manuscrito</witness>
-               <witness corresp="#pub">Versión publicada</witness>
-            </listWit>
-         </div>
-      </front>
       <body>
          <div type="poem">
             <head>Cuarto solo</head>
