@@ -20,6 +20,8 @@
   - [Documentación](https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?odd=docbook.odd)
   - [API componentes web](https://unpkg.com/@teipublisher/pb-components@latest/dist/api.html)
 * [e-editiones](https://e-editiones.org/)
+* [servidor](http://workshop.jinntec.de/) (para aquellas personas que no hayan sido capaces de 
+instalar eXist-DB)
 
 ## Continuación
 
