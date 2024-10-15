@@ -8,7 +8,7 @@ This repository contains learning materials about TEI Publisher and related tech
 
 - [TEI Publisher: editions with future](2022-09_rome22.md), workshop presented at the _Digital Publishing for the Humanities: New Technologies and Ideas_ conference, Rome, September 2022.
 
-- [TEI Publisher: ediciones sofisticadas sin necesidad de programar](2024-10_tei-conference-24.md), workshop in Spanish to be presented at the _TEI Conference 2024_ in Buenos Aires, October 2024.
+- [TEI Publisher: ediciones sofisticadas sin necesidad de programar](2024-10_tei-conference-24.md), workshop in Spanish presented at the _TEI Conference 2024_ in Buenos Aires, October 2024.
 
 
 ## Helpful Literature and Websites
