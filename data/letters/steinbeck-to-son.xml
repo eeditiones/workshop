@@ -1,0 +1,170 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from John Steinbeck to his son</title>
+                <author>John Steinbeck</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Information about publication or distribution</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="gnd-4019702-5">
+                        <catDesc xml:lang="de">Gefühl</catDesc>
+                        <category xml:id="gnd-4035646-2">
+                            <catDesc xml:lang="de">Liebe</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="gnd-1111816824">
+                        <persName type="main">Steinbeck, Thomas</persName>
+                        <persName type="sort">Steinbeck, Thomas</persName>
+                        <gender value="M">male</gender>
+                        <birth>
+                            <date when="1944"/>
+                            <placeName ref="https://d-nb.info/gnd/4042011-5">New York,
+                                NY</placeName>
+                        </birth>
+                        <death>
+                            <date when="2016"/>
+                            <placeName ref="https://d-nb.info/gnd/4118400-2">Santa Barbara,
+                                Calif.</placeName>
+                        </death>
+                        <note type="bio">Ältester Sohn des Schriftstellers John Steinbeck</note>
+                    </person>
+                    <person xml:id="gnd-118617338">
+                        <persName type="main">Steinbeck, John</persName>
+                        <persName type="sort">Steinbeck, John</persName>
+                        <gender value="M">male</gender>
+                        <birth>
+                            <date when="1902-02-27"/>
+                            <placeName ref="https://d-nb.info/gnd/4425740-5">Salinas,
+                                Calif.</placeName>
+                        </birth>
+                        <death>
+                            <date when="1968-12-20"/>
+                            <placeName ref="https://d-nb.info/gnd/4042011-5">New York,
+                                NY</placeName>
+                        </death>
+                        <note type="bio">Amerikanischer Schriftsteller deutsch-irischer Abstammung;
+                            Nobelpreis (Literatur) 1962</note>
+                        <occupation ref="https://d-nb.info/gnd/4053309-8"
+                            >Schriftsteller</occupation>
+                        <occupation ref="https://d-nb.info/gnd/4042421-2"
+                            >Nobelpreisträger</occupation>
+                        <occupation ref="https://d-nb.info/gnd/4053309-8"
+                            >Schriftsteller</occupation>
+                    </person>
+                    <person xml:id="gnd-1274234638">
+                        <persName type="main">Steinbeck, Elaine A.</persName>
+                        <persName type="sort">Steinbeck, Elaine A.</persName>
+                        <gender value="U">unknown</gender>
+                        <birth>
+                            <date when="1914"/>
+                            <placeName ref="https://d-nb.info/gnd/4079879-3">Austin,
+                                Tex.</placeName>
+                        </birth>
+                        <death>
+                            <date when="2003"/>
+                        </death>
+                        <note type="bio"/>
+                        <occupation ref="https://d-nb.info/gnd/4153179-6"
+                            >Schauspielerin</occupation>
+                    </person>
+                    <person xml:id="person-000002">
+                        <persName type="main">Susan</persName>
+                        <persName type="sort">Susan</persName>
+                        <gender value="F"/>
+                        <birth>
+                            <date/>
+                            <placeName/>
+                        </birth>
+                        <death>
+                            <date/>
+                            <placeName/>
+                        </death>
+                        <note type="bio">Little is known of her with only this letter as reference.
+                            Thomas Steinbeck love interest</note>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="geo-5128581" type="P.PPL">
+                        <placeName type="main">New York City</placeName>
+                        <placeName type="sort">New York City</placeName>
+                        <location>
+                            <geo>40.71427 -74.00597</geo>
+                        </location>
+                        <country>United States</country>
+                        <region>New York</region>
+                        <note/>
+                        <ptr type="geonames" target="https://www.geonames.org/5128581"/>
+                        <ptr type="info" target="https://en.wikipedia.org/wiki/New_York_City"/>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener>
+                <dateline>
+                    <placeName ref="geo-5128581">New York </placeName>
+                    <date when="1958-11-10">November 10, 1958</date>
+                </dateline>
+                <salute>Dear <persName ref="gnd-1111816824">Thom</persName>:</salute>
+            </opener>
+            <p>We had your letter this morning. I will answer it from my point of view and of course
+                    <persName ref="gnd-1274234638">Elaine</persName> will from hers.</p>
+            <p>First—if you are in love—that’s a good thing—that’s about the best thing that can
+                happen to anyone. Don’t let anyone make it small or light to you.</p>
+            <p>Second—There are several kinds of <term ref="gnd-4035646-2">love</term>. One is a
+                selfish, mean, grasping, egotistical thing which uses love for self-importance. This
+                is the ugly and crippling kind. The other is an outpouring of everything good in
+                you—of kindness and consideration and respect—not only the social respect of manners
+                but the greater respect which is recognition of another person as unique and
+                valuable. The first kind can make you sick and small and weak but the second can
+                release in you strength, and courage and goodness and even wisdom you didn’t know
+                you had.</p>
+            <p>You say this is not puppy love. If you feel so deeply—of course it isn’t puppy
+                love.</p>
+            <p>But I don’t think you were asking me what you feel. You know better than anyone. What
+                you wanted me to help you with is what to do about it—and that I can tell you.</p>
+            <p>Glory in it for one thing and be very glad and grateful for it.</p>
+            <p>The object of love is the best and most beautiful. Try to live up to it.</p>
+            <p>If you love someone—there is no possible harm in saying so—only you must remember
+                that some people are very shy and sometimes the saying must take that shyness into
+                consideration.</p>
+            <p>Girls have a way of knowing or feeling what you feel, but they usually like to hear
+                it also.</p>
+            <p>It sometimes happens that what you feel is not returned for one reason or another—but
+                that does not make your feeling less valuable and good.</p>
+            <p>Lastly, I know your feeling because I have it and I’m glad you have it.</p>
+            <p>We will be glad to meet <persName ref="person-000002">Susan</persName>. She will be
+                very welcome. But <persName ref="gnd-1274234638">Elaine</persName> will make all
+                such arrangements because that is her province and she will be very glad to. She
+                knows about love too and maybe she can give you more help than I can.</p>
+            <p>And don’t worry about losing. If it is right, it happens—The main thing is not to
+                hurry. Nothing good gets away.</p>
+            <closer><salute>Love,</salute>
+                <signed>
+                    <persName ref="gnd-118617338">Fa</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
