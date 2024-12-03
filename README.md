@@ -10,6 +10,9 @@ This repository contains learning materials about TEI Publisher and related tech
 
 - [TEI Publisher: ediciones sofisticadas sin necesidad de programar](2024-10_tei-conference-24.md), workshop in Spanish presented at the _TEI Conference 2024_ in Buenos Aires, October 2024.
 
+- [Introduction to TEI Publisher: how to make a scholarly edition in 60 minutes (EN)](2024-12_bern.md), _Digitale Edition im Dialog (2024)_, Bern, December 2024.
+
+
 
 ## Helpful Literature and Websites
 
