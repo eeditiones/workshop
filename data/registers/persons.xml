@@ -1,0 +1,83 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="pb-persons">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Local Authority File: Person register</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person xml:id="gnd-1111816824">
+                <persName type="main">Steinbeck, Thomas</persName>
+                <persName type="sort">Steinbeck, Thomas</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1944"/>
+                    <placeName ref="https://d-nb.info/gnd/4042011-5">New York, NY</placeName>
+                </birth>
+                <death>
+                    <date when="2016"/>
+                    <placeName ref="https://d-nb.info/gnd/4118400-2">Santa Barbara,
+                        Calif.</placeName>
+                </death>
+                <note type="bio">Ältester Sohn des Schriftstellers John Steinbeck</note>
+            </person>
+            <person xml:id="gnd-118617338">
+                <persName type="main">Steinbeck, John</persName>
+                <persName type="sort">Steinbeck, John</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1902-02-27"/>
+                    <placeName ref="https://d-nb.info/gnd/4425740-5">Salinas, Calif.</placeName>
+                </birth>
+                <death>
+                    <date when="1968-12-20"/>
+                    <placeName ref="https://d-nb.info/gnd/4042011-5">New York, NY</placeName>
+                </death>
+                <note type="bio">Amerikanischer Schriftsteller deutsch-irischer Abstammung;
+                    Nobelpreis (Literatur) 1962</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4042421-2">Nobelpreisträger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-1274234638">
+                <persName type="main">Steinbeck, Elaine A.</persName>
+                <persName type="sort">Steinbeck, Elaine A.</persName>
+                <gender value="U">unknown</gender>
+                <birth>
+                    <date when="1914"/>
+                    <placeName ref="https://d-nb.info/gnd/4079879-3">Austin, Tex.</placeName>
+                </birth>
+                <death>
+                    <date when="2003"/>
+                </death>
+                <note type="bio"/>
+                <occupation ref="https://d-nb.info/gnd/4153179-6">Schauspielerin</occupation>
+            </person>
+            <person xml:id="person-000002">
+                <persName type="main">Susan</persName>
+                <persName type="sort">Susan</persName>
+                <gender value="F"/>
+                <birth>
+                    <date/>
+                    <placeName/>
+                </birth>
+                <death>
+                    <date/>
+                    <placeName/>
+                </death>
+                <note type="bio">Little is known of her with only this letter as reference. Thomas
+                    Steinbeck love interest</note>
+            </person>
+        </listPerson>
+    </standOff>
+</TEI>
