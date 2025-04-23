@@ -12,6 +12,8 @@ This repository contains learning materials about TEI Publisher and related tech
 
 - [Introduction to TEI Publisher: how to make a scholarly edition in 60 minutes (EN)](2024-12_bern.md), _Digitale Edition im Dialog (2024)_, Bern, December 2024.
 
+- [Introduction to TEI Publisher](2025-04_tours.md), _20th Annual Conference of the European Society of Textual Scholarship_, Tours, April 2025.
+
 
 
 ## Helpful Literature and Websites
