@@ -14,6 +14,7 @@ This repository contains learning materials about TEI Publisher and related tech
 
 - [Introduction to TEI Publisher](2025-04_tours.md), _20th Annual Conference of the European Society of Textual Scholarship_, Tours, April 2025.
 
+- [TEI Publisher Workshop](2025-06_heidelberg.md), _Heidelberger Akademie der Wissenschaften_, Heidelberg, June 2025
 
 
 ## Helpful Literature and Websites
