@@ -2,11 +2,11 @@
 
 ## Data sample
 
-We're gonna use a shortened sample from a project we currently work on, a web publication for the *Canoniser les Sept Sages de Rome* (C7S). We will use the first chapter of Roman de Pelyarmenus.
+We're gonna use a shortened sample from a project ww have been working on, a web publication for the *Canoniser les Sept Sages de Rome* (C7S). We will use the first chapter of _Roman de Pelyarmenus_.
 
-This file is already uploaded to the workshop server and a part of the workshop data package. Please familiarize yourself with the encoding structure of the document - structural divisions into chapters and paragraphs.
+We have already created a XAR file that contains this file, see https://github.com/eeditiones/workshop/tree/master/data/pelyarmenus. Please familiarize yourself with the encoding structure of the document - structural divisions into chapters and paragraphs.
 
-[Roman-de-pelyarmenus.xml](https://github.com/tuurma/tours-data/blob/main/data/pelyarmenus/Roman-de-Pelyarmenus.xml)
+[Roman-de-pelyarmenus.xml](https://github.com/eeditiones/workshop/tree/master/data/pelyarmenus/Roman-de-Pelyarmenus.xml)
 
 ![image](A4_Pelyarmenus.png){width=1124 height=589}
 
