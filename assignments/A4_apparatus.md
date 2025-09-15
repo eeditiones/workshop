@@ -2,7 +2,7 @@
 
 ## Data sample
 
-We're gonna use a shortened sample from a project ww have been working on, a web publication for the *Canoniser les Sept Sages de Rome* (C7S). We will use the first chapter of _Roman de Pelyarmenus_.
+We're gonna use a shortened sample from a project we have been working on, a web publication for the *Canoniser les Sept Sages de Rome* (C7S). We will use the first chapter of _Roman de Pelyarmenus_.
 
 We have already created a XAR file that contains this file, see https://github.com/eeditiones/workshop/tree/master/data/pelyarmenus. Please familiarize yourself with the encoding structure of the document - structural divisions into chapters and paragraphs.
 
