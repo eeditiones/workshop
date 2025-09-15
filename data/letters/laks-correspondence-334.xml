@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SL-334">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Szymon Laks do Krystyny Bednarczyk, Paryż, 20 listopada 1983 r.</title>
+                <title level="s">Szymon Laks Krystyna i Czesław Bednarczykowie Korespondencja</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jagiellońska Platforma Cyfrowa / e-editiones</publisher>
+                <date>2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>AOPiM</repository>
+                        <idno type="AOPiM">sygn. 0487</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>list</p>
+                    </msContents>
+                    <physDesc>
+                        <p>format 210×297 mm, papier z widocznymi znakami wodnymi, arkusz zapisany jednostronnie na maszynie</p>
+                    </physDesc>
+                </msDesc>
+                <bibl type="printed-edition">
+                    <title>Szymon Laks Krystyna i Czesław Bednarczykowie Korespondencja</title>
+                    <title level="s">Materiały do dziejów Oficyny Poetów i Malarzy, t. II</title>
+                    <author>Jadwiga Malik</author>
+                    <publisher>Avalon</publisher>
+                    <placeName>Kraków</placeName>
+                    <date>2019</date>
+                    <idno type="ISBN">9788377303818</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Imported from InDesign by JH.</p>
+            <p>Rough (and partial) TEI Lite conversion by MT. Factored out from the collection.
+                Metadata information on the basis of content.</p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="gnd-119032341">Szymon Laks</persName>
+                    <placeName ref="geo-2988507">Paryż</placeName>
+                    <date when="1983-11-20">20 listopada 1983 r.</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="gnd-1257178555">Krystyna Bednarczyk</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="SL-333">
+                        <persName>Szymon Laks</persName> do <persName>Krystyny i Czesława Bednarczyków</persName>
+                    </ref>
+                    <ref type="next" target="SL-335">
+                        <persName>Szymon Laks</persName> do <persName>Krystyny Bednarczyk</persName>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange/>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listAnnotation>
+            <note type="end" xml:id="SL-334-note-1">List ten nie zachował się.</note>
+        </listAnnotation>
+    </standOff>
+    <text>
+        <div>
+                
+                <opener>
+                    <dateline>
+                        <lb/>
+                        <placeName>Paryż</placeName>, <date when="1983-11-20">20 listopada 1983 r.</date>
+                    </dateline>
+                </opener>
+                <salute>Kochana Pani Krystyno,</salute>
+                <p>Rozmowa z Panią bardzo mnie odświeżyła, bo od dwóch miesięcy jestem odcięty od
+                    (mojej) reszty świata, a to chyba dlatego, że zaległe listy „strajkowe” jeszcze
+                    nie zostały rozdane, a może w ogóle przepadną. Bardzo mi doskwierał brak
+                    wiadomości od Duszy. Wczoraj nadeszła „Gwiazda Polarna” z fotografiami (również
+                    moją) „współpracowników” pisma.</p>
+                <p>Spadł mi ciężar z serca, że książka o Toli będzie jednak drukowana w <orgName>Oficynie</orgName> i
+                    że moje „wspomnienie” nie zostało usunięte. Po liście Tomaszewskiego, o którym
+                    mi mówił Dusza (ale którego dokładnej treści nie znam), obawiałem się, że sprawa
+                    przyjmie charakter publiczny, czego bardzo nie lubię, kiedy chodzi o „osobiste
+                    rozgrywki”. Więc mam nadzieję, że do tego nie dojdzie.</p>
+                <p>Dlaczego Terlecki nie uważał za stosowne powiadomić mnie o ugodzie z <orgName>Oficyną</orgName>, to
+                    inna sprawa. Cham zostanie chamem, jeśli tylko się nadarzy okazja. Albo uniżona
+                    pokora i żebranina, albo wyniosła, na niczym nieoparta, krytyka. W środku – nic.
+                    Jego ostatni do mnie list ma datę 3 października, tzn. pisany 6 tygodni
+                    temu.</p>
+                <p>Może jutro nadejdzie wspomniany przez Panią list. W takim razie dopiszę jeszcze
+                    parę słów.</p>
+                <p>Chwilowo ściskam serdecznie oboje Państwa z najlepszymi życzeniami od nas
+                    obojga.</p>
+                <signed>S. L.</signed>
+                <date>Nazajutrz, 21 listopada</date>
+                <p>Właśnie nadszedł list Pani z 18 bm.<anchor n="1" corresp="SL-334-note-1"/>,
+                    potwierdzający układ z Terleckim. Bardzo się cieszę, że nie dojdzie do
+                    publicznych waśni. Również przesyłka Duszy (£ 65) sprawiła mi przyjemność.
+                    Lepszy taki znak życia niż żaden – bo listu od niego wciąż nie otrzymałem.
+                    Zadziwia mnie ilość autorów książki o Toli. Chyba wszyscy będą pisali to
+                    samo…</p>
+                <p>Serdeczne uściski.</p>
+                <signed>S. L.</signed>
+                
+                
+            </div>
+    </text>
+</TEI>

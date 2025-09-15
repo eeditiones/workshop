@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SL-335">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Szymon Laks do Krystyny Bednarczyk, Paryż, 6 grudnia 1983 r.</title>
+                <title level="s">Szymon Laks Krystyna i Czesław Bednarczykowie Korespondencja</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jagiellońska Platforma Cyfrowa / e-editiones</publisher>
+                <date>2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>AOPiM</repository>
+                        <idno type="AOPiM">sygn. 0487</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>list</p>
+                    </msContents>
+                    <physDesc>
+                        <p>format 210×297 mm, papier z widocznymi znakami wodnymi, arkusz zapisany jednostronnie na maszynie ][kopia listu, format 210×297 mm, papier bibułkowy, arkusz zapisany jednostronnie na maszynie; AOPiM, sygn. 0487</p>
+                    </physDesc>
+                </msDesc>
+                <msDesc type="attachment" subtype="copy" status="draft" corresp="#SL_335_1">
+                    <msIdentifier>
+                        <repository>AOPiM</repository>
+                        <idno type="AOPiM">sygn. 0487</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>kopia listu</p>
+                    </msContents>
+                    <physDesc>
+                        <p>format 210×297 mm, papier bibułkowy, arkusz zapisany
+                    jednostronnie na maszynie</p>
+                    </physDesc>
+                </msDesc>
+                <bibl type="printed-edition">
+                    <title>Szymon Laks Krystyna i Czesław Bednarczykowie Korespondencja</title>
+                    <title level="s">Materiały do dziejów Oficyny Poetów i Malarzy, t. II</title>
+                    <author>Jadwiga Malik</author>
+                    <publisher>Avalon</publisher>
+                    <placeName>Kraków</placeName>
+                    <date>2019</date>
+                    <idno type="ISBN">9788377303818</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Imported from InDesign by JH.</p>
+            <p>Rough (and partial) TEI Lite conversion by MT. Factored out from the collection.
+                Metadata information on the basis of content.</p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="gnd-119032341">Szymon Laks</persName>
+                    <placeName ref="geo-2988507">Paryż</placeName>
+                    <date when="1983-12-06">6 grudnia 1983 r.</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="gnd-1257178555">Krystyna Bednarczyk</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="SL-334">
+                        <persName>Szymon Laks</persName> do <persName>Krystyny Bednarczyk</persName>
+                    </ref>
+                    <ref type="next" target="SL-336">
+                        <persName>Szymon Laks</persName> do <persName>Krystyny Bednarczyk</persName>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange/>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listAnnotation/>
+    </standOff>
+    <text>
+        <div>
+            <div type="letter">    
+                <opener>
+                    <dateline>
+                        <lb/>
+                        <placeName>Paryż</placeName>, <date when="1983-12-06">6 grudnia 1983 r.</date>
+                    </dateline>
+                </opener>
+                <salute>Kochana Pani Krystyno,</salute>
+                <p>Dotąd nie otrzymałem zapowiedzianej (26 XI) korekty „wspomnienia o Toli” i trochę
+                    się niepokoję. Mam nadzieję, że to skutek normalnego zatłoczenia
+                    przedświątecznych przesyłek.</p>
+                <p>Miły memu sercu Edward Dusza zapowiada przesyłkę dla mnie na adres <orgName>Oficyny</orgName> 40
+                    dolarów, które proszę wnieść na mój „kredyt”. Ale niezależnie od tego zacytował
+                    mi „ustęp” (wieloznaczeniowy) listu, który otrzymał od Adama Tomaszewskiego
+                    (podobno powiernika Terleckiego), który to ustęp uważam za wypowiedź publiczną,
+                    wobec czego przytaczam go w całości:</p>
+                <quote>Z oburzeniem przeczytaliśmy artykuł Szymona Laksa o Toli Korian. Artykuł jest
+                    egocentryczny (kompozytor Szymon Laks? Nikt o takim nie słyszał ani przed, ani
+                    po wojnie), krzywdzący pamięć znakomitej artystki i wspaniałego człowieka, wręcz
+                    podły. Elaboraty tego typu nie przynoszą zaszczytu „Gwieździe Polarnej” ani jej
+                    redaktorom.</quote>
+                <quote>Z poważaniemAdam Tomaszewski7 października 1983</quote>
+                <p>Ed[ward] Dusza uważa, że „nie warto” na coś podobnego odpowiadać, nie podzielam
+                    jednak jego zdania, bo przemilczanie to znak zgody albo pokory. Wysłałem też na
+                    jego (Duszy) ręce moją odpowiedź, z tym że on sam zadecyduje, czy ją wysłać
+                    Tomaszewskiemu, czy nie. Załączam odbitkę mej odpowiedzi. Mam nadzieję, że
+                    poczciwa Dusza da się skusić i list wyśle.</p>
+                <p>Czekamy na wiadomości o Waszej wizycie podczas świąt, prosimy o zawiadomienie na
+                    czas.</p>
+                <p>Uściski od nas obojga i przedwczesne życzenia.</p>
+                <signed>S. L.</signed>
+                <postscript>
+                    <p>Zał. Odbitka listu do A[dama] Tomaszewskiego.</p>
+                </postscript>
+            </div>
+            <div xml:id="SL_335_1" type="attachment">
+
+                <attachmentTitle>Załącznik do listu nr 335</attachmentTitle>
+                <opener>
+                        <dateline>
+                            <lb/>
+                            <placeName>Paryż</placeName>, <date when="1983-12-05">5 grudnia 1983 r.</date>
+                            <address>
+                                <lb/>
+                                <rs>WPan Adam Tomaszewski</rs>
+                                <lb/>
+                                <placeName>Toronto</placeName>
+                            </address>
+                        </dateline>
+                    </opener>
+                <salute>Szanowny Panie,</salute>
+                <p>Red[aktor] Edward Dusza przekazał mi Pańskie wrażenia z lektury mego wspomnienia
+                    o Toli Korian. Pisze Pan w liczbie mnogiej („przeczytaliśmy”), ale nie wiadomo,
+                    w czyim imieniu Pan przemawia. Pisze Pan również, że <emph>„nikt </emph>o takim (kompozytorze) – czyli o mnie – nie słyszał”, ale
+                    ciekawe, skąd Pan wie, że „nikt”? Mógłby Pan zaczerpnąć nieco wiadomości o mnie
+                    choćby od prof. Tymona Terleckiego, który zwracając się do mnie z prośbą o
+                    udział w imprezie książkowej, pisał do mnie 13 lipca br. (cytuję dosłownie):</p>
+                <quote>Jeśli mogę zgłosić jakiś postulat, to położenie nacisku na jej (Toli) sztukę,
+                    bo <emph>poza tobą nikt nie ma zbyt wiele do powiedzenia
+                        na ten istotny temat</emph>. (…) Gorąco dziękuję za list. Jest taki, jakiego
+                    się spodziewałem, rzetelny i szlachetny. Jestem serdecznie, najserdeczniej
+                    zobowiązany za obietnicę napisania o Toli. Oczywiście jestem o astronomiczną
+                    odległość od żądania czy oczekiwania „panegiryku”. Przeciwnie, chodzi mi po
+                    prostu o prawdę, o fakty… nawet drobne, byleby charakterystyczne. Jesteś wolny
+                    od wszelkiej cenzury, absolutnie wolny (…).</quote>
+                <p>Przyzna Pan, że między zacytowanym tekstem a Pańskimi definicjami („oburzenie”,
+                    „krzywdzi pamięć artystki”, „podły”) różnica jest znaczna. Ciekaw jestem, czy
+                    pisząc swój list do p[ana] Duszy, uczynił to Pan w porozumieniu z Tymonem
+                    Terleckim…</p>
+                <p>Pragnę jeszcze dodać, że podobnie jak zdaniem Pana <emph>„nikt </emph>o mnie nie słyszał ani przed, ani po wojnie”, ja również dzisiaj
+                    słyszę o Panu po raz pierwszy w życiu. Ale nie wyciągam z tego pochopnego
+                    wniosku, że Pan nie jest autentycznym pisarzem. Bo nie można wiedzieć <emph>wszystkiego</emph>.</p>
+                <p>Życzę dalszej przyjemnej twórczości.</p>
+                <signed>Szymon Laks</signed>
+            </div>    
+            </div>
+    </text>
+</TEI>
