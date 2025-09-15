@@ -1,0 +1,410 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SL-008">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Szymon Laks do Krystyny Bednarczyk, Paryż, 17 grudnia 1975 r.</title>
+                <title level="s">Szymon Laks Krystyna i Czesław Bednarczykowie Korespondencja</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Jagiellońska Platforma Cyfrowa / e-editiones</publisher>
+                <date>2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>AOPiM</repository>
+                        <idno type="AOPiM">sygn. 0486</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>list</p>
+                    </msContents>
+                    <physDesc>
+                        <p>format 210×294 mm, szary papier z widocznymi znakami wodnymi, arkusz
+                            zapisany dwustronnie na maszynie</p>
+                    </physDesc>
+                </msDesc>
+                
+                <msDesc type="attachment" subtype="copy" status="draft" corresp="#SL_008_1">
+                    <msIdentifier>
+                        <repository>AOPiM</repository>
+                        <idno type="AOPiM">sygn. akc. 3101</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>kopia listu</p>
+                    </msContents>
+                    <physDesc>
+                        <p>format 210×297 mm, papier bibułkowy, sześć arkuszy zapisanych
+                            jednostronnie na maszynie, poprawki czerwonym i zielonym długopisem</p>
+                    </physDesc>
+                </msDesc>
+                <bibl type="printed-edition">
+                    <title>Szymon Laks Krystyna i Czesław Bednarczykowie Korespondencja</title>
+                    <title level="s">Materiały do dziejów Oficyny Poetów i Malarzy, t. II</title>
+                    <author>Jadwiga Malik</author>
+                    <publisher>Avalon</publisher>
+                    <placeName>Kraków</placeName>
+                    <date>2019</date>
+                    <idno type="ISBN">9788377303818</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Imported from InDesign by JH.</p>
+            <p>Rough (and partial) TEI Lite conversion by MT. Factored out from the collection.
+                Metadata information on the basis of content. Bios extracted to persons registry. 
+                Bibliography references added where available.</p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="gnd-119032341">Szymon Laks</persName>
+                    <placeName ref="geo-2988507">Paryż</placeName>
+                    <date when="1975-12-17">17 grudnia 1975 r.</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="gnd-1257178555">Krystyna Bednarczyk</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="SL-007">
+                        <persName>Szymon Laks</persName> do <persName>Krystyny Bednarczyk</persName>
+                    </ref>
+                    <ref type="next" target="SL-009">
+                        <persName>Szymon Laks</persName> do <persName>Krystyny Bednarczyk</persName>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2025-07-17T17:57:43.422+02:00" who="tei" status="feat">annotate people and places</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listAnnotation>
+            <note type="end" xml:id="SL-008-note-2">A. Pragier, <title key="bibl_SL_064">Nieopatrzny krok</title>,
+                    „Wiadomości” 1975, nr 44 (1544), s. 6.</note>
+            <note type="end" xml:id="SL-008-note-3">Tenże, <title key="bibl_SL_063">Dwa listy. Do redaktora
+                        „Wiadomości”</title>, „Wiadomości” 1971, nr 39 (1330), s. 6.</note>
+            <note type="end" xml:id="SL-008-note-4">Tenże, <title key="bibl_SL_062">Czas teraźniejszy</title>, Londyn
+                    1975, s. 128–129. Zob. załącznik do listu.</note>
+            <note type="end" xml:id="SL-008-note-6">W znaczeniu: albowiem ja.</note>
+            <note type="end" xml:id="SL-008-note-7">A. Pragier, <title key="bibl_SL_065">Plamy na słońcu, czyli
+                        artykuł antysemicki</title>, „Wiadomości” 1971, nr 33 (1324), s. 4. Zob.
+                ponadto tenże, <title key="bibl_SL_066">Żółta łata</title>, „Wiadomości” 1971, nr 48 (1339), s.
+                    2.</note>
+            <note type="end" xml:id="SL-008-note-8">List otwarty nie został opublikowany w
+                    „Oficynie Poetów”, lecz w „Nowinach-Kurierze” w Tel Awiwie. Autor rozwija wątek
+                    polemicznej korespondencji z Adamem Pragierem w książce <title key="bibl_SL_001">Poloniki… polemiki…
+                        polityki…</title> (zob. Sz. Laks, <title key="bibl_SL_001">Poloniki…</title>, dz. cyt., s.
+                    35–79).</note>
+            <note type="end" xml:id="SL-008-attachment-note-2">Manifest pochodzący z roku 1944,
+                    dedykowany „Matce w Polsce lub najukochańszemu Jej cieniowi”: J. Tuwim, <title>My,
+                        Żydzi polscy… We, Polish Jews…</title>, Warszawa 1993.</note>
+            <note type="end" xml:id="SL-008-attachment-note-3">Wydanie polskie: H. Arendt, <title>Eichmann w
+                        Jerozolimie. Rzecz o banalności zła</title>, przeł. A. Szostkiewicz, Kraków
+                    1998.</note>
+            <note type="end" xml:id="SL-008-attachment-note-4">Pandora, <title key="bibl_SL_061">Polacy i Żydzi. 1939–45</title>,
+                    „Wiadomości” 1969, nr 9 (1196), s. 3.</note>
+            <note type="end" xml:id="SL-008-attachment-note-5">K. Iranek-Osmecki, <title key="bibl_SL_032">Kto ratuje jedno
+                        życie… Polacy i Żydzi 1939–1945</title>, Londyn 1968.</note>
+        </listAnnotation>
+    </standOff>
+    <text>
+        <body>
+        <div>
+            <div type="letter">    
+                <opener>
+                    <dateline>
+                        <pb facs="SL_008_1.tif" n="1"/>
+                        <lb/>
+                        <placeName ref="geo-2988507">Paryż</placeName>, <date when="1975-12-17">17 grudnia 1975 r.</date>
+                        <address>
+                            <lb/>
+                            <rs>WPani <persName ref="gnd-1257178555">Krystyna Bednarczyk</persName></rs>
+                            <lb/>
+                            <orgName ref="gnd-3034063-9">Oficyna Poetów i Malarzy</orgName>
+                            <lb/>
+                            <placeName ref="geo-2643743">Londyn</placeName>
+                        </address>
+                    </dateline>
+                </opener>
+                <salute>Wielce Szanowna Pani,</salute>
+                <p>Przepraszam, że znów pozwalam sobie zaniepokoić Panią moimi małymi problemami,
+                    które z pewnego jednak punktu widzenia mogą się okazać nie tak bardzo małe.</p>
+                <p>Przypuszczam, że nie uszło Pani uwagi „przeproszenie” mnie przez prof. <persName ref="gnd-171150694">Adama
+                        Pragiera</persName> na łamach „Wiadomości” (nr
+                    1544 z 2 XI [19]75)<anchor n="1" corresp="SL-008-note-2"/>. Na wszelki wypadek
+                    przypominam, o co poszło: prof. <persName ref="gnd-171150694">Pragier</persName>, bez mojej zgody, zamieścił <emph>dwukrotnie</emph> – raz w „Wiadomościach” w r.
+                        1971<anchor n="2" corresp="SL-008-note-3"/>, drugi raz w swej książce
+                    <title key="bibl_SL_062">Czas teraźniejszy</title> w r. 1975<anchor n="3" corresp="SL-008-note-4"/>
+                    – mój prywatny do niego list tuż obok listu prof. <persName ref="gnd-107498413">Romana Karsta</persName>, nie będącego w żadnym związku z moim. Z tego
+                    zaocznego i perfidnego „collage’u” wynikało dla czytelnika, że epitet „skończony
+                    idiota”, użyty przez prof. <persName ref="gnd-107498413">Karsta</persName>, odnosił się do mojej osoby. Ja bo<anchor n="4" corresp="SL-008-note-6"/> uważałem, że pewien artykuł Pragiera (z r.
+                        1971)<anchor n="5" corresp="SL-008-note-7"/> był anty-semicki, a prof.
+                    <persName ref="gnd-107498413">Karst</persName> – niezależnie ode mnie – napisał do Pragiera, że „trzeba być skończonym
+                    idiotą, żeby dopatrzyć się (w tym artykule) choćby antysemickiej nutki”.</p>
+                <p>Sprawa ta rozeszłaby się „po kościach”, gdyby <persName ref="gnd-171150694">Pragier</persName> nie uważał za stosowne nadać
+                    jej ponownie publiczny rozgłos przez opublikowanie obu tych listów obok siebie,
+                    tym razem w książce, po czterech latach.</p>
+                <p>„Przeproszenie” mnie na łamach „Wiadomości” dało mi pewną satysfakcję zabarwioną
+                    niesmakiem. Ale jądro sprawy – czy artykuł był czy nie był antysemicki – gdzieś
+                    się w tym wszystkim zawieruszyło. Toteż uważałem za stosowne wysłać załączony
+                    przy niniejszym tekst, przedtem do „Wiadomości”, potem do „Tygodnia Polskiego” z
+                    propozycją zamieszczenia. Od „Wiadomości” – odmowa, od „Tygodnia” – głuche
+                    milczenie.                         
+                    <pb facs="SL_008_2.tif" n="2"/>
+                    W danym wypadku milczenie „Tygodnia” nie jest bynajmniej znakiem
+                    zgody.</p>
+                <p>Przysyłając na Pani ręce list otwarty do prof. <persName ref="gnd-171150694">Pragiera</persName>, pragnę w pierwszym
+                    rzędzie zaznajomić Panią – i jej otoczenie redakcyjne – z jego treścią. Gdyby
+                    niezależnie od tego Pani uznała za możliwe jego publikację na łamach „Oficyny”,
+                    byłbym oczywiście i bardzo zaszczycony, i bardzo szczęśliwy.</p>
+                <p>Łączę najlepsze pozdrowienia i bardzo serdeczne życzenia zdrowia i pomyślności z
+                    okazji Świąt i nadchodzącego nowego roku.</p>
+                <closer>
+                    <salute>Szczerze przyjazny</salute>
+                <signed>
+                        <persName ref="gnd-119032341">Szymon Laks</persName>
+                </signed>
+                </closer>
+                <postscript>
+                    <p>Zał. List otwarty do prof. Pragiera<anchor n="6" corresp="SL-008-note-8"/>
+                    </p>
+                </postscript>
+            </div>    
+            <div xml:id="SL_008_1" type="attachment">
+                <pb facs="SL_008_attachment_1.tif" n="1"/>  
+                <head><supplied>Załącznik do listu nr 8</supplied></head>
+                <opener>
+                    <dateline>        
+                        <lb/>
+                        <placeName ref="geo-2988507">Paryż</placeName>, <date when="1975-11-03">3 listopada 1975 r.</date>
+                        <address>
+                            <lb/>
+                            <rs>Profesor <persName ref="gnd-171150694">Adam Pragier</persName></rs>
+                            <lb/>
+                            <placeName ref="geo-2643743">Londyn</placeName>
+                        </address>
+                    </dateline>
+                </opener>
+                <salute>
+                    <emph>List otwarty</emph>
+                </salute>
+                <salute>Szanowny Panie Profesorze,</salute>
+                <p>Teraz, kiedy burza minęła i „sprawiedliwości stało się zadość”, warto może
+                    pomedytować nad tym, co stanowiło właściwie istotne meritum sprawy, tj. czy
+                    artykuł Pana <title key="bibl_SL_065">Plamy na słońcu</title>, do którego przyłączyła się niebawem
+                    <title key="bibl_SL_066">Żółta łata</title>, był czy nie był antysemicki. Przypuszczam, że jeszcze
+                    dziś podtrzymuje Pan to, co Pan napisał w r. 1971, skoro na str. 142 <title key="bibl_SL_062">Czasu
+                        teraźniejszego</title> czytamy: „Wszystko, co napisałem, nadal podtrzymuję”. Ja
+                    od tego czasu też nie zmieniłem zdania, przeciwnie, po uważniejszym przeczytaniu
+                    obu artykułów przekonanie o ich antysemickości jeszcze bardziej się we mnie
+                    wzmogło, które to przekonanie postaram się poniżej uzasadnić.</p>
+                <p>Wspomniane dwa artykuły są tak obszerne i tak bogate w dygresje i rozgałęzienia,
+                    że nie sposób na wszystko odpowiedzieć. Ograniczę się więc do kilku
+                    najistotniejszych punktów, cytując kolejno niektóre urywki z <title key="bibl_SL_062">Czasu teraźniejszego</title>, a po każdym z nich podam własny komentarz.</p>
+                <p>
+                    <seg type="separator">+ + +</seg>
+                </p>
+                <p>1. (Str. 117): „Zachowanie się pobożnego Żyda we dnie i w nocy regulują nakazy i
+                    zakazy Jehowy z wielką szczegółowością. Jest 248 nakazów i 365 zakazów – razem
+                    613 (…). Przyjmuje się, że do każdego przepisu istnieje przeciętnie około
+                    tysiąca wykładni. Pobożny Żyd ma więc do czynienia z 613000 [przykładów] różnego
+                    pojmowania nakazów Jehowy”.</p>
+                <p>Należy przypuszczać, że Pan to nadmienia, aby podkreślić śmieszne strony religii
+                    żydowskiej. Owszem, można uważać, że to jest bardzo śmieszne. W innych miejscach
+                    swej książki ośmiesza Pan jeszcze inne obyczaje i obrządki religijne, które
+                    pobożni Żydzi muszą obserwować. Można by na to odpowiedzieć, że wyśmiewanie
+                    czyjejś religii, choćby najbardziej zabobonnej, to rzecz co najmniej nieładna.
+                    Trąci to czymś, czego Pan na pewno jest zaciętym przeciwnikiem, mianowicie <emph>nietolerancją</emph>. Czy zna Pan religię, poza
+                    mojżeszową, która by nie obfitowała w nakazy i zakazy nadające się do wyśmiania?
+                    Wydaje mi się, że Pana poczucie humoru i chęć ubawienia czytelnika były w tym
+                    wypadku zupełnie nie na miejscu.</p>
+                <p>Wytykanie religii żydowskiej śmiesznostek, które są udziałem każdej religii, jest
+                    dla mnie dowodem antysemityzmu.</p>
+                    <p>
+                        <pb facs="SL_008_attachment_2.tif" n="2"/>2. (Str. 121): „(…) ze zwierząt ubitych rytualnie Żydom wolno jeść tylko przednie
+                    części. Części tylne, na <emph>nasz smak</emph> lepsze
+                    (podkreślenie moje, S. L.), są odrzucane”.</p>
+                <p>Nie mam żadnego stosunku ani do uboju rytualnego, ani do części przednich lub
+                    tylnych. Interesuje mnie tu raczej ten zaimek dzierżawczy „nasz”. W czyim
+                    imieniu Pan przemawia? W imieniu chrześcijan? Aryjczyków? A może w ogóle
+                    nie-Żydów? Albo Żydów zasymilowanych? Do której z tych kategorii Pan siebie
+                    zalicza? Zapuszczając się na tak śliskie grunta, publicysta powinien dbać o to,
+                    by zaoszczędzić czytelnikowi drastycznych domysłów i dociekań. Ale o tym jeszcze
+                    poniżej.</p>
+                <p>3. (Str. 131): „Gdy napisałem w «Wiadomościach» (nr 1326) artykuł <title key="bibl_SL_065">Plamy na
+                        słońcu</title> (…), odzew na to był żywy. Otrzymałem najpierw listy od dwóch
+                    Żydów polskich, przebywających w <placeName ref="geo-2988507">Paryż</placeName>u…”</p>
+                <p>Już wtedy, w r. 1971, kiedy artykuł ten się ukazał, zastanowiło mnie to
+                    nieoczekiwane określenie „Żydów polskich”. Skąd Pan wiedział, że to byli „Żydzi
+                    polscy”? Jakie kryterium stosuje Pan, nazywając np. <persName ref="gnd-118873172">Antoniego Słonimskiego</persName> i
+                    <persName ref="gnd-130101370">Szymona Askenazego</persName>
+                     „Polakami”, a innych,
+                    według własnego wyboru, „Żydami polskimi”? Dlaczego Pan nie napisał: „Otrzymałem
+                    listy od dwóch czytelników”? Tłumaczy się to chyba tym, że Pan odżegnywuje się
+                    od wszystkiego, co żydowskie, i że się Pan uważa za Polaka. To jest Pana święte
+                    prawo, bo każdy ma prawo uważać się za kogo chce, ale w imię czego odbiera Pan
+                    to samo prawo innym? Można się dziwić, że Pan, który mieszka tak długo w tak
+                    demokratycznym kraju jak Anglia, wciąż jeszcze stosuje poczciwe polskie
+                    segregacje: „przynależność państwowa” i „narodowość”. We Francji „Francuzem”
+                    jest każdy, kto ma obywatelstwo francuskie, Francja nie odróżnia „obywatelstwa”
+                    od „narodowości”, jedno i drugie nosi miano: <foreign xml:lang="fr">nationalité</foreign>. Francja
+                    również nie interesuje się tym, czy Francuzi ją „kochają” i czy ona sama „kocha”
+                    swych obywateli. Francja zadowala się tym, że jej obywatele pełnią służbę
+                    wojskową, płacą podatki i zachowują się wobec niej lojalnie. Zaznaczając, że
+                    pisali do Pana dwaj „Żydzi polscy”, dawał Pan do zrozumienia czytelnikowi, że
+                    słowa ich należy przyjąć z dużym zastrzeżeniem, bo przecież to nie są
+                    Polacy.</p>
+                <p>Zna Pan chyba „oświadczenie – wyznanie wiary – litanię” <persName ref="gnd-11880300X">Tuwima</persName> pt. <title>My, Żydzi
+                        Polscy</title>…<anchor n="1" corresp="SL-008-attachment-note-2"/> On uderza w zgoła inny
+                    ton niż Pan. Pozwolę sobie przypomnieć Panu kilka urywków z tej rozdzierającej
+                    wypowiedzi:</p>
+                <quote>Jestem Polakiem, bo tak mi się podoba. Na to słyszę głosy: „Dobrze. Ale
+                    jeżeli Polak, to w takim razie dlaczego <title>My, Żydzi</title>”? Służę
+                    odpowiedzią: <emph>z powodu krwi</emph>. „Więc rasizm?!” –
+                    Nie. Wcale nie rasizm. Wprost przeciwnie.</quote>
+                <quote>Dwojaka jest krew: ta w żyłach i ta z żył. Pierwsza jest sokiem cielesnym,
+                    więc badanie jej należy do fizjologów. Kto tej krwi <pb facs="SL_008_attachment_3.tif" n="3"/>przypisuje jakieś inne, poza
+                    organicznymi, specjalne właściwości i tajemnicze moce, ten, jak widzimy, w
+                    konsekwencji obraca miasta w zgliszcza, wyrzyna miliony ludzi i wreszcie, jak to
+                    zobaczymy, sprowadza rzeź na własny swój szczep.</quote>
+                <quote>Druga krew – to ta właśnie, którą ów herszt międzynarodowego faszyzmu wytacza
+                    z ludzkości, aby zadokumentować tryumf swojej juchy nad moją juchą – krew
+                    niewinnie pomordowanych milionów ludzi, krew nie ukryta, lecz krew ujawniona.
+                    Takiej powodzi męczeńskiej krwi nie było jeszcze jak świat światem, a krew Żydów
+                    – nie „krew żydowska” – najszerszymi i najgłębszymi płynie strumieniami.
+                    Sczerniałe jej potoki zlewają się już w burzliwą, pienistą rzekę…</quote>
+                <quote>
+                    <emph>I w tym oto nowym Jordanie przyjmuję chrzest nad</emph>
+                    <emph>chrzesty: krwawe, gorące, męczennicze braterstwo</emph> <emph>z Żydami.</emph> Przyjmijcie mnie, Bracia, do tej
+                    zaszczytnej wspólnoty Niewinnie Przelanej Krwi. Do tej gminy, do tego kościoła
+                    chcę od dziś należeć. Ta <emph>ranga</emph> – ranga Żyda
+                    Doloris Causa – niechaj będzie udzielona polskiemu poecie przez naród, który go
+                    wydał…</quote>
+                <p>Tak pisał <persName ref="gnd-11880300X">Julian Tuwim</persName> o Żydach polskich i o sobie. Inaczej niż Pan. Bo Pan
+                    pisze:</p>
+                <p>4. (Str. 134): „Żydzi nie uważają się za jeden spośród wielu narodów świata, ale
+                    chcą widzieć świat niejako dwubiegunowy, na jednym biegunie Żydzi, a na drugim
+                    wszyscy inni ludzie – czyli goje. Między tymi gojami nie warto właściwie
+                    rozróżniać, bo wszyscy są do siebie podobni – przez to właśnie, że nie są
+                    Żydami. Hitleryzm i ludobójstwo niemieckie nauczyło Żydów, że jednak jest
+                    różnica między Niemcami a Szwedami czy Włochami, ale trwało to niezbyt długo i
+                    teraz dwubiegunowość świata w pełni wróciła”.</p>
+                <p>A więc dla Pana wymordowanie milionów Żydów to „nauczka”, i to nauczka, która nie
+                    trwała długo, bo wkrótce potem świat znów wrócił do żydowskiej
+                    „dwubiegunowości”. Może następnym razem Żydzi nareszcie nauczą się na dobre
+                    rozróżniać jeden naród od drugiego…</p>
+                <p>Jeżeli nawet tak jest, jak Pan mówi, to znaczy jeżeli dla Żydów „na jednym
+                    biegunie są Żydzi, a drugim goje”, to twierdzenie to rozciąga się na <emph>wszystkie </emph>narody świata. Dla Anglika na jednym
+                    biegunie są Anglicy, na drugim reszta narodów. Dla Polaka podobnie. Dla Murzyna
+                    i Chińczyka również. O Rosjanach nie warto wspominać, ale wspominam, bo chyba
+                    Pan o nich zapomniał. Może to kiedyś minie, ale na razie wszystkie narody są
+                    narodami wybranymi.</p>
+                <p>Wytykanie Żydom wad, które cechują wszystkie inne narody świata, jest objawem
+                    antysemityzmu.</p>
+                    <p>
+                        <pb facs="SL_008_attachment_4.tif" n="4"/>5. (Str. 126): „<persName ref="gnd-11850391X">Hannah Arendt</persName> w książce <title>Eichmann in Jerusalem</title>
+                    <anchor n="2" corresp="SL-008-attachment-note-3"/> zauważa, że młodzi Izraelczycy (…) żadną
+                    miarą nie mogli pojąć, jak 6 milionów Żydów w Europie mogło być zgładzonych
+                    przez Niemców bez żadnej próby zorganizowanego oporu”.</p>
+                <p>Nie pierwszy raz podkreśla Pan tę rzekomą „anomalię”. Wysunął ją Pan już w marcu
+                    1969, również w „Wiadomościach”<anchor n="3" corresp="SL-008-attachment-note-4"/>, w
+                    związku z książką <persName ref="gnd-136225608">Iranka-Osmeckiego</persName> <title key="bibl_SL_032">Kto ratuje jedno życie</title>
+                    <anchor n="4" corresp="SL-008-attachment-note-5"/>.</p>
+                <p>Książkę <persName ref="gnd-11850391X">Hanny Arendt</persName> czytałem dużo lat temu. Obecnie przerzuciłem ją raz jeszcze,
+                    powyższej cytaty nie odnalazłem, ale zakładam, że jest ona autentyczna.
+                    Natrafiłem natomiast na dwie inne wypowiedzi tejże Hanny Arendt, w tejże
+                    książce, a mianowicie (cytuję z wydania francuskiego, 1963, Gallimard, dosłowny
+                    przekład polski – mój):</p>
+                <p>Str. 20: „Prokurator pytał wszystkich świadków: «Dlaczego nie protestowaliście?
+                    Dlaczego daliście się władować do wagonów? Było was 15 tysięcy, a przed sobą
+                    mieliście kilkuset wartowników (…) Dlaczego nie napadliście na nich?».</p>
+                <p><persName ref="gnd-11850391X">Hannah Arendt</persName> odpowiada na to: «Smutną prawdą jest to, że argumenty były nie na
+                    miejscu (niewłaściwe – <foreign xml:lang="fr">déplacés</foreign>), żaden naród nieżydowski nie zachował
+                    się nigdy inaczej»”.</p>
+                <p>Str. 310: (w odpowiedzi na te same pytania) <persName ref="gnd-11850391X">Hannah Arendt</persName> dodaje od siebie:
+                    „Odrzuciłam to pytanie, wydało mi się ono głupie i okrutne. Pomyślałam, że aby
+                    je zadać, trzeba nie mieć pojęcia, czym był reżym hitlerowski”.</p>
+                <p>Co prawda w innym miejscu <persName ref="gnd-11850391X">Hannah Arendt</persName> podtrzymuje tezę bierności Żydów i ich
+                    „sumiennej” współpracy z Niemcami, ale dowodzi to tylko, że nie potrafi ona
+                    sobie poradzić z całokształtem tych problemów. Bo i na to można odpowiedzieć, że
+                    aby tak twierdzić, trzebanie mieć pojęcia, czym był reżym hitlerowski. Faktem
+                    jest, że „wałkowanie” tych kwestii bez końca przez ludzi, z których większość
+                    „tam nie była ani sama tego nie przeżyła”, porodziło legendę o potulności
+                    6-milionowego stada Żydów-baranów, ochoczo mknących w czeluście pieców
+                    krematoryjnych i zwabiających do tego swych współbraci. Łatwo o tych rzeczach
+                    pisać, kiedy się siedzi za wygodnym biurkiem nad arkuszem posłusznego i
+                    cierpliwego papieru…</p>
+                <p>Otóż, proszę Pana, ja mogę Panu (i pani <persName ref="gnd-11850391X">Hannie Arendt</persName>) powiedzieć, „jak to było
+                    naprawdę”. Było tak, że jeszcze nie znalazło się takie pióro, które mogłoby to
+                    opowiedzieć, i ja też nie potrafię. Ale spędziłem w <placeName ref="geo-7701596">Oświęcimiu</placeName> dwa i pół roku, a
+                    potem 6 miesięcy w <placeName ref="geo-12493313">Dachau</placeName> (1942–1944) i byłem naocznym świadkiem tego, „jak tam
+                    było naprawdę”. Oczywiście mogę podać tylko kilka „suchych” faktów, ku pamięci
+                    tych, którzy „tam nie byli”.</p>
+                    <p><pb facs="SL_008_attachment_5.tif" n="5"/>Malowniczy i kuszący swą łatwizną obraz „sześciu milionów Żydów
+                        żwawo mknących do
+                    pieców krematoryjnych” urąga zarówno rzeczywistości, jak i historii. W
+                    rzeczywistości bowiem wędrówka ta trwała całe lata, odbywała się stosunkowo
+                    nielicznymi grupami, po tysiąc, dwa tysiące, najwyżej trzy tysiące ofiar,
+                    osaczonych zewsząd rozjuszoną sforą SS-manów uzbrojonych w karabiny maszynowe,
+                    maczugi i psy gończe. Spróbowałby kto „stawiać opór” w tych warunkach. Byli
+                    jednak tacy, co próbowali się ratować ucieczką, a raczej samobójstwem, i
+                    rzeczywiście padali od razu trupem.</p>
+                <p>Jak nas ładowano, jak transportowano, jak wyładowywano, jak było w Oświęcimiu i
+                    jemu podobnych obozach, o tym [Pan] chyba wie, ale tylko z książek, a więc
+                    inaczej niż ja, inaczej niż ci, którzy tam byli…</p>
+                <p>Opór zaistniał, zarówno wśród Żydów, jak nie-Żydów, ale dopiero wtedy, gdy wojska
+                    alianckie znalazły się o kilka kilometrów od obozu, a strzegący nas Niemcy
+                    zaczęli przebierać się za cywilów i uciekać. Że też takie rzeczy trzeba
+                    tłumaczyć dziś, w roku Pańskim 1975, 30 lat po owych wydarzeniach, w roku, kiedy
+                    się ukazuje <title>Czas teraźniejszy</title> – ze swym „teraźniejszym” aktem
+                    oskarżenia przeciwko Żydom i ich jakże śmiesznej religii!</p>
+                <p>Ale to jeszcze nie wszystko:</p>
+                <p>Jak Pan wytłumaczy, że 60 milionów Rosjan – 10 razy więcej od liczby zgładzonych
+                    Żydów – dało się równie „potulnie” wymordować za rządów stalinowskich? Jak Pan
+                    wytłumaczy wiele innych ludobójstw, których świat – już po upadku hitleryzmu –
+                    był i wciąż jeszcze jest widownią?</p>
+                <p>Odpowiedź na to jest jedna, ta sama, co z tymi 6 milionami Żydów. Pan tę
+                    odpowiedź zna, bo pisał Pan na te tematy bardzo dużo w innych artykułach, choć w
+                    oderwaniu od „kwestii żydowskiej”, ale nigdy Pan tej odpowiedzi nie dał.
+                    Odpowiedź ta brzmi: <emph>czołgi </emph>(jako bardzo szeroko
+                    pojęty symbol broni i przemocy). Żydzi nie mieli czołgów, nie mieli ani noża,
+                    ani łuku, ani nawet procy. Dlatego nie mogli stawiać oporu, dlatego jedyną ich
+                    bronią była modlitwa, którą Pan tak bezlitośnie wyśmiewa.</p>
+                    <p>
+                        <pb facs="SL_008_attachment_6.tif" n="6"/>Dzisiejsi młodzi Izraelczycy rzeczywiście „żadną miarą nie mogą pojąć, jak 6
+                    milionów Żydów w Europie mogło być zgładzonych przezNiemców bez żadnej próby
+                    zorganizowanego oporu”. A wie Pan, dlaczego nie mogą zrozumieć? Po pierwsze, bo
+                    sami są świetnie uzbrojeni, mają czołgi i jeszcze inne wymyślne środki obrony,
+                    które im pozwalają nie tylko się bronić, ale również nacierać na nieprzyjaciela,
+                    kiedy zachodzi po temu potrzeba. Po drugie, dzisiejsi młodzi Izraelczycy żyją w
+                    nieprzerwanym stanie wojny i pogotowia, nie mają ani „czasu”, ani „głowy”, by
+                    dać sobie dokładnie wyjaśnić, „jak to było naprawdę” z tymi Żydami, co się tak
+                    grzecznie dali wytępić. Dużo przemawia za tym, że w niedalekiej przyszłości
+                    nastanie wreszcie pokój na tych obszarach, że młodzi Izraelczycy będą mogli
+                    zejść ze swych czołgów i wysłuchać cierpliwie, „jak to było”.</p>
+                <p>A wtedy niechybnie zrozumieją.</p>
+                <p>Jeżeli <title>Czas teraźniejszy</title> doczeka drugiego wydania – czego Panu szczerze
+                    życzę – mam nadzieję, że będzie to wydanie naprawdę „przejrzane”, „poprawione” i
+                    bardziej uzgodnione z prawdą historyczną.</p>
+                <p>Ślepa ironia losu sprawiła, że w <title>Czasie teraźniejszym</title> obydwa wymienione
+                    artykuły poprzedza wspomnienie Pana o zabójstwie prezydenta <persName ref="gnd-118866192">Narutowicza</persName>.
+                    Wspomnienie to nosi tytuł: <title>Ciszej nad tą trumną</title>. Uważam, że tym ciszej
+                    powinno być nad tymi sześcioma milionami trumien żydowskich, które w dym się
+                    obróciły i z dymem uleciały…</p>
+                <closer>
+                    <salute>Proszę przyjąć wyrazy poważania i szacunku</salute>
+                    <signed>
+                        <persName ref="gnd-119032341">Szymon Laks</persName>
+                    </signed>
+                </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
