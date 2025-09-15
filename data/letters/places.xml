@@ -1,0 +1,98 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pb-places">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Local Authority File: Place register</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy/>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <standOff>
+        <listPlace>
+            <place xml:id="geo-2643743" type="P.PPLC">
+                <placeName type="main">London</placeName>
+                <placeName type="sort">London</placeName>
+                <location>
+                    <geo>51.50853 -0.12574</geo>
+                </location>
+                <country>United Kingdom</country>
+                <region>England</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2643743"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/London"/>
+            </place>
+            <place xml:id="geo-2988507" type="P.PPLC">
+                <placeName type="main">Paris</placeName>
+                <placeName type="sort">Paris</placeName>
+                <location>
+                    <geo>48.85341 2.3488</geo>
+                </location>
+                <country>France</country>
+                <region>Île-de-France</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2988507"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Paris"/>
+            </place>
+            <place xml:id="geo-12277293" type="P.PPL">
+                <placeName type="main">La Gilardie</placeName>
+                <placeName type="sort">La Gilardie</placeName>
+                <location>
+                    <geo>45.20996 0.98581</geo>
+                </location>
+                <country>France</country>
+                <region>Nouvelle-Aquitaine</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/12277293"/>
+            </place>
+        <place xml:id="geo-2972715" type="P.PPL">
+                <placeName type="main">Thorigné-Fouillard</placeName>
+                <placeName type="sort">Thorigné-Fouillard</placeName>
+                <location>
+                    <geo>48.1578 -1.58111</geo>
+                </location>
+                <country>France</country>
+                <region>Brittany</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2972715"/>
+                <ptr type="info" target="https://undefined"/>
+            </place>
+
+            <place xml:id="geo-12493313" type="S.PRN">
+                <placeName type="main">Dachau concentration camp</placeName>
+                <placeName type="sort">Dachau concentration camp</placeName>
+                <location>
+                    <geo>48.27028 11.46828</geo>
+                </location>
+                <country>Germany</country>
+                <region>Bavaria</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/12493313"/>
+                <ptr type="info" target="https://undefined"/>
+            </place>
+            <place xml:id="geo-7701596" type="S.PRN">
+                <placeName type="main">Auschwitz II–Birkenau concentration camp</placeName>
+                <placeName type="sort">Auschwitz II–Birkenau concentration camp</placeName>
+                <location>
+                    <geo>50.03702 19.17612</geo>
+                </location>
+                <country>Poland</country>
+                <region>Lesser Poland</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/7701596"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"/>
+            </place>
+        </listPlace>
+    </standOff>
+</TEI>

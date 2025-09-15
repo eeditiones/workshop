@@ -13,6 +13,7 @@
   * XML as a tree; element and attribute nodes; parent/child, ancestor/descendant, root
   * filters
   * Sequences
+* [Hands-on session: eXide](assignments/A6_xpath.md)  
 * Main concepts of the TEI Processing Model
   * Typical behaviours and content parameter adjustments
   * Styling via cssClass or tei-* classes

@@ -4,12 +4,11 @@
 
 We're gonna use a shortened sample from a project we have been working on, a web publication for the *Canoniser les Sept Sages de Rome* (C7S). We will use the first chapter of _Roman de Pelyarmenus_.
 
-We have already created a XAR file that contains this file, see https://github.com/eeditiones/workshop/tree/master/data/pelyarmenus. Please familiarize yourself with the encoding structure of the document - structural divisions into chapters and paragraphs.
+We have already created a [XAR](https://github.com/eeditiones/workshop/blob/master/data/xars/pelyarmenus-data-0.1.xar) file that contains this document, see https://github.com/eeditiones/workshop/tree/master/data/pelyarmenus. Please familiarize yourself with the encoding structure of the document - structural divisions into chapters and paragraphs.
 
 [Roman-de-pelyarmenus.xml](https://github.com/eeditiones/workshop/tree/master/data/pelyarmenus/Roman-de-Pelyarmenus.xml)
 
 ![image](A4_Pelyarmenus.png){width=1124 height=589}
-
 
 ## TEI encoding of textual variants in the XML source
 
