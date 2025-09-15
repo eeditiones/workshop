@@ -83,7 +83,6 @@
         <listAnnotation/>
     </standOff>
     <text>
-        <div>
             <div type="letter">    
                 <opener>
                     <dateline>
@@ -159,6 +158,6 @@
                 <p>Życzę dalszej przyjemnej twórczości.</p>
                 <signed>Szymon Laks</signed>
             </div>    
-            </div>
+        
     </text>
 </TEI>
