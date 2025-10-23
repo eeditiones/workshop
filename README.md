@@ -16,7 +16,9 @@ This repository contains learning materials about TEI Publisher and related tech
 
 - [TEI Publisher Workshop](2025-06_heidelberg.md), _Heidelberger Akademie der Wissenschaften_, Heidelberg, June 2025
 
-- [TEI Processing Model](2025-09_tei-conference-2025.md), _TEI Annual Conference and Members’ Meeting 2025_, Kraków, September 2025. 
+- [TEI Processing Model](2025-09_tei-conference-2025.md), _TEI Annual Conference and Members’ Meeting 2025_, Kraków, September 2025.
+
+- [Digitale Editionen und ...](2025-10-digitale-editionen.md), _Gibt es das auch in schön und nachhaltig? Digitale Editionen und Webpräsentation I: TEI Publisher_, Oktober 2025.
 
 
 ## Helpful Literature and Websites
