@@ -85,14 +85,14 @@ header div {
 ---
 # Profiles
 
-- __Blueprint__: a complete template for an application targeted at a specific use case like a monograph, correspondence edition, dictionary etc.
 - __Base__: a profile providing the core server-side API of TEI Publisher and basic page layout without styling
-- __Feature__: a functional sub-profile to be imported into another profile. It adds specific functionality, e.g. docker configuration, additional visualizations or pages etc.
-- __Theme__: provides a particular look and feel. Without this, you only get unstyled HTML.
+- __Feature__: a functional sub-profile. It adds specific functionality, e.g. docker configuration, IIIF viewer or a landing page
+- __Theme__: provides styling for a particular look and feel. Without this, you only get very plain HTML website.
+- __Blueprint__: a complete template for an application targeted at a specific use case like a monograph, correspondence edition, dictionary etc. It combines the base profile with a feature and theme selection and configuration.
 ---
-- each profile contributes a particular aspect
+- each profile covers a particular aspect
 - it may depend on or extend other profiles
-- all profiles and applications generated from them have the same structure/layout
+- all profiles and applications generated from them have the same organizational structure
 
 ![bg right:60%](../images/jinks.jpg)
 
@@ -111,8 +111,8 @@ header div {
 ---
 
 ![bg cover right:42%](images/serafin-template.png)
-- powerful template inheritance model: build complex page layouts by composing simpler templates
-- frontmatter allows templates to change configuration settings, e.g. disable UI features
+- powerful template inheritance model: assemble simpler templates to build complex page layouts 
+- frontmatter allows templates to adjust configuration settings, e.g. disable UI features
 ---
 # Page Layout and Theming
 
@@ -120,7 +120,7 @@ header div {
 ![bg contain right:50%](images/layout-regions2.png)
 - all styling is handled by theme profiles
 - TEI Publisher base only provides an _abstract page layout_
-- profiles may inject UI fragments into defined locations
+- profiles may inject UI fragments into defined areas
 ---
 
 # Styling
@@ -135,7 +135,8 @@ header div {
 
 - all ODDs inherit from `teipublisher.odd`
 - provides sensible defaults for most common TEI elements
-- many documents will render ok out of the box
+- covers variant use case scenarios
+- many documents will render satisfactorily out of the box
 - limits the need for custom ODD rules
 
 ---
@@ -154,7 +155,7 @@ header div {
 - non-profit organization founded in 2020
 - limited budget: membership fees only!
 - development mainly cross-financed by the edition projects
-- TEI Publisher 10 was supported by
+- TEI Publisher 10 was primarily supported by
 
 <div class="images">
     <img src="images/dhlab.svg" height="64">
