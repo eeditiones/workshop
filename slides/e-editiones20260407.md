@@ -3,7 +3,7 @@ _class: lead
 _paginate: skip
 backgroundColor: #fff
 header: '<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;"><img src="images/tei-publisher-logo-color.svg" width="220px" style="margin: 0;"><img src="images/e-editiones-logo-color-for-light-bg-05.svg" width="120px" style="margin: 0;"></div>'
-footer: Tips and tricks around TEI Publisher 10
+footer: 'TEI Publisher 10: Tips and Tricks'
 paginate: true
 marp: true
 incremental: false
