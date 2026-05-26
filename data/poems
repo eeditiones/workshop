@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../resources/odd/teilite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../resources/odd/teilite.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="lentini01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Canzone</title>
+                <author>Jacopo da Lentini</author>
+
+                <respStmt>
+                    <resp>TEI encoding</resp>
+                    <persName>Magdalena Turska</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>e-editiones</publisher>
+                <date>2026</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="online-edition">
+                    <title>Giacomo da Lentini and the Sicilian School of poetry</title>
+                    <editor>Gaetano Cipolla</editor>
+                    <publisher>Splendid Sicily</publisher>
+                    <date>2021</date>
+                </bibl>
+                <bibl type="printed-edition">
+                    <title>I poeti della Scuola siciliana. Vol. 1: Jacopo da Lentini</title>
+                    <editor>Roberto Antonelli</editor>
+                    <publisher>Mondadori</publisher>
+                    <placeName>Milano</placeName>
+                    <date>2008</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="#genre" target="#poem"/>
+                <catRef scheme="#feature" target="#translation"/>
+                <catRef scheme="#period" target="#medieval"/>
+                <catRef scheme="#schema" target="#lite"/>
+            </textClass>
+            <langUsage>
+                <language ident="it">Italian</language>
+                <language ident="en">English</language>
+            </langUsage>
+            <creation>
+                <date notBefore="1200"/>
+            </creation>
+        </profileDesc>
+        <encodingDesc>
+            <schemaRef url="teilite.odd"/>
+            <editorialDecl>
+                <p>All @key attributes are intended to be resolved with the TEI Processing Model
+                    specification</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-05-05">Initial encoding from online sources</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <text type="source" xml:lang="it">
+            <div xml:id="lentini01.s.1">
+                <head>Miravigghiusamenti</head>
+                <lg>
+                    <l n="1"> Miravigghiusamenti </l>
+                    <l n="2"> n’amuri mi distrinci </l>
+                    <l n="3"> e mi teni ad ogn’ura. </l>
+                    <l n="4"> Com’omu ca poni menti </l>
+                    <l n="5"> in àutru exemplu pinci </l>
+                    <l n="6"> la simili pintura, </l>
+                    <l n="7"> cussì, bedda, facc’eu, </l>
+                    <l n="8"> ca ’nfra lu cori meu </l>
+                    <l n="9"> portu la to figura. </l>
+                </lg>
+                <lg>
+                    <l n="10"> In cori pari ch’eu vi porti, </l>
+                    <l n="11"> pinta comu pariti, </l>
+                    <l n="12"> e non pari difora. </l>
+                    <l n="13"> O Deu, comu mi pari forti </l>
+                    <l n="14"> non so si lu sapiti, </l>
+                    <l n="15"> com’ v’amu di bon cori; </l>
+                    <l n="16"> ch’eu sù sì virgugnusu </l>
+                    <l n="17"> ca pur vi guardu ascusu </l>
+                    <l n="18"> e non vi mustru amuri. </l>
+                </lg>
+                <lg>
+                    <l n="19"> Avennu gran disiu </l>
+                    <l n="20"> dipinsi una pintura, </l>
+                    <l n="21"> bedda, vui sumigghianti, </l>
+                    <l n="22"> e quannu vui non viju </l>
+                    <l n="23"> guardu nni dda figura, </l>
+                    <l n="24"> pari ch’e v’aggia avanti: </l>
+                    <l n="25"> comu chiddu chi cridi </l>
+                    <l n="26"> salvarsi pir sua fidi, </l>
+                    <l n="27"> ancor non veggia inanti. </l>
+                </lg>
+                <lg>
+                    <l n="28"> Al cor m’ard’una dogghia, </l>
+                    <l n="29"> com’om chi teni lu focu </l>
+                    <l n="30"> a lo so senu ascusu, </l>
+                    <l n="31"> e quannu chiù lu ’nvogghia, </l>
+                    <l n="32"> allura ardi chiù ddocu </l>
+                    <l n="33"> e non pò star inclusu: </l>
+                    <l n="34"> similementi eu ardu </l>
+                    <l n="35"> quannu pass’e non guardu </l>
+                    <l n="36"> a vui, vis’amurusu.</l>
+                </lg>
+                <lg>
+                    <l n="37"> S’eu guardu, quannu passu, </l>
+                    <l n="38"> inver’ vui no mi giru, </l>
+                    <l n="39"> bedda, pir risguardari; </l>
+                    <l n="40"> andannu, ad ogni passu </l>
+                    <l n="41"> jettu un gran suspiru </l>
+                    <l n="42"> ca facimi ancusciari; </l>
+                    <l n="43"> e certu beni ancusciu, </l>
+                    <l n="44"> c’a pena mi conusciu, </l>
+                    <l n="45"> tantu bedda mi pari. </l>
+                </lg>
+                <lg>
+                    <l n="46"> Assai v’aggiu laudatu, </l>
+                    <l n="47"> madonna, in tutti parti, </l>
+                    <l n="48"> di biddizzi c’aviti. </l>
+                    <l n="49"> Non so si v’è cuntatu </l>
+                    <l n="50"> ch’eu lu faccia pir arti, </l>
+                    <l n="51"> che vui pur v’ascunditi: </l>
+                    <l n="52"> sacciatilu pir singa </l>
+                    <l n="53"> zocch’eu no dicu a linga, </l>
+                    <l n="54"> quannu vui mi viditi. </l>
+                </lg>
+                <lg>
+                    <l n="55"> Canzunedda nuvella, </l>
+                    <l n="56"> va’ canta nova cosa; </l>
+                    <l n="57"> lèvati di maitinu </l>
+                    <l n="58"> davanti a la chiù bedda, </l>
+                    <l n="59"> ciuri d’ogn’amurusa, </l>
+                    <l n="60"> biunda chiù c’auru finu: </l>
+                    <l n="61"> «Lu vostru amuri, ch’è caru, </l>
+                    <l n="62"> dunatilu a lu Nutaru </l>
+                    <l n="63"> ch’è natu di Lentinu». </l>
+                </lg>
+            </div>
+        </text>
+        <text type="translation" xml:lang="en" xml:id="t1">
+            <div corresp="#lentini01.s.1" xml:id="lentini01.t1.1">
+                <head>Extraordinarily</head>
+                <lg>
+                    <l n="1"> Extraordinarily </l>
+                    <l n="2"> A love constrains me so </l>
+                    <l n="3"> I’m so constrained by love </l>
+                    <l n="4"> it never lets me go. </l>
+                    <l n="5"> Like one who puts his mind </l>
+                    <l n="6"> to paint a likeness of </l>
+                    <l n="7"> a model he can view, </l>
+                    <l n="8"> that’s all I do, my love, </l>
+                    <l n="9"> I carry in my heart </l>
+                    <l n="10"> an effigy of you. </l>
+                </lg>
+                <lg>
+                    <l n="11"> I bear you in my heart </l>
+                    <l n="12"> painted as you appear </l>
+                    <l n="13"> but this outside won’t show. </l>
+                    <l n="14"> God, it is harsh, severe, </l>
+                    <l n="15"> not knowing if you know </l>
+                    <l n="16"> that my love is sincere. </l>
+                    <l n="17"> However, I’m so shy </l>
+                    <l n="18"> I watch you on the sly </l>
+                    <l n="19"> and hide the love I bear. </l>
+                </lg>
+                <lg>
+                    <l n="20"> Moved by a strong desire </l>
+                    <l n="21"> I drew a lovely portrait </l>
+                    <l n="22"> that close resembled you </l>
+                    <l n="23"> and when you’re not in view </l>
+                    <l n="24"> that image I admire </l>
+                    <l n="25"> and think I’m seeing you. </l>
+                    <l n="26"> Like someone who believes </l>
+                    <l n="27"> his faith can save his soul </l>
+                    <l n="28"> though he can’t see that goal. </l>
+                    <l n="29"> There’s burning in my heart </l>
+                    <l n="30"> like one who has a fire </l>
+                    <l n="31"> that’s hidden in his breast, </l>
+                    <l n="32"> and when incitement soars </l>
+                    <l n="33"> the flame grows even higher </l>
+                    <l n="34"> so he can’t take much more. </l>
+                    <l n="35"> That is the way I burn </l>
+                    <l n="36"> when I pass by and turn </l>
+                    <l n="37"> away from you, my love. </l>
+                </lg>
+                <lg>
+                    <l n="38"> If when I pass, you’re there, </l>
+                    <l n="39"> I do not turn to stare, </l>
+                    <l n="40"> my love, to better see, </l>
+                    <l n="41"> but with each step I try </l>
+                    <l n="42"> I breathe a heavy sigh </l>
+                    <l n="43"> that takes my breath away. </l>
+                    <l n="44"> I feel then so unsteady, </l>
+                    <l n="45"> who I am I can’t say, </l>
+                    <l n="46"> so fair you seem, my Lady. </l>
+                </lg>
+                <lg>
+                    <l n="47"> Much praise did I accord, </l>
+                    <l n="48"> Lady, to you for all </l>
+                    <l n="49"> the beauties you possess. </l>
+                    <l n="50"> I know not if you’ve heard </l>
+                    <l n="51"> it’s done with craftiness </l>
+                    <l n="52"> that’s why you hide from view, </l>
+                    <l n="53"> but take this as a clue </l>
+                    <l n="54"> of what I’ll say to you </l>
+                    <l n="55"> when you and I will meet. </l>
+                </lg>
+                <lg>
+                    <l n="56"> My little novel song, </l>
+                    <l n="57"> go sing of something new. </l>
+                    <l n="58"> Rise early in the morn </l>
+                    <l n="59"> and seek the fairest one </l>
+                    <l n="60"> among the best in love, </l>
+                    <l n="61"> whose hair is fine spun gold. </l>
+                    <l n="62"> “Your love that is so rare </l>
+                    <l n="63"> give to the Notary </l>
+                    <l n="64"> who’s from Lentini born.”</l>
+                </lg>
+            </div>
+        </text>
+    </text>
+    
+</TEI>

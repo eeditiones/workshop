@@ -1,0 +1,1127 @@
+<?teipublisher odd="docbook.odd" template="db.html" view="div" depth="5" fill="1"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.0" xml:id="introduction">
+    <info>
+        <title>Digital Editions</title>
+        <author>
+            <personname>
+                <firstname>Magdalena</firstname>
+                <surname>Turska</surname>
+            </personname>
+            <affiliation>
+                <orgname>e-editiones</orgname>
+            </affiliation>
+        </author>
+        <date>May 2026</date>
+        <keywordset vocab="#genre">
+            <keyword>workshop</keyword>
+        </keywordset>
+    </info>
+    <section>
+        <title>Digital Editions</title>
+        <figure>
+            <title>Mauritius Ferber to Ioannes Dantiscus</title>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="dantiscus-idl10.jpg" width="900px"/>
+                </imageobject>
+            </mediaobject>
+        </figure>
+        <section>
+            <title>Introduction to TEI</title>
+
+            <itemizedlist>
+                <listitem>
+                    <para>Editing and markup</para>
+                </listitem>
+                <listitem>
+                    <para>TEI standard</para>
+                </listitem>
+                <listitem>
+                    <para>XML foundations</para>
+                </listitem>
+                <listitem>
+                    <para>TEI Core elements</para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>TEI documents</para>
+                        </listitem>
+                        <listitem>
+                            <para>teiHeader</para>
+                        </listitem>
+                        <listitem>
+                            <para>document structure: divisions, paragraphs, lines and pages</para>
+                        </listitem>
+                        <listitem>
+                            <para>highlights: hi, emph, foreign, title etc</para>
+                        </listitem>
+                        <listitem>
+                            <para>regularization, abbreviations and corrections</para>
+                        </listitem>
+                        <listitem>
+                            <para>textual features: add, del, gap</para>
+                        </listitem>
+                        <listitem>
+                            <para>people and places</para>
+                        </listitem>
+                        <listitem>
+                            <para>dates</para>
+                        </listitem>
+                        <listitem>
+                            <para>textual variants</para>
+                        </listitem>
+                        <listitem>
+                            <para>connecting facsimiles</para>
+                        </listitem>
+                    </itemizedlist>
+                </listitem>
+                
+            </itemizedlist>
+        </section>
+        <section>
+            <title>Workflows and tools</title>
+
+            <section>
+                <title>Metadata</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>Letters</para>
+                    </listitem>
+                    <listitem>
+                        <para>Persons</para>
+                    </listitem>
+                    <listitem>
+                        <para>Places</para>
+                    </listitem>
+                    <listitem>
+                        <para>Bibliography</para>
+                    </listitem>
+                </itemizedlist>
+
+                <para>Editing workflows</para>
+            </section>
+            <section>
+
+                <title>Transcriptions</title>
+                <itemizedlist>
+                    
+                    <listitem>
+                        <para>(oXygen) XML editor</para>
+                    </listitem>
+                    <listitem>
+                        <para>Word-based transcriptions</para>
+                    </listitem>
+                    <listitem>
+                        <para>Transkribus</para>
+                    </listitem>
+                </itemizedlist>
+
+                <para>Future</para>
+            </section>
+        </section>
+        <section xml:id="editing">
+            <title>Editing and markup</title>
+            <section>
+                <title>What an edition is?</title>
+                <blockquote>
+                    <para>Edition ist die erschließende Wiedergabe historischer Dokumente.</para>
+                </blockquote>
+                <para><quote>A scholarly edition is the critical representation of historical
+                        documents.</quote></para>
+
+                <para>
+                    <emphasis>"historical documents"</emphasis>: editing is concerned with documents
+                    that already exist. To create a new document (which doesn't refer to something
+                    preexisting) is not scholarly editing.</para>
+
+                <para>
+                    <emphasis>"representation"</emphasis>: covers (abstract) representation as well
+                    as presentation (reproduction). Publishing descriptive data (e.g. metadata)
+                    without reproduction is not critical editing. A catalogue, a database, a
+                    calendar is not an edition.</para>
+
+                <para>
+                    <emphasis>"critical / scholarly"</emphasis>: reproduction of documents without
+                    critical examination is not scholarly editing. A facsimile is not a scholarly
+                    edition. </para>
+            </section>
+            <section>
+                <title>Digital vs print</title>
+                <blockquote>
+                    <para>Electronic publications can, if suitably encoded and suitably supported by
+                        software, present the same text in many forms [and type of reader][...]In
+                        this respect, they may face even higher intellectual requirements than print
+                        editions, which typically need not attempt to provide annotations for such
+                        diverse readers.</para>
+                    <para>M. Sperberg-McQueen</para>
+                </blockquote>
+                <figure>
+                    <title>Letter from Van Gogh correspondence</title>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="vangogh-letter.png" width="900px"/>
+                        </imageobject>
+                    </mediaobject>
+                </figure>
+            </section>
+        </section>
+
+        <section xml:id="markup">
+            <title>Markup</title>
+            <para>A text is more than a sequence of encoded glyphs or lexical tokens</para>
+            <itemizedlist>
+                <listitem>
+                    <para>it has a structure and a communicative function</para>
+                </listitem>
+                <listitem>
+                    <para>it also has multiple possible readings</para>
+                </listitem>
+                <listitem>
+                    <para>its meaning usually requires some level of decoding: deciphering the
+                        script, expanding abbreviations, identifying spatial and temporal
+                        context...</para>
+                </listitem>
+                <listitem>
+                    <para>it can be enriched by annotation</para>
+                </listitem>
+            </itemizedlist>
+
+
+            <para>The process of inserting explicit markers for implicit textual features is often
+                called ‘<emphasis>markup</emphasis>’, or equivalently
+                ‘<emphasis>encoding</emphasis>’; the term ‘<emphasis>tagging</emphasis>’ is also
+                used informally.</para>
+
+            <para>
+                <quote>Only that which is explicit can be reliably found and displayed, counted,
+                    analysed...</quote>
+            </para>
+
+            <section>
+                <title>Why would we bother with marking up all that?</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>To allow machine-processing and querying</para>
+                    </listitem>
+                    <listitem>
+                        <para>To facilitate re-use of the same material</para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>in different formats</para>
+                            </listitem>
+                            <listitem>
+                                <para>in different contexts</para>
+                            </listitem>
+                            <listitem>
+                                <para>by different users</para>
+                            </listitem>
+                        </itemizedlist>
+                    </listitem>
+                    <listitem>
+                        <para>Not to be limited to the singular view of one editor or
+                            consumer</para>
+                    </listitem>
+                    <listitem>
+                        <para>To add value by supplying multiple annotations reflecting editor's
+                            knowledge</para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+
+            <section>
+                <title>How to make explicit (to a machine) what is implicit (to a person)?</title>
+                <figure>
+                    <title>Van Gogh letters</title>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="vangogh.png" width="900px"/>
+                        </imageobject>
+                    </mediaobject>
+                </figure>
+            </section>
+            <section>
+                <title>Procedural markup</title>
+                <para>In the beginning there was procedural markup</para>
+
+                <para><code>RED INK ON; print balance; RED INK OFF</code></para>
+
+                <para>
+                    <emphasis>Problem</emphasis>: Conventions give some clues about the meaning but
+                    are often ambiguous and may not be universally understood.</para>
+            </section>
+
+            <section>
+                <title>Isn't it more useful to markup what we think things are than what they look
+                    like?</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>Presentational markup cares more about fonts and layout than
+                            meaning</para>
+                    </listitem>
+                    <listitem>
+                        <para>Descriptive markup says what things are, making the interpretation
+                            straightforward and leaves the rendition of them for a separate
+                            step</para>
+                    </listitem>
+                    <listitem>
+                        <para>Separating the form of something from its content makes it much easier
+                            to re-use</para>
+                    </listitem>
+                    <listitem>
+                        <para>It also allows easy changes of presentation across a large number of
+                            documents</para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+
+            <section>
+                <title>Is this the same text?</title>
+                <figure>
+                    <title>Renditions</title>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="duBellay.png" width="900px"/>
+                        </imageobject>
+                    </mediaobject>
+                </figure>
+
+            </section>
+
+            <section>
+                <title>Compare two markup approaches</title>
+
+                <programlisting language="xml" xml:space="preserve">
+    &lt;pb n="4"/&gt;A MONSEI- &lt;lb/&gt;GNEUR LE REVE-
+    &lt;lb/&gt;rendissime Cardinal &lt;lb/&gt;du Bellay. &lt;lb/&gt;S
+    &lt;lb/&gt;
+    &lt;c&gt;V&lt;/c&gt;EU le
+    Personnaige, &lt;lb/&gt;que tu joues au Spec- &lt;lb/&gt;tacle de toute l'Europe...
+    </programlisting>
+
+
+
+                <programlisting language="xml" xml:space="preserve">
+    &lt;div type="dedicace"&gt;
+        &lt;head&gt;A MONSEIGNEUR LE REVERENDISSIME CARDINAL DU BELLAY&lt;/head&gt;
+        &lt;salute&gt;S&lt;ex&gt;ire&lt;/ex&gt;&lt;/salute&gt;
+        &lt;p&gt;
+        &lt;c rend="lettrine"&gt;V&lt;/c&gt;EU le Personnaige, que tu joues au Spectacle de toute
+        l'Europe... &lt;/p&gt;...
+    &lt;/div&gt;
+    </programlisting>
+
+
+            </section>
+            <section>
+                <title>Markup is a scholarly activity</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>The application of markup to a document is not an automatic
+                            process</para>
+                    </listitem>
+                    <listitem>
+                        <para>In deciding what markup to apply, and how this represents the
+                            original, one is undertaking the task of an editor</para>
+                    </listitem>
+                    <listitem>
+                        <para>There is (almost) no such thing as neutral markup -- all of it
+                            involves interpretation</para>
+                    </listitem>
+                    <listitem>
+                        <para>Markup can assist in answering research questions, and the deciding
+                            what markup is needed to enable such questions to be answered can be a
+                            research activity in itself</para>
+                    </listitem>
+                    <listitem>
+                        <para>Good textual encoding is never as easy or quick as people would
+                            believe</para>
+                    </listitem>
+                    <listitem>
+                        <para>Detailed document analysis is needed before encoding for the resulting
+                            markup to be useful</para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+
+            <section>
+                <title>Long-term preservation and sustainability</title>
+
+                <para>Presentation by its very nature is ephemeral: bound to be modified over time
+                    or multiplied for other use scenarios</para>
+                <para>Computer systems get obsolete pretty quickly: a decade or two or even
+                    quicker</para>
+                <para>Need to refurbish the interfaces, migrate the underlying software and perhaps
+                    data as well is one constant in long-term preservation</para>
+                <para>It’s the data source, the encoding that is of long-lasting value and not the
+                    presentation</para>
+                <para>Good, formal, well documented data model will lend itself to fairly easy
+                    conversion into any new solution that comes</para>
+            </section>
+
+            <section>
+                <title>What are our hopes and promises?</title>
+
+                <itemizedlist>
+                    <listitem>
+                        <para>scholarly use and reuse</para>
+                    </listitem>
+                    <listitem>
+                        <para>interchange</para>
+                    </listitem>
+                    <listitem>
+                        <para>long-term preservation</para>
+                    </listitem>
+                </itemizedlist>
+                <blockquote>
+                    <para>What ensures the best chance of long-term preservation and reuse is the
+                        concentration on openly licensed, quality encoding conforming as best as
+                        possible to standards.</para>
+                </blockquote>
+            </section>
+
+            <section>
+                <title>The markup language we use must be able to ...</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>specify all the characters found</para>
+                    </listitem>
+                    <listitem>
+                        <para>make explicit the structures perceived</para>
+                    </listitem>
+                    <listitem>
+                        <para>represent that structure in a linear processable form</para>
+                    </listitem>
+                    <listitem>
+                        <para>additionally supply a variety of metadata or annotations</para>
+                    </listitem>
+                </itemizedlist>
+
+                <para>XML is a good fit</para>
+            </section>
+        </section>
+        <section xml:id="tei">
+            <title>Community standard: TEI</title>
+            <para>The TEI Consortium is a nonprofit membership organization composed of academic
+                institutions, research projects, and individual scholars from around the world.
+                Members contribute financially to the Consortium and elect representatives to its
+                Council and Board of Directors. In commemoration of the TEI community's 30th
+                anniversary, it was awarded the 2017 Antonio Zampolli Prize from the Alliance of
+                Digital Humanities Organizations.</para>
+            <para>The Text Encoding Initiative (TEI) collectively develops and maintains a standard
+                for the representation of texts in digital form.</para>
+            <para>TEI Guidelines: encoding methods for machine-readable texts, chiefly in the
+                humanities, social sciences and linguistics.</para>
+            <para>Widely used by libraries, museums, publishers, and individual scholars to present
+                texts for online research, teaching, and preservation.</para>
+            <para>TEI is often called a <emphasis>de facto standard</emphasis>, likely because it's
+                a community of users, developing from the bottom up.</para>
+
+
+
+            <section>
+                <title>TEI encoding scheme is expressed in XML</title>
+
+                <para>The rules and recommendations made in TEI Guidelines are expressed in terms of
+                    what is currently the most widely-used markup language for digital resources of
+                    all kinds: XML. However, the TEI encoding scheme itself does not depend on this
+                    language; it was originally formulated in terms of SGML (the ISO Standard
+                    Generalized Markup Language), a predecessor of XML, and may in future years be
+                    re-expressed in other ways as the field of markup develops.</para>
+            </section>
+        </section>
+        <section xml:id="xml">
+            <title>XML</title>
+            <para>Extensible Markup Language is a markup language that defines a set of rules for
+                encoding documents in a format which is both human-readable and
+                machine-readable.</para>
+
+            <para>Defined by the W3C's XML 1.0 Specification and by several other related
+                specifications, all of which are free open standards.</para>
+
+            <para>Strictly speaking, XML is a metalanguage, that is, a language used to describe
+                other languages (or, as we often say: vocabularies). TEI is one of the existing
+                vocabularies expressed in XML.</para>
+
+            <section>
+                <title>Unicode</title>
+                <para>XML document is a string of characters.</para>
+
+                <para>Almost every legal Unicode character may appear in an XML document.</para>
+            </section>
+
+            <section>
+
+                <title>Markup and content</title>
+
+                <para>The characters making up an XML document are divided into markup and content,
+                    which may be distinguished by the application of simple syntactic rules.</para>
+
+                <itemizedlist>
+                    <listitem>
+                        <para>markup either begins with <code>&lt;</code> and ends with a
+                                <code>&gt;</code></para>
+                    </listitem>
+                    <listitem>
+                        <para>or begins with the character <code>&amp;</code> and ends with a
+                                <code>;</code></para>
+                    </listitem>
+                    <listitem>
+                        <para>strings of characters that are not markup are content</para>
+                    </listitem>
+                </itemizedlist>
+
+            </section>
+
+            <section>
+                <title>Tag</title>
+                <para>A markup construct that begins with <code>&lt;</code> and ends with
+                        <code>&gt;</code>.</para>
+                <para>Tags come in three flavors: </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>start-tags; for example: <code>&lt;div&gt;</code></para>
+                    </listitem>
+                    <listitem>
+                        <para>end-tags; for example: <code>&lt;/div&gt;</code></para>
+                    </listitem>
+                    <listitem>
+                        <para>empty-element tags; for example: <code>&lt;lb/&gt;</code></para>
+                    </listitem>
+                </itemizedlist>
+
+            </section>
+
+            <section>
+                <title>Element </title>
+                <para>A logical document component which either begins with a start-tag and ends
+                    with a matching end-tag or consists only of an empty-element tag.</para>
+                <para>The characters between the start- and end-tags, if any, are the element's
+                    content, and may contain markup, including other elements, which are called
+                        <emphasis>child elements</emphasis>. An example of an element is </para>
+                <programlisting language="xml">&lt;salute&gt;Hello, world.&lt;/salute&gt;</programlisting>
+                <para>Another is:</para>
+                <programlisting language="xml">&lt;lb/&gt;</programlisting>
+            </section>
+            <section>
+                <title>Attribute</title>
+                <para>A markup construct consisting of a name/value pair that exists within a
+                    start-tag or empty-element tag. In the example the HTML element <code>img</code>
+                    has two attributes, <code>src</code> and <code>alt</code>: </para>
+
+                <programlisting lang="xml">&lt;img src="madonna.jpg" alt='Foligno Madonna, by Raphael'/&gt;</programlisting>
+
+                <para>Another example would be </para>
+
+                <programlisting language="xml">&lt;step number="3"&gt;Connect A to B.&lt;/step&gt;</programlisting>
+
+                <para>where the name of the attribute is <code>number</code> and the value is
+                        <code>3</code>. </para>
+            </section>
+            <section>
+                <title>Attributes</title>
+                <para>An XML attribute can only have a single value and each attribute can appear at
+                    most once on each element.</para>
+                <para>Where a list of multiple values is desired, this must be done by encoding the
+                    list into a well-formed XML attribute with some format beyond what XML defines
+                    itself. Usually this is either a <emphasis role="bold">comma or semi-colon
+                        delimited list</emphasis> or, if the individual values are known not to
+                    contain spaces, a <emphasis role="bold">space-delimited list</emphasis> can be
+                    used.</para>
+                <para>
+                    <code>&lt;div class="inner greeting-box"&gt;Hello!&lt;/div&gt;</code>
+                </para>
+                <para>where the attribute <code>class</code> has both the value <code>inner
+                        greeting-box</code> and also indicates the two CSS class names
+                        <code>inner</code> and <code>greeting-box</code>.</para>
+            </section>
+            <section>
+                <title>XML declaration</title>
+                <para>XML documents may begin by declaring some information about themselves, as in
+                    the following example: </para>
+
+                <programlisting language="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</programlisting>
+            </section>
+            <section>
+                <title>Well-formedness</title>
+                <para>XML document must be a well-formed text – it needs to satisfy a list of syntax
+                    rules provided in the specification.</para>
+
+                <itemizedlist>
+                    <listitem>
+                        <para>The document contains only properly encoded legal
+                                <emphasis>Unicode</emphasis> characters</para>
+                    </listitem>
+                    <listitem>
+                        <para>None of the special syntax characters such as <code>&lt;</code> and
+                                <code>&amp;</code> appear except when performing their
+                            markup-delineation roles </para>
+                    </listitem>
+                    <listitem>
+                        <para>The start, end, and empty-element tags that delimit the elements are
+                                <emphasis>correctly nested</emphasis>, with none missing and none
+                            overlapping </para>
+                    </listitem>
+                    <listitem>
+                        <para>The element tags are <emphasis>case-sensitive</emphasis>; the
+                            beginning and end tags must match exactly. </para>
+                    </listitem>
+                    <listitem>
+                        <para>A single <emphasis>root</emphasis> element contains all the other
+                            elements. </para>
+                    </listitem>
+                    <listitem>
+                        <para>Tag names cannot contain any of the characters
+                                <code>!"#$%&amp;'()*+,/;&lt;=&gt;?@[\]^`{|}~,</code> nor a space
+                            character, and cannot start with <code>-, .,</code> or a numeric digit.
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+            <section>
+                <title>XML Trees</title>
+                <para> XML documents have a hierarchical structure and can conceptually be
+                    interpreted as a tree structure, called an <link
+                        xlink:href="https://en.wikipedia.org/wiki/XML_tree" xlink:show="new">XML
+                        tree</link>.</para>
+                <para>XML documents must contain a root element (one that is the parent of all other
+                    elements). All elements in an XML document can contain sub elements, text and
+                    attributes. The tree represented by an XML document starts at the root element
+                    and branches to the lowest level of elements. </para>
+                <figure>
+                    <title><link xlink:href="https://www.w3schools.com/xml/xml_tree.asp"
+                            xlink:show="new">XML as a tree</link></title>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="nodetree.gif" width="900px"/>
+                        </imageobject>
+                    </mediaobject>
+                </figure>
+
+
+            </section>
+
+            <section>
+                <title>XML trees: Nodes, Parents, Children, and Siblings</title>
+                <para> The nodes in the node tree have a hierarchical relationship to each other.
+                    The terms parent, child, and sibling are used to describe the relationships. </para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Parent nodes have children. </para>
+                    </listitem>
+                    <listitem>
+                        <para>Children on the same level are called siblings</para>
+                    </listitem>
+                    <listitem>
+                        <para>In a node tree, the top node is called the root </para>
+                    </listitem>
+                    <listitem>
+                        <para>Every node, except the root, has exactly one parent node </para>
+                    </listitem>
+                    <listitem>
+                        <para>A node can have any number of children</para>
+                    </listitem>
+                    <listitem>
+                        <para>A leaf is a node with no children </para>
+                    </listitem>
+                    <listitem>
+                        <para>Siblings are nodes with the same parent</para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+
+            <section>
+                <title>Namespaces</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>Namespace name is an identifier given to an XML vocabulary</para>
+                    </listitem>
+                    <listitem>
+                        <para>It looks a lot like URI, eg. TEI namespace name is
+                                <emphasis>http://www.tei-c.org/ns/1.0</emphasis></para>
+                    </listitem>
+                    <listitem>
+                        <para>It doesn't mean that this URI actually <emphasis>points</emphasis> to
+                            something (like a schema), <emphasis>this is just a
+                            name!</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+                <blockquote>
+                    <para>XML namespaces are used for providing uniquely named elements and
+                        attributes in an XML document. An XML instance may contain element or
+                        attribute names from more than one XML vocabulary. If each vocabulary is
+                        given a namespace, the ambiguity between identically named elements or
+                        attributes can be resolved.</para>
+                </blockquote>
+            </section>
+            <section>
+                <title>Mental shortcut to namespaces</title>
+                <para>If you assume that each XML vocabulary is basically a
+                        <emphasis>language</emphasis>, then namespace is a <emphasis>name of this
+                        language</emphasis>.</para>
+                <para>So saying that a particular element comes from a given namespace resolves the
+                    ambiguity, just like with natural languages, eg.: </para>
+                <para><code>polish:fart</code> means "<emphasis>luck</emphasis>" and is not smelly
+                    at all, contrary to <code>english:fart</code></para>
+                <para><code>spanish:hola</code> meaning "<emphasis>hi!</emphasis>" is not the same
+                    as <code>polish:hola</code> meaning "<emphasis>hey, man, now wait a
+                        minute!</emphasis>"</para>
+                <para> Back to XML world: <code>html:div</code> is not quite the same as
+                        <code>tei:div</code>, but they could be used in the same document </para>
+            </section>
+            <section>
+                <title>How to declare a namespace for a document?</title>
+                <para>use xmlns attribute on root element, eg: </para>
+
+                <programlisting language="xml">&lt;TEI	xmlns="http://www.tei-c.org/ns/1.0"&gt;</programlisting>
+
+                <para>All descendants inherit the namespace from their parent, so no need to repeat
+                    it on all other elements</para>
+            </section>
+        </section>
+        <section xml:id="core">
+            <title>TEI documents</title>
+            <section>
+                <title>Structure of a TEI document</title>
+                <para>There are two basic structures of a TEI Document:</para>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            <code>TEI</code> (TEI document) contains a single TEI-conformant
+                            document, comprising a TEI header and a text, either in isolation or as
+                            part of a teiCorpus element.</para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <code>teiCorpus</code> contains the whole of a TEI encoded corpus,
+                            comprising a single corpus header and one or more TEI elements, each
+                            containing a single text header and a text.</para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+            <section>
+                <title>Basic TEI concepts</title>
+                <section>
+                    <title> What is a text?</title>
+                    <itemizedlist>
+                        <listitem>
+                            <para>A text may be unitary or composite </para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para>unitary: forming an organic whole</para>
+                                </listitem>
+                                <listitem>
+                                    <para>composite: consisting of several components which are in
+                                        some important sense independent of each other</para>
+                                </listitem>
+                            </itemizedlist>
+                        </listitem>
+                        <listitem>
+                            <para> a unitary text contains </para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para>optional front matter</para>
+                                </listitem>
+                                <listitem>
+                                    <para><code>body</code> (required)</para>
+                                </listitem>
+                                <listitem>
+                                    <para>optional back matter</para>
+                                </listitem>
+                            </itemizedlist>
+                        </listitem>
+                    </itemizedlist>
+
+                </section>
+
+                <section>
+                    <title>Minimal TEI document</title>
+                    <programlisting language="xml" xml:space="preserve">
+            &lt;TEI&gt;
+              &lt;teiHeader&gt;&lt;!-- metadata --&gt;&lt;/teiHeader&gt;
+              &lt;text&gt;&lt;!-- transcription --&gt;&lt;/text&gt;
+            &lt;/TEI&gt;
+                </programlisting>
+                </section>
+
+
+                <section>
+                    <title>Basic TEI text structure</title>
+
+                    <programlisting language="xml" xml:space="preserve">
+            &lt;text&gt;
+              &lt;front&gt;&lt;!-- optional --&gt;&lt;/front&gt;
+              &lt;body&gt;&lt;!-- required --&gt;&lt;/body&gt;
+              &lt;back&gt;&lt;!-- optional --&gt;&lt;/back&gt;
+            &lt;/text&gt;
+                 </programlisting>
+                </section>
+
+
+
+                <section>
+                    <title><emphasis>Core</emphasis> TEI elements</title>
+                    <para>The so-called 'Core' module groups together elements which may appear in
+                        any kind of text and the tags used to mark them in all TEI documents. This
+                        includes:</para>
+                    <itemizedlist>
+                        <listitem>
+                            <para>paragraphs </para>
+                        </listitem>
+                        <listitem>
+                            <para>highlighting, emphasis and quotation </para>
+                        </listitem>
+                        <listitem>
+                            <para>simple editorial changes </para>
+                        </listitem>
+                        <listitem>
+                            <para>basic names numbers, dates, addresses </para>
+                        </listitem>
+                        <listitem>
+                            <para>simple links and cross-references</para>
+                        </listitem>
+                        <listitem>
+                            <para>lists, notes, annotation, indexing </para>
+                        </listitem>
+                        <listitem>
+                            <para>graphics </para>
+                        </listitem>
+                        <listitem>
+                            <para>reference systems, bibliographic citations</para>
+                        </listitem>
+                        <listitem>
+                            <para>simple verse and drama</para>
+                        </listitem>
+                    </itemizedlist>
+
+
+                    <section>
+                        <title>Paragraphs</title>
+                        <para>
+                            <code>p</code> (paragraph) marks paragraphs in prose</para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>Fundamental unit for prose texts</para>
+                            </listitem>
+                            <listitem>
+                                <para><code>p</code> can contain all the phrase-level elements in
+                                    the core</para>
+                            </listitem>
+                            <listitem>
+                                <para><code>p</code> can appear directly inside <code>body</code> or
+                                    inside <code>div</code> (divisions)</para>
+                            </listitem>
+                        </itemizedlist>
+                        <programlisting language="xml" xml:space="preserve">
+&lt;p&gt;Thanks for yours of this morning. I hope
+   &lt;lb/&gt;you have had my card posted last Monday. 
+   &lt;lb/&gt;On Mond. next I lecture the &lt;orgName ref="#Fieldclub"&gt;Field Club&lt;/orgName&gt; - 
+   &lt;lb/&gt;a Nat. Hist. Association, in the lines of our 
+   &lt;lb/&gt;old Society - Geological, (you + me) + Botanical 
+   &lt;lb/&gt;(New) Do you remember: you&lt;supplied&gt;r&lt;/supplied&gt; old 
+   &lt;lb/&gt;Black Molt?
+&lt;/p&gt;
+                            </programlisting>
+
+                    </section>
+                    <section>
+                        <title>Highlighting</title>
+                        <para>By <emphasis>highlighting</emphasis> we mean the use of any
+                            combination of typographic features (font, size, hue, etc.) in a printed
+                            or written text in order to distinguish some passage of a text from its
+                            surroundings. For words and phrases which are: </para>
+                        <itemizedlist>
+                            <listitem>
+                                <para>distinct in some way (e.g. foreign, archaic, technical)</para>
+                            </listitem>
+                            <listitem>
+                                <para>emphatic or stressed when spoken</para>
+                            </listitem>
+                            <listitem>
+                                <para>not really part of the text (e.g. cross references, titles,
+                                    headings)</para>
+                            </listitem>
+                            <listitem>
+                                <para>a distinct narrative stream (e.g. an internal monologue,
+                                    commentary)</para>
+                            </listitem>
+                            <listitem>
+                                <para>attributed to some other agency inside or outside the text
+                                    (e.g. direct speech, quotation)</para>
+                            </listitem>
+                            <listitem>
+                                <para>set apart in another way (e.g. proverbial phrases, words
+                                    mentioned but not used)</para>
+                            </listitem>
+                        </itemizedlist>
+                    </section>
+                    <section>
+                        <title>Highlighting Examples</title>
+                        <itemizedlist>
+                            <listitem>
+                                <para><code>hi</code> (general purpose
+                                        highlighting);<code>distinct</code> (linguistically
+                                    distinct)</para>
+
+                                <programlisting language="xml" xml:space="preserve">
+    &lt;p&gt;Last week I wrote (to order) a strong 
+    &lt;lb/&gt;bit of Blank: on &lt;hi rend="ul"&gt;Antaeus v. Heracles&lt;/hi&gt;.
+    &lt;lb/&gt;These are the best lines, methinks: 
+    &lt;lb/&gt;(N.B. Antaeus deriving strength from his Mother Earth 
+    &lt;lb/&gt;nearly licked old &lt;distinct&gt;Herk&lt;/distinct&gt;.) &lt;/p&gt;
+                                </programlisting>
+                            </listitem>
+                            <listitem>
+                                <para>Other similar elements include: <code>emph</code>,
+                                        <code>mentioned</code>, <code>foreign</code>,
+                                        <code>soCalled</code>, <code>term</code> and
+                                        <code>gloss</code></para>
+                            </listitem>
+                        </itemizedlist>
+                    </section>
+
+
+                    <!-- Choice -->
+                    <section>
+                        <title>Simple Editorial Changes: <code>choice</code> and friends</title>
+                        <para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para><code>choice</code> (groups alternative editorial
+                                        encodings)</para>
+                                </listitem>
+                                <listitem>
+                                    <para>Errors: </para>
+                                    <itemizedlist>
+                                        <listitem>
+                                            <para><code>sic</code> (apparent error)</para>
+                                        </listitem>
+                                        <listitem>
+                                            <para><code>corr</code> (corrected error)</para>
+                                        </listitem>
+                                    </itemizedlist>
+                                </listitem>
+                                <listitem>
+                                    <para>Regularization: </para>
+                                    <itemizedlist>
+                                        <listitem>
+                                            <para><code>orig</code> (original form)</para>
+                                        </listitem>
+                                        <listitem>
+                                            <para><code>reg</code> (regularized form)</para>
+                                        </listitem>
+                                    </itemizedlist>
+                                </listitem>
+                                <listitem>
+                                    <para>Abbreviation: </para>
+                                    <itemizedlist>
+                                        <listitem>
+                                            <para><code>abbr</code> (abbreviated form)</para>
+                                        </listitem>
+                                        <listitem>
+                                            <para><code>expan</code> (expanded form)</para>
+                                        </listitem>
+                                    </itemizedlist>
+                                </listitem>
+                            </itemizedlist>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Choice Example</title>
+                        <programlisting language="xml" xml:space="preserve">
+              &lt;p&gt;...any might, &lt;unclear reason="scribbled"&gt;majesty&lt;/unclear&gt;, 
+                &lt;choice&gt;
+                &lt;abbr&gt;domin&lt;/abbr&gt;
+                &lt;expan&gt;domin&lt;ex&gt;ion&lt;/ex&gt;&lt;/expan&gt;
+              &lt;/choice&gt; or power...&lt;/p&gt;
+                        </programlisting>
+                    </section>
+                    <section>
+                        <title>Additions, Deletions, and Omissions</title>
+                        <para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para><code>add</code> (addition to the text, e.g. marginal
+                                        gloss)</para>
+                                </listitem>
+                                <listitem>
+                                    <para><code>del</code> (phrase marked as deleted in the
+                                        text)</para>
+                                </listitem>
+                                <listitem>
+                                    <para><code>gap</code> (indicates point where material is
+                                        omitted)</para>
+                                </listitem>
+                                <listitem>
+                                    <para><code>unclear</code> (contains text unable to be
+                                        transcribed clearly)</para>
+                                </listitem>
+                            </itemizedlist>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Textual features </title>
+                        <programlisting language="xml" xml:space="preserve">
+              &lt;p&gt;
+                &lt;add place="left"&gt;My &lt;/add&gt;
+                &lt;del rend="stroked"&gt;It's &lt;/del&gt;
+                &lt;add place="above"&gt;
+                  &lt;del rend="stroked"&gt;The &lt;/del&gt;
+                &lt;/add&gt; subject &lt;del rend="stroked"&gt;of&lt;/del&gt; is War, 
+                and the &lt;unclear&gt;pity &lt;/unclear&gt;of &lt;del rend="stroked"&gt;it&lt;/del&gt; War. 
+                &lt;lb/&gt; The Poetry is in the pity. &lt;/p&gt;
+                        </programlisting>
+                    </section>
+                    <section>
+                        <title>Basic Names </title>
+                        <para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para><code>name</code> (a name in the text, contains a proper
+                                        noun or noun phrase)</para>
+                                </listitem>
+                                <listitem>
+                                    <para><code>rs</code> (a general-purpose name or referencing
+                                        string )</para>
+                                </listitem>
+                            </itemizedlist>
+                        </para>
+                        <para>The <code>type</code> attribute is useful for categorizing these, and
+                            they both also have <code>key</code>, <code>ref</code>, and
+                                <code>nymRef</code> attributes.</para>
+                    </section>
+
+
+                    <section>
+                        <title>Dates</title>
+                        <para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para><code>date</code> (contains a date in any format and
+                                        includes a <code>when</code> attribute for a regularised
+                                        form and a <code>calendar</code> attribute to specify what
+                                        calendar system)</para>
+                                </listitem>
+                                <listitem>
+                                    <para><code>time</code> (contains a time in any format and
+                                        includes a <code>when</code> attribute for a regularised
+                                        form)</para>
+                                </listitem>
+                            </itemizedlist>
+                        </para>
+                        <programlisting language="xml" xml:space="preserve">
+            &lt;date when="1917-07"&gt;July 1917.&lt;lb/&gt; Wednesday&lt;/date&gt;
+                        </programlisting>
+                    </section>
+                    <section>
+                        <title>Simple Linking</title>
+                        <para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para><code>ptr</code> (defines a pointer to another
+                                        location)</para>
+                                </listitem>
+                                <listitem>
+                                    <para><code>ref</code> (defines a reference to another location,
+                                        with optional linking text)</para>
+                                </listitem>
+                                <listitem>Both elements have: <itemizedlist>
+                                        <listitem>
+                                            <para><code>target</code> attribute taking a URI
+                                                reference</para>
+                                        </listitem>
+
+                                    </itemizedlist>
+                                </listitem>
+                            </itemizedlist>
+                        </para>
+                    </section>
+                    <section>
+                        <title>Simple Linking Example</title>
+                        <programlisting language="xml" xml:space="preserve">
+See &lt;ref target="#Section12"&gt;section 12 on page 34&lt;/ref&gt;. 
+                      
+See &lt;ptr target="#Section12"/&gt;. 
+                        </programlisting>
+                    </section>
+                    <section>
+                        <title>Notes</title>
+                        <para>
+                            <itemizedlist>
+                                <listitem>
+                                    <para><code>note</code> (contains a note or annotation)</para>
+                                </listitem>
+                                <listitem>
+                                    <para>Notes can be those existing in the text, or provided by
+                                        the editor of the electronic text</para>
+                                </listitem>
+                                <listitem>
+                                    <para>A <code>place</code> attribute can be used to indicate the
+                                        physical location of the note</para>
+                                </listitem>
+                                <listitem>
+                                    <para>Notes should usually be encoded where its identifier/mark
+                                        first appears; notes can also be kept separately and point
+                                        back to their location with a <code>target</code>
+                                        attribute</para>
+                                </listitem>
+                            </itemizedlist>
+                            <programlisting language="xml" xml:space="preserve">
+                            &lt;note&gt;Painted by &lt;persName&gt;John Singer Sargent&lt;/persName&gt;, 1918&lt;/note&gt;
+                            </programlisting>
+                        </para>
+                    </section>
+
+                    <section>
+                        <title>Simple Verse</title>
+                        <programlisting language="xml" xml:space="preserve">
+          
+    &lt;lg type="stanza"&gt;
+      &lt;l&gt;It seemed that out of battle I escaped&lt;/l&gt;
+      &lt;l&gt;Down some profound dull tunnel, long since scooped&lt;/l&gt;
+      &lt;l&gt;Through granites which titanic wars had groined.&lt;/l&gt;
+    &lt;/lg&gt;
+                        </programlisting>
+
+                    </section>
+                    <section>
+                        <title>Simple Drama</title>
+
+                        <programlisting language="xml" xml:space="preserve">
+          &lt;sp&gt;
+            &lt;speaker&gt;The reverend Doctor Opimiam&lt;/speaker&gt;
+            &lt;p&gt;I do not think I have named a single unpresentable fish.&lt;/p&gt;
+          &lt;/sp&gt;
+          &lt;sp&gt;
+            &lt;speaker&gt;Mr Gryll&lt;/speaker&gt;
+            &lt;p&gt;Bream, Doctor: there is not much to be said for bream.&lt;/p&gt;
+          &lt;/sp&gt;
+                </programlisting>
+                    </section>
+                </section>
+            </section>
+            <section>
+                <title>The ambivalence continues</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>every project is different and we delight in flexibility and
+                            customization</para>
+                    </listitem>
+                    <listitem>
+                        <para>yet we aim at standardization &amp; interoperability</para>
+                    </listitem>
+                </itemizedlist>
+
+                <blockquote>
+                    <para> ‘(...) documents worth encoding in TEI are very different from customer
+                        letters. But not that different, and eight out of ten probably will benefit
+                        from staying within the confines of a well thought-out standard schema and
+                        its surrounding processing rules. And even the two that don’t may benefit
+                        from staying within that standard schema as far as possible. ’ - M.
+                        Mueller</para>
+                </blockquote>
+            </section>
+
+        </section>
+
+    </section>
+</article>

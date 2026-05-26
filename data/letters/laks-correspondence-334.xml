@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SL-334">
     <teiHeader>
         <fileDesc>
@@ -28,7 +27,7 @@
                 </msDesc>
                 <bibl type="printed-edition">
                     <title>Szymon Laks Krystyna i Czesław Bednarczykowie Korespondencja</title>
-                    <title level="s">Materiały do dziejów Oficyny Poetów i Malarzy, t. II</title>
+                    <title level="s">(Materiały do Dziejów Oficyny Poetów i Malarzy, t. II)</title>
                     <author>Jadwiga Malik</author>
                     <publisher>Avalon</publisher>
                     <placeName>Kraków</placeName>
@@ -45,12 +44,12 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="gnd-119032341">Szymon Laks</persName>
-                    <placeName ref="geo-2988507">Paryż</placeName>
+                    <persName key="gnd-119032341">Szymon Laks</persName>
+                    <placeName key="geo-2988507">Paryż</placeName>
                     <date when="1983-11-20">20 listopada 1983 r.</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="gnd-1257178555">Krystyna Bednarczyk</persName>
+                    <persName key="gnd-1257178555">Krystyna Bednarczyk</persName>
                 </correspAction>
                 <correspContext>
                     <ref type="prev" target="SL-333">
@@ -73,9 +72,11 @@
     </standOff>
     <text>
         <div>
+                
                 <opener>
                     <dateline>
                         <lb/>
+						<pb facs="0487-325-SL-334-01r.tif"/>
                         <placeName>Paryż</placeName>, <date when="1983-11-20">20 listopada 1983 r.</date>
                     </dateline>
                 </opener>
@@ -83,7 +84,7 @@
                 <p>Rozmowa z Panią bardzo mnie odświeżyła, bo od dwóch miesięcy jestem odcięty od
                     (mojej) reszty świata, a to chyba dlatego, że zaległe listy „strajkowe” jeszcze
                     nie zostały rozdane, a może w ogóle przepadną. Bardzo mi doskwierał brak
-                    wiadomości od Duszy. Wczoraj nadeszła „Gwiazda Polarna” z fotografiami (również
+                    wiadomości od Duszy. Wczoraj nadeszła <title type="journal">„Gwiazda Polarna”</title> z fotografiami (również
                     moją) „współpracowników” pisma.</p>
                 <p>Spadł mi ciężar z serca, że książka o Toli będzie jednak drukowana w <orgName>Oficynie</orgName> i
                     że moje „wspomnienie” nie zostało usunięte. Po liście Tomaszewskiego, o którym
