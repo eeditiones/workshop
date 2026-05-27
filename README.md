@@ -20,6 +20,7 @@ This repository contains learning materials about TEI Publisher and related tech
 
 - [Digitale Editionen und ...](2025-10-digitale-editionen.md), _Gibt es das auch in schön und nachhaltig? Digitale Editionen und Webpräsentation I: TEI Publisher_, Oktober 2025.
 
+- [TEI Publisher i Jinks](2026-05_lublin.md), _Edycje cyfrowe dla kazdego_ Workshop. _21st Annual Conference of the European Society of Textual Scholarship_, Lublin, May 2026
 
 ## Helpful Literature and Websites
 
